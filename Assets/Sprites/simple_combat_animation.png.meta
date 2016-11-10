@@ -1,29 +1,33 @@
 fileFormatVersion: 2
-guid: fe38dd4552bdc524eb7b82729423973b
-timeCreated: 1478637489
+guid: b6ecddd04a8be39439d4c84bfd7105cc
+timeCreated: 1478751090
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: simple_animation 1_0
-    21300002: simple_animation 1_1
-    21300004: simple_animation 1_2
-    21300006: simple_animation 1_3
-    21300008: simple_animation 1_4
-    21300010: simple_animation 1_5
-    21300012: simple_animation 1_6
-    21300014: simple_animation 1_7
-    21300016: simple_animation 1_8
-    21300018: simple_animation 1_9
-    21300020: simple_animation 1_10
-    21300022: simple_animation 1_11
-    21300024: simple_animation 1_12
-    21300026: simple_animation 1_13
-    21300028: simple_animation 1_14
-    21300030: simple_animation 1_15
-    21300032: simple_animation 1_16
-    21300034: simple_animation 1_17
-    21300036: simple_animation 1_18
-    21300038: simple_animation 1_19
+    21300000: simple_combat_animation_0
+    21300002: simple_combat_animation_1
+    21300004: simple_combat_animation_2
+    21300006: simple_combat_animation_3
+    21300008: simple_combat_animation_4
+    21300010: simple_combat_animation_5
+    21300012: simple_combat_animation_6
+    21300014: simple_combat_animation_7
+    21300016: simple_combat_animation_8
+    21300018: simple_combat_animation_9
+    21300020: simple_combat_animation_10
+    21300022: simple_combat_animation_11
+    21300024: simple_combat_animation_12
+    21300026: simple_combat_animation_13
+    21300028: simple_combat_animation_14
+    21300030: simple_combat_animation_15
+    21300032: simple_combat_animation_16
+    21300034: simple_combat_animation_17
+    21300036: simple_combat_animation_18
+    21300038: simple_combat_animation_19
+    21300040: simple_combat_animation_20
+    21300042: simple_combat_animation_21
+    21300044: simple_combat_animation_22
+    21300046: simple_combat_animation_23
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -73,7 +77,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: simple_animation 1_0
+      name: simple_combat_animation_0
       rect:
         serializedVersion: 2
         x: 0
@@ -86,7 +90,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: simple_animation 1_1
+      name: simple_combat_animation_1
       rect:
         serializedVersion: 2
         x: 37
@@ -99,7 +103,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: simple_animation 1_2
+      name: simple_combat_animation_2
       rect:
         serializedVersion: 2
         x: 74
@@ -112,7 +116,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: simple_animation 1_3
+      name: simple_combat_animation_3
       rect:
         serializedVersion: 2
         x: 111
@@ -125,7 +129,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: simple_animation 1_4
+      name: simple_combat_animation_4
       rect:
         serializedVersion: 2
         x: 148
@@ -138,7 +142,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: simple_animation 1_5
+      name: simple_combat_animation_5
       rect:
         serializedVersion: 2
         x: 185
@@ -151,7 +155,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: simple_animation 1_6
+      name: simple_combat_animation_6
       rect:
         serializedVersion: 2
         x: 0
@@ -164,7 +168,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: simple_animation 1_7
+      name: simple_combat_animation_7
       rect:
         serializedVersion: 2
         x: 37
@@ -177,7 +181,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: simple_animation 1_8
+      name: simple_combat_animation_8
       rect:
         serializedVersion: 2
         x: 74
@@ -190,7 +194,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: simple_animation 1_9
+      name: simple_combat_animation_9
       rect:
         serializedVersion: 2
         x: 111
@@ -203,7 +207,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: simple_animation 1_10
+      name: simple_combat_animation_10
       rect:
         serializedVersion: 2
         x: 148
@@ -216,7 +220,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: simple_animation 1_11
+      name: simple_combat_animation_11
       rect:
         serializedVersion: 2
         x: 185
@@ -229,7 +233,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: simple_animation 1_12
+      name: simple_combat_animation_12
       rect:
         serializedVersion: 2
         x: 0
@@ -242,7 +246,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: simple_animation 1_13
+      name: simple_combat_animation_13
       rect:
         serializedVersion: 2
         x: 37
@@ -255,7 +259,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: simple_animation 1_14
+      name: simple_combat_animation_14
       rect:
         serializedVersion: 2
         x: 74
@@ -268,7 +272,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: simple_animation 1_15
+      name: simple_combat_animation_15
       rect:
         serializedVersion: 2
         x: 111
@@ -281,7 +285,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: simple_animation 1_16
+      name: simple_combat_animation_16
       rect:
         serializedVersion: 2
         x: 148
@@ -294,7 +298,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: simple_animation 1_17
+      name: simple_combat_animation_17
       rect:
         serializedVersion: 2
         x: 185
@@ -307,7 +311,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: simple_animation 1_18
+      name: simple_combat_animation_18
       rect:
         serializedVersion: 2
         x: 0
@@ -320,10 +324,62 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: simple_animation 1_19
+      name: simple_combat_animation_19
       rect:
         serializedVersion: 2
         x: 37
+        y: 108
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: simple_combat_animation_20
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 108
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: simple_combat_animation_21
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 108
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: simple_combat_animation_22
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 108
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: simple_combat_animation_23
+      rect:
+        serializedVersion: 2
+        x: 185
         y: 108
         width: 37
         height: 37
