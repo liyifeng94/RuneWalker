@@ -1,6 +1,8 @@
 ﻿using UnityEngine;
 using System;
 using System.Collections;
+using System.Collections.Generic;
+using System.IO;
 
 public class GameManager : MonoBehaviour
 {
@@ -9,10 +11,37 @@ public class GameManager : MonoBehaviour
     public int[] LevelKillCount;
     public int BaseScore = 1;
 
+    //TODO: get player from text box
+    public string PlayerName;
+
+    [Serializable]
+    public class HighScoreEntry
+    {
+        public string Name;
+        public int Score;
+        public string DateTime;
+    }
+
+    [Serializable]
+    public class HighScoreBoard
+    {
+        public List<HighScoreEntry> HighScoreList;
+    }
+
+    private HighScoreBoard _highScoreBoard;
+
     private int _currentLevel = 1;
     private int _playerKills = 0;
     private int _playerKillsCurrentLevel = 0;
     private int _score = 0;
+
+#if UNITY_EDITOR
+    private const string HighScoreBoardPath = "Assets/Resources/GameJSONData/HighScore.json";
+#elif UNITY_STANDALONE
+    private const string HighScoreBoardPath = "GameData/Resources/GameJSONData/HighScore.json";
+#else
+    private const string HighScoreBoardPath = "HighScore.json";
+#endif
 
     public int GetCurrentLevel()
     {
@@ -82,8 +111,9 @@ public class GameManager : MonoBehaviour
 	// Use this for initialization
 	void Awake ()
 	{
+        Debug.Log(DateTime.Now.ToString());
         // Make the game object a singleton 
-	    if (Instance == null)
+        if (Instance == null)
 	    {
 	        Instance = this;
 	    }
@@ -95,17 +125,67 @@ public class GameManager : MonoBehaviour
         DontDestroyOnLoad(gameObject);
 
         GameLevelManager = GetComponent<LevelManager>();
-	    InitGame();
+
+	    LoadHighScoreBoard();
+
+        InitGame();
 	}
 	
 	// Update is called once per frame
 	void Update ()
     {
-	
+	    
 	}
+
+    public HighScoreBoard GetHighScoreBoard()
+    {
+        return _highScoreBoard;
+    }
+
+    void UpdateHighScoreBoard()
+    {
+        HighScoreEntry newHighScoreEntry = new HighScoreEntry();
+        newHighScoreEntry.Name = PlayerName;
+        newHighScoreEntry.Score = _score;
+        newHighScoreEntry.DateTime = DateTime.UtcNow.ToShortDateString();
+
+        _highScoreBoard.HighScoreList.Add(newHighScoreEntry);
+    }
 
     public void GameOver()
     {
+        UpdateHighScoreBoard();
         enabled = false;
+    }
+
+    void LoadHighScoreBoard()
+    {
+        string jsonDataString = "";
+        using (FileStream fs = new FileStream(HighScoreBoardPath, FileMode.Create))
+        {
+            using (StreamReader Reader = new StreamReader(fs))
+            {
+                jsonDataString = Reader.ReadLine();
+                _highScoreBoard = JsonUtility.FromJson<HighScoreBoard>(jsonDataString);
+            }
+        }
+    }
+
+    void SaveHighScoreBoard()
+    {
+        string jsonDataString = JsonUtility.ToJson(_highScoreBoard);
+        using (FileStream fs = new FileStream(HighScoreBoardPath, FileMode.Create))
+        {
+            using (StreamWriter writer = new StreamWriter(fs))
+            {
+                writer.Write(jsonDataString);
+            }
+        }
+    }
+
+    void OnApplicationQuit()
+    {
+        // Save high score on quit
+        SaveHighScoreBoard();
     }
 }
