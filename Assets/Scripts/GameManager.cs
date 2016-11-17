@@ -28,12 +28,20 @@ public class GameManager : MonoBehaviour
         public List<HighScoreEntry> HighScoreList;
     }
 
+    // This should be sorted by time. 
     private HighScoreBoard _highScoreBoard;
 
     private int _currentLevel = 1;
     private int _playerKills = 0;
     private int _playerKillsCurrentLevel = 0;
     private int _score = 0;
+    // Power meter for the special attack;
+    private int _powerMeter = 0;
+    public int MaxPowerMultiplier = 2;
+
+    //TODO: set up score Multiplier 
+    private int _scoreMultiplier = 1;
+
 
 #if UNITY_EDITOR
     private const string HighScoreBoardPath = "Assets/Resources/GameJSONData/HighScore.json";
@@ -58,6 +66,16 @@ public class GameManager : MonoBehaviour
         return _score;
     }
 
+    public int ScoreMultiplier()
+    {
+        return _scoreMultiplier;
+    }
+
+    public int GetPowerMeter()
+    {
+        return _powerMeter;
+    }
+
     public void ResetGame()
     {
         GameLevelManager.InitLevel();
@@ -69,16 +87,35 @@ public class GameManager : MonoBehaviour
         _score = 0;
     }
 
-    public void AddKill()
+    public bool HasPowerAttack()
     {
-        _score += BaseScore*_currentLevel;
-        ++_playerKills;
-        ++_playerKillsCurrentLevel;
+        int maxPowerLevel = MaxPowerMultiplier*_currentLevel;
+        if (_powerMeter == maxPowerLevel)
+        {
+            return true;
+        }
+        return false;
+    }
+
+    public void EnemiesKilled(int kills)
+    {
+        bool isPowerAttack = kills > 1;
+
+        // group kills together even if the kills passed the level limit
+        _score += kills*BaseScore*_currentLevel*_scoreMultiplier;
+        _playerKills += kills;
+        _playerKillsCurrentLevel += kills;
+        _powerMeter += kills;
 
         // Increase game level because the level kill count 
-        if (_playerKillsCurrentLevel == GetLevelUpKills())
+        if (_playerKillsCurrentLevel > GetLevelUpKills())
         {
             IncreaseLevel();
+        }
+
+        if (isPowerAttack == true)
+        {
+            _powerMeter = 0;
         }
     }
 
@@ -137,6 +174,7 @@ public class GameManager : MonoBehaviour
 	    
 	}
 
+    // Sorted by time entered. Will need to be sorted by score in decreasing order.
     public HighScoreBoard GetHighScoreBoard()
     {
         return _highScoreBoard;
@@ -160,12 +198,11 @@ public class GameManager : MonoBehaviour
 
     void LoadHighScoreBoard()
     {
-        string jsonDataString = "";
         using (FileStream fs = new FileStream(HighScoreBoardPath, FileMode.Create))
         {
-            using (StreamReader Reader = new StreamReader(fs))
+            using (StreamReader reader = new StreamReader(fs))
             {
-                jsonDataString = Reader.ReadLine();
+                string jsonDataString = reader.ReadLine();
                 _highScoreBoard = JsonUtility.FromJson<HighScoreBoard>(jsonDataString);
             }
         }
