@@ -5,7 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Background
-  - Monsters
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -46,9 +46,12 @@ TagManager:
   - name: Foreground
     uniqueID: 3657461385
     locked: 0
-  - name: Character
+  - name: Units
     uniqueID: 2454586181
     locked: 0
   - name: Background
     uniqueID: 1160140969
+    locked: 0
+  - name: Skybox
+    uniqueID: 3197965399
     locked: 0

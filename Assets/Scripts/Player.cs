@@ -7,16 +7,20 @@ public class Player : MonoBehaviour
 
     public enum PlayerState
     {
-        Combat,
-        Jump,
-        Duck,
         Block,
+        Duck,
+        Jump,
+        Idle,
+        Combat,
         Death,
-        Walking
+        Special,
+        Walking,
+        NumOfStates
     }
 
     public int MaxHealth = 1;
 
+    private bool _inCombat = false;
     private int _playerHealth = 1;
     private BoxCollider2D _boxCollider;
     private Rigidbody2D _rb2D;
@@ -31,7 +35,7 @@ public class Player : MonoBehaviour
     public void StartCombat()
     {
         //TODO: change animation state to combat
-
+        _inCombat = true;
         _currentPlayerState = PlayerState.Combat;
     }
 
@@ -44,24 +48,34 @@ public class Player : MonoBehaviour
 	    _currentPlayerState = PlayerState.Walking;
 	    _currentPlayerAction = PlayerState.Walking;
         _playerHealth = MaxHealth;
+
+        //TODO: set to true for testing
+	    _inCombat = false;
+
 	}
 	
 	// Update is called once per frame
 	void Update ()
     {
-        if (_currentPlayerState == PlayerState.Walking)
-        {
-            return;
-        }
 
         //TODO: Get player combat action
 
+        // Check for player action and update
+        if (GetUserInput() == true)
+        {
+            Debug.Log("Has Input");
+            CheckPlayerAction();
+        }
+
+        //Debug.Log("-----------------" + _currentPlayerState + _currentPlayerAction);
 
         //TODO: Resolve combat
 
 
-        UpdateAnimationTrigger();
 
+
+        //Trigger animation
+        UpdateAnimationTrigger();
 
         // End game
         if (_playerHealth <= 0)
@@ -70,9 +84,99 @@ public class Player : MonoBehaviour
         }
 	}
 
+    void OnCollisionEnter2D(Collision2D colliObject)
+    {
+        if (colliObject.gameObject.tag == "Enemy")
+        {
+            EnterCombat();
+        }
+    }
+
+    void EnterCombat()
+    {
+        _inCombat = true;
+    }
+
+    void ExitCombat()
+    {
+        _inCombat = false;
+    }
+
+    void CheckPlayerAction()
+    {
+        _currentPlayerState = PlayerState.Idle;
+        if (_currentPlayerAction == PlayerState.Special)
+        {
+            //TODO: debug only
+            _currentPlayerState = PlayerState.Special;
+
+            /*
+            //Check power meter
+            if (GameManager.Instance.HasPowerAttack())
+            {
+                _currentPlayerState = PlayerState.Special;
+            }
+            else
+            {
+                _currentPlayerAction = PlayerState.Idle;
+            }
+            */
+        }
+        else
+        {
+            if (_inCombat == true)
+            {
+                _currentPlayerState = _currentPlayerAction;
+            }
+        }
+    }
+
+    bool GetUserInput()
+    {
+        bool hasInput = false;
+
+        //TODO: debug need to be removed +
+        if (Input.GetKeyUp(KeyCode.LeftShift))
+        {
+            _currentPlayerAction = PlayerState.Combat;
+            _inCombat = true;
+            hasInput = true;
+        }
+        //TODO: debug need to be removed -
+
+        if (Input.GetKeyUp(KeyCode.Space))
+        {
+            _currentPlayerAction = PlayerState.Special;
+            _inCombat = false;
+            hasInput = true;
+        }
+        else if (Input.GetKeyUp(KeyCode.LeftArrow))
+        {
+            _currentPlayerAction = PlayerState.Block;
+            hasInput = true;
+        }
+        else if (Input.GetKeyUp(KeyCode.UpArrow))
+        {
+            _currentPlayerAction = PlayerState.Jump;
+            hasInput = true;
+        }
+        else if (Input.GetKeyUp(KeyCode.DownArrow))
+        {
+            _currentPlayerAction = PlayerState.Duck;
+            hasInput = true;
+        }
+
+        return hasInput;
+
+    }
+
     void UpdateAnimationTrigger()
     {
-        switch (_currentPlayerAction)
+        if (_currentPlayerState == PlayerState.Idle)
+        {
+            return;
+        }
+        switch (_currentPlayerState)
         {
             case PlayerState.Combat:
                 _animator.SetTrigger("playerCombat");
@@ -89,9 +193,15 @@ public class Player : MonoBehaviour
             case PlayerState.Death:
                 _animator.SetTrigger("playerDeath");
                 break;
-            default:
+            case PlayerState.Special:
+                _animator.SetTrigger("playerSpecial");
+                break;
+            case PlayerState.Walking:
                 _animator.SetTrigger("playerWalking");
                 break;
         }
+
+        //Animation triggered
+        _currentPlayerState = PlayerState.Idle;
     }
 }
