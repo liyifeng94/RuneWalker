@@ -1,1 +1,0 @@
-This is the DAC 305 final game project in unity.
