@@ -7,7 +7,6 @@ using System.IO;
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance = null;
-    public LevelManager GameLevelManager;
     public int[] LevelKillCount;
     public int BaseScore = 1;
 
@@ -42,6 +41,8 @@ public class GameManager : MonoBehaviour
     //TODO: set up score Multiplier 
     private int _scoreMultiplier = 1;
 
+    private LevelManager _gameLevelManager;
+
 
 #if UNITY_EDITOR
     private const string HighScoreBoardPath = "Assets/Resources/GameJSONData/HighScore.json";
@@ -50,6 +51,17 @@ public class GameManager : MonoBehaviour
 #else
     private const string HighScoreBoardPath = "HighScore.json";
 #endif
+
+    public void AddLevelManager(LevelManager gameLevelManager)
+    {
+        _gameLevelManager = gameLevelManager;
+        InitGame();
+    }
+
+    public LevelManager GetLevelManager()
+    {
+        return _gameLevelManager;
+    }
 
     public int GetCurrentLevel()
     {
@@ -78,7 +90,7 @@ public class GameManager : MonoBehaviour
 
     public void ResetGame()
     {
-        GameLevelManager.InitLevel();
+        _gameLevelManager.InitLevel();
         _currentLevel = 1;
         _playerKills = 0;
         _playerKillsCurrentLevel = 0;
@@ -124,7 +136,7 @@ public class GameManager : MonoBehaviour
     {
         _playerKillsCurrentLevel = 0;
         ++_currentLevel;
-        GameLevelManager.SetLevel(_currentLevel);
+        _gameLevelManager.SetLevel(_currentLevel);
     }
 
     // Get the kills needed to level
@@ -161,11 +173,7 @@ public class GameManager : MonoBehaviour
 
         DontDestroyOnLoad(gameObject);
 
-        GameLevelManager = GetComponent<LevelManager>();
-
 	    LoadHighScoreBoard();
-
-        InitGame();
 	}
 	
 	// Update is called once per frame
@@ -205,6 +213,11 @@ public class GameManager : MonoBehaviour
                 string jsonDataString = reader.ReadLine();
                 _highScoreBoard = JsonUtility.FromJson<HighScoreBoard>(jsonDataString);
             }
+        }
+
+        if (_highScoreBoard == null)
+        {
+            _highScoreBoard = new HighScoreBoard();
         }
     }
 

@@ -59,3 +59,4 @@ MonoBehaviour:
   EnemySpawnLocation: {x: 0, y: 0, z: 0}
   ForegroundPrefabs: []
   BackgroundPrefabs: []
+  DecisionTimer: 2
