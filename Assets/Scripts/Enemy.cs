@@ -1,14 +1,11 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public abstract class Enemy : MonoBehaviour
+public class Enemy : MonoBehaviour
 {
     private BoxCollider2D _boxCollider;
     private Rigidbody2D _rb2D;
-
     private Animator _animator;
-
-    private bool _onHold;
 
     public Vector3 MovementVelocity;
 
@@ -20,7 +17,7 @@ public abstract class Enemy : MonoBehaviour
         NumOfMoves
     }
 
-    private AttackMove _attackMove;
+    public AttackMove CurrentAttackMove;
 
     // Use this for initialization
     protected virtual void Start ()
@@ -28,42 +25,66 @@ public abstract class Enemy : MonoBehaviour
         _animator = GetComponent<Animator>();
         _boxCollider = GetComponent<BoxCollider2D>();
         _rb2D = GetComponent<Rigidbody2D>();
-
-        _onHold = false;
     }
 	
 	// Update is called once per frame
 	protected virtual void Update ()
     {
-        if (_onHold == false)
-        {
-            Transform thisTransform = GetComponent<Transform>();
-            thisTransform.position += MovementVelocity;
-        }
+        Transform thisTransform = GetComponent<Transform>();
+        thisTransform.position += MovementVelocity;
 	}
 
-    protected virtual void OnCollisionEnter2D(Collision2D colliObject)
+    protected virtual void OnTriggerEnter2D(Collider2D colliObject)
     {
         //check if collision is with an enemy.
-        if (colliObject.gameObject.tag == "Enemy")
+        if (colliObject.gameObject.tag == "Player")
         {
-            GameManager.Instance.GameLevelManager.EnemyInCombat(this.gameObject);
+            GameManager.Instance.GetLevelManager().EnemyInCombat(this.gameObject);
+        }
+    }
+
+    protected virtual void OnTriggerExit2D(Collider2D colliObject)
+    {
+        //check if collision is with an enemy.
+        if (colliObject.gameObject.tag == "Player")
+        {
+            GameManager.Instance.GetLevelManager().EnemyExitCombat(this.gameObject);
         }
     }
 
     protected virtual void EnterCombat()
     {
-        _attackMove = (AttackMove) Random.Range(0, (int)AttackMove.NumOfMoves);
+        PlayAnimation();
+    }
+
+    public void EndCombat(bool alive)
+    {
+        if (alive == false)
+        {
+            _animator.SetTrigger("enemyDeath");
+        }
     }
 
     public AttackMove GetAttackMove()
     {
-        return _attackMove;
+        return CurrentAttackMove;
     }
 
-    // Another enemy is in combat so this one should be on hold or it is in combat
-    public virtual void OnHold(bool onHold)
+    void PlayAnimation()
     {
-        _onHold = onHold;
+        switch (CurrentAttackMove)
+        {
+            case AttackMove.High:
+                _animator.SetTrigger("enemyHighAtk");
+                break;
+            case AttackMove.Low:
+                _animator.SetTrigger("enemyLowAtk");
+                break;
+            case AttackMove.Mid:
+                _animator.SetTrigger("enemyMidAtk");
+                break;
+            default:
+                break;
+        }
     }
 }

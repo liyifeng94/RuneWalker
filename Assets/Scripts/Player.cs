@@ -11,10 +11,8 @@ public class Player : MonoBehaviour
         Duck,
         Jump,
         Idle,
-        Combat,
         Death,
         Special,
-        Walking,
         NumOfStates
     }
 
@@ -36,7 +34,6 @@ public class Player : MonoBehaviour
     {
         //TODO: change animation state to combat
         _inCombat = true;
-        _currentPlayerState = PlayerState.Combat;
     }
 
     // Use this for initialization
@@ -45,8 +42,8 @@ public class Player : MonoBehaviour
         _animator = GetComponent<Animator>();
         _boxCollider = GetComponent<BoxCollider2D>();
 	    _rb2D = GetComponent<Rigidbody2D>();
-	    _currentPlayerState = PlayerState.Walking;
-	    _currentPlayerAction = PlayerState.Walking;
+	    _currentPlayerState = PlayerState.Idle;
+	    _currentPlayerAction = PlayerState.Idle;
         _playerHealth = MaxHealth;
 
         //TODO: set to true for testing
@@ -57,7 +54,6 @@ public class Player : MonoBehaviour
 	// Update is called once per frame
 	void Update ()
     {
-
         //TODO: Get player combat action
 
         // Check for player action and update
@@ -67,21 +63,10 @@ public class Player : MonoBehaviour
             CheckPlayerAction();
         }
 
-        //Debug.Log("-----------------" + _currentPlayerState + _currentPlayerAction);
-
         //TODO: Resolve combat
-
-
-
 
         //Trigger animation
         UpdateAnimationTrigger();
-
-        // End game
-        if (_playerHealth <= 0)
-        {
-            GameManager.Instance.GameOver();
-        }
 	}
 
     void OnCollisionEnter2D(Collision2D colliObject)
@@ -92,14 +77,28 @@ public class Player : MonoBehaviour
         }
     }
 
-    void EnterCombat()
+    public void TakeDamage(int damage)
+    {
+        Debug.Log("TakeDamage");
+        --_playerHealth;
+    }
+
+    public void EnterCombat()
     {
         _inCombat = true;
     }
 
-    void ExitCombat()
+    public void ExitCombat()
     {
         _inCombat = false;
+        if (_playerHealth <= 0)
+        {
+            //player death
+            //TODO: handle player death
+            
+            _animator.SetTrigger("playerDeath");
+            
+        }
     }
 
     void CheckPlayerAction()
@@ -124,10 +123,7 @@ public class Player : MonoBehaviour
         }
         else
         {
-            if (_inCombat == true)
-            {
-                _currentPlayerState = _currentPlayerAction;
-            }
+            _currentPlayerState = _currentPlayerAction;
         }
     }
 
@@ -135,19 +131,9 @@ public class Player : MonoBehaviour
     {
         bool hasInput = false;
 
-        //TODO: debug need to be removed +
-        if (Input.GetKeyUp(KeyCode.LeftShift))
-        {
-            _currentPlayerAction = PlayerState.Combat;
-            _inCombat = true;
-            hasInput = true;
-        }
-        //TODO: debug need to be removed -
-
         if (Input.GetKeyUp(KeyCode.Space))
         {
             _currentPlayerAction = PlayerState.Special;
-            _inCombat = false;
             hasInput = true;
         }
         else if (Input.GetKeyUp(KeyCode.LeftArrow))
@@ -167,7 +153,6 @@ public class Player : MonoBehaviour
         }
 
         return hasInput;
-
     }
 
     void UpdateAnimationTrigger()
@@ -178,9 +163,6 @@ public class Player : MonoBehaviour
         }
         switch (_currentPlayerState)
         {
-            case PlayerState.Combat:
-                _animator.SetTrigger("playerCombat");
-                break;
             case PlayerState.Jump:
                 _animator.SetTrigger("playerJump");
                 break;
@@ -196,12 +178,15 @@ public class Player : MonoBehaviour
             case PlayerState.Special:
                 _animator.SetTrigger("playerSpecial");
                 break;
-            case PlayerState.Walking:
-                _animator.SetTrigger("playerWalking");
-                break;
         }
 
-        //Animation triggered
+        //Animation triggered reset
         _currentPlayerState = PlayerState.Idle;
+    }
+
+
+    void OnDestory()
+    {
+        GameManager.Instance.GameOver();
     }
 }
