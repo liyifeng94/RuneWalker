@@ -61,9 +61,8 @@ public class Player : MonoBehaviour
         {
             Debug.Log("Has Input");
             CheckPlayerAction();
-        }
-
-        //TODO: Resolve combat
+            GameManager.Instance.GetLevelManager().ResolveCombat(_currentPlayerAction);
+        }        
 
         //Trigger animation
         UpdateAnimationTrigger();
@@ -81,6 +80,7 @@ public class Player : MonoBehaviour
     {
         Debug.Log("TakeDamage");
         --_playerHealth;
+        ExitCombat();
     }
 
     public void EnterCombat()
@@ -97,7 +97,8 @@ public class Player : MonoBehaviour
             //TODO: handle player death
             
             _animator.SetTrigger("playerDeath");
-            
+
+            Destroy(gameObject, _animator.GetCurrentAnimatorStateInfo(0).length);
         }
     }
 

@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System;
 using System.Collections;
+using System.Collections.Generic;
 
 public class LevelManager : MonoBehaviour
 {
@@ -22,10 +23,9 @@ public class LevelManager : MonoBehaviour
     private Transform _levelHolder;
     private float _spawnFrequency;
     private GameObject _playerHolder;
-    private GameObject _enemyInCombat;
-    private GameObject[] _enemiesHolder;
+    private Enemy _enemyInCombat;
+    private List<GameObject> _enemiesHolder;
     private bool _inCombat;
-    private float _combatStartTime = 0.0f;
 
     void Start()
     {
@@ -51,14 +51,18 @@ public class LevelManager : MonoBehaviour
     {
         _inCombat = false;
         _enemyInCombat = null;
+        _enemiesHolder = new List<GameObject>();
         LevelChange();
         SpawnPlayer();
+        SpawnEnemy(EnemyPrefabs[0]);
     }
 
     // Spawns a enemy at SpawnLocation
     void SpawnEnemy(GameObject enemy)
     {
         //TODO: spawn enemy
+        GameObject newEnemy = (GameObject)Instantiate(enemy, EnemySpawnLocation, Quaternion.identity);
+        _enemiesHolder.Add(newEnemy);
 
         //TODO: added enemy to enemies spawn array
     }
@@ -70,34 +74,45 @@ public class LevelManager : MonoBehaviour
         Debug.Log(_playerHolder);
     }
 
-    void ResolveCombat(Player.PlayerState playerAction)
+    public void ResolveCombat(Player.PlayerState playerAction)
     {
-        //TODO: check timer
-        float timer = Time.time;
-
         //TODO: check if player action is valid
+        if ((int) playerAction >= (int) (Enemy.AttackMove.NumOfMoves) || _inCombat == false)
+        {
+            return;
+        }
+
+        Enemy target = _enemyInCombat.GetComponent<Enemy>();
+        if ((int) playerAction == (int)target.CurrentAttackMove)
+        {
+            _enemyInCombat.EndCombat(false);
+            GameManager.Instance.EnemiesKilled(1);
+        }
+        else
+        {
+            EnemyExitCombat();
+        }
     }
 
-    public void EnemyInCombat(GameObject enemyRef)
+    public void EnemyInCombat(Enemy enemyRef)
     {
         Debug.Log("EnemyInCombat");
         _enemyInCombat = enemyRef;
+        _inCombat = true;
     }
 
-    public void EnemyExitCombat(GameObject enemyRef)
+    public void EnemyExitCombat()
     {
+        _inCombat = false;
+        if (_enemyInCombat.Alive == false)
+        {
+            return;
+        }
+
         Debug.Log("EnemyExitCombat");
         // Player take damage
         _playerHolder.SendMessage("TakeDamage", 1);
-        _playerHolder.SendMessage("ExitCombat");
-
-    }
-
-    public void PlayerEnterCombat()
-    {
-        Debug.Log("PlayerEnterCombat");
-        _combatStartTime = Time.time;
-        _inCombat = true;
+        _enemyInCombat.EndCombat(true);
     }
 
     public void SubmitPlayerAction(Player.PlayerState playerAction)
