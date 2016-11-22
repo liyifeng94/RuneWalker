@@ -8,6 +8,7 @@ public class Enemy : MonoBehaviour
     private Animator _animator;
 
     public Vector3 MovementVelocity;
+    [HideInInspector]public bool Alive;
 
     public enum AttackMove
     {
@@ -25,6 +26,7 @@ public class Enemy : MonoBehaviour
         _animator = GetComponent<Animator>();
         _boxCollider = GetComponent<BoxCollider2D>();
         _rb2D = GetComponent<Rigidbody2D>();
+        Alive = true;
     }
 	
 	// Update is called once per frame
@@ -39,7 +41,8 @@ public class Enemy : MonoBehaviour
         //check if collision is with an enemy.
         if (colliObject.gameObject.tag == "Player")
         {
-            GameManager.Instance.GetLevelManager().EnemyInCombat(this.gameObject);
+            GameManager.Instance.GetLevelManager().EnemyInCombat(this);
+            EnterCombat();
         }
     }
 
@@ -48,7 +51,7 @@ public class Enemy : MonoBehaviour
         //check if collision is with an enemy.
         if (colliObject.gameObject.tag == "Player")
         {
-            GameManager.Instance.GetLevelManager().EnemyExitCombat(this.gameObject);
+            GameManager.Instance.GetLevelManager().EnemyExitCombat();
         }
     }
 
@@ -59,9 +62,11 @@ public class Enemy : MonoBehaviour
 
     public void EndCombat(bool alive)
     {
+        Alive = alive;
         if (alive == false)
         {
             _animator.SetTrigger("enemyDeath");
+            Destroy(gameObject, _animator.GetCurrentAnimatorStateInfo(0).length);
         }
     }
 
@@ -72,6 +77,8 @@ public class Enemy : MonoBehaviour
 
     void PlayAnimation()
     {
+        _animator.SetTrigger("enemyCombat");
+        /*
         switch (CurrentAttackMove)
         {
             case AttackMove.High:
@@ -86,5 +93,6 @@ public class Enemy : MonoBehaviour
             default:
                 break;
         }
+        */
     }
 }

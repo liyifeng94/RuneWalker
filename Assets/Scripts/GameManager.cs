@@ -94,8 +94,6 @@ public class GameManager : MonoBehaviour
         _currentLevel = 1;
         _playerKills = 0;
         _playerKillsCurrentLevel = 0;
-
-        //TODO: update high score
         _score = 0;
     }
 
@@ -154,7 +152,11 @@ public class GameManager : MonoBehaviour
 
     void InitGame()
     {
-        ResetGame();
+        _currentLevel = 1;
+        _playerKills = 0;
+        _playerKillsCurrentLevel = 0;
+
+        _score = 0;
     }
 
 	// Use this for initialization
