@@ -12,6 +12,14 @@ public class MenuManager : MonoBehaviour {
 		Application.LoadLevel ("HighScore");
 	}
 
+	public void OnInstructions () {
+		Application.LoadLevel ("Instructions");
+	}
+
+	public void OnBack () {
+		Application.LoadLevel ("MainMenu");
+	}
+
 	public void OnQuit () {
 		Application.Quit ();
 
