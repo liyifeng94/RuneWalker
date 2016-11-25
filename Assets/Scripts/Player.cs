@@ -107,12 +107,9 @@ public class Player : MonoBehaviour
         _currentPlayerState = PlayerState.Idle;
         if (_currentPlayerAction == PlayerState.Special)
         {
-            //TODO: debug only
-            _currentPlayerState = PlayerState.Special;
-
-            /*
+            
             //Check power meter
-            if (GameManager.Instance.HasPowerAttack())
+            if (GameManager.Instance.HasSpecialAttack())
             {
                 _currentPlayerState = PlayerState.Special;
             }
@@ -120,7 +117,7 @@ public class Player : MonoBehaviour
             {
                 _currentPlayerAction = PlayerState.Idle;
             }
-            */
+            
         }
         else
         {
