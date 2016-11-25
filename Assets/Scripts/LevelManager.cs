@@ -24,20 +24,35 @@ public class LevelManager : MonoBehaviour
     private float _spawnFrequency;
     private GameObject _playerHolder;
     private Enemy _enemyInCombat;
-    private List<GameObject> _enemiesHolder;
+    private List<Enemy> _enemiesHolder;
     private bool _inCombat;
+    private float lastSpawnTime;
 
     void Start()
     {
         Debug.Log("Level started");
         GameManager.Instance.AddLevelManager(this);
         LevelSetup();
+        lastSpawnTime = 0;
+        UpdateEnemiesSpawnFrequency();
+    }
+
+    void Update()
+    {
+        //TODO: spawn enemies
+        float currentTime = Time.time;
+        if (currentTime - lastSpawnTime > _spawnFrequency)
+        {
+            SpawnEnemy(EnemyPrefabs[0]);
+            lastSpawnTime = currentTime;
+        }
     }
 
     void UpdateEnemiesSpawnFrequency()
     {
         //TODO: change to dynamically changed from code
-        _spawnFrequency = EnemiesSpawnFrequency[_level-1];
+        //_spawnFrequency = EnemiesSpawnFrequency[_level-1];
+        _spawnFrequency = EnemiesSpawnFrequency[0];
     }
 
     void LevelChange()
@@ -45,16 +60,19 @@ public class LevelManager : MonoBehaviour
         //TODO: set background
 
         //TODO: update spawn frequency
+        UpdateEnemiesSpawnFrequency();
     }
 
     void LevelSetup()
     {
         _inCombat = false;
         _enemyInCombat = null;
-        _enemiesHolder = new List<GameObject>();
+        _enemiesHolder = new List<Enemy>();
         LevelChange();
         SpawnPlayer();
+        float currentTime = Time.time;
         SpawnEnemy(EnemyPrefabs[0]);
+        lastSpawnTime = currentTime;
     }
 
     // Spawns a enemy at SpawnLocation
@@ -62,7 +80,8 @@ public class LevelManager : MonoBehaviour
     {
         //TODO: spawn enemy
         GameObject newEnemy = (GameObject)Instantiate(enemy, EnemySpawnLocation, Quaternion.identity);
-        _enemiesHolder.Add(newEnemy);
+        Enemy newEnemyScript = newEnemy.GetComponent<Enemy>();
+        _enemiesHolder.Add(newEnemyScript);
 
         //TODO: added enemy to enemies spawn array
     }
@@ -76,6 +95,12 @@ public class LevelManager : MonoBehaviour
 
     public void ResolveCombat(Player.PlayerState playerAction)
     {
+        if (playerAction == Player.PlayerState.Special)
+        {
+            PlayerUseSpecial();
+            return;
+        }
+
         //TODO: check if player action is valid
         if ((int) playerAction >= (int) (Enemy.AttackMove.NumOfMoves) || _inCombat == false)
         {
@@ -83,10 +108,15 @@ public class LevelManager : MonoBehaviour
         }
 
         Enemy target = _enemyInCombat.GetComponent<Enemy>();
+        if (target == null)
+        {
+            return;
+        }
         if ((int) playerAction == (int)target.CurrentAttackMove)
         {
             _enemyInCombat.EndCombat(false);
             GameManager.Instance.EnemiesKilled(1);
+            _enemiesHolder.Remove(_enemyInCombat);
         }
         else
         {
@@ -118,6 +148,17 @@ public class LevelManager : MonoBehaviour
     public void SubmitPlayerAction(Player.PlayerState playerAction)
     {
         ResolveCombat(playerAction);
+    }
+
+    void PlayerUseSpecial()
+    {
+        Debug.Log("Use Special");
+        foreach (var enemy in _enemiesHolder)
+        {
+            enemy.EndCombat(false);
+            GameManager.Instance.EnemiesKilled(1);
+        }
+        _enemiesHolder.Clear();
     }
 
     public void SetLevel(int level)
