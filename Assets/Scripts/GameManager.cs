@@ -10,6 +10,8 @@ public class GameManager : MonoBehaviour
     public int[] LevelKillCount;
     public int BaseScore = 1;
 
+    public int MaxScoreMultiplier = 10;
+
     //TODO: get player from text box
     public string PlayerName;
 
@@ -35,8 +37,9 @@ public class GameManager : MonoBehaviour
     private int _playerKillsCurrentLevel = 0;
     private int _score = 0;
     // Power meter for the special attack;
-    private int _powerMeter = 0;
-    public int MaxPowerMultiplier = 2;
+    private int _specialMeter = 0;
+    private int _specialMeterMax = 2;
+    public int MaxSpecialMultiplier = 2;
 
     //TODO: set up score Multiplier 
     private int _scoreMultiplier = 1;
@@ -83,9 +86,9 @@ public class GameManager : MonoBehaviour
         return _scoreMultiplier;
     }
 
-    public int GetPowerMeter()
+    public int GetSpecialMeter()
     {
-        return _powerMeter;
+        return _specialMeter;
     }
 
     public void ResetGame()
@@ -95,27 +98,38 @@ public class GameManager : MonoBehaviour
         _playerKills = 0;
         _playerKillsCurrentLevel = 0;
         _score = 0;
-    }
+        _specialMeter = 0;
+        _specialMeterMax = 2;
+}
 
-    public bool HasPowerAttack()
+    public bool HasSpecialAttack()
     {
-        int maxPowerLevel = MaxPowerMultiplier*_currentLevel;
-        if (_powerMeter == maxPowerLevel)
+        if (_specialMeter >= _specialMeterMax)
         {
             return true;
         }
         return false;
     }
 
+    public void UseSpecialAttack()
+    {
+        _scoreMultiplier = 1;
+        _specialMeter = 0;
+        _specialMeterMax *= MaxSpecialMultiplier*_currentLevel;
+    }
+
     public void EnemiesKilled(int kills)
     {
-        bool isPowerAttack = kills > 1;
-
         // group kills together even if the kills passed the level limit
         _score += kills*BaseScore*_currentLevel*_scoreMultiplier;
         _playerKills += kills;
         _playerKillsCurrentLevel += kills;
-        _powerMeter += kills;
+        _specialMeter += kills;
+
+        if (_scoreMultiplier < MaxScoreMultiplier && _specialMeter == _scoreMultiplier + 1)
+        {
+            ++_scoreMultiplier;
+        }
 
         // Increase game level because the level kill count 
         if (_playerKillsCurrentLevel > GetLevelUpKills())
@@ -123,10 +137,8 @@ public class GameManager : MonoBehaviour
             IncreaseLevel();
         }
 
-        if (isPowerAttack == true)
-        {
-            _powerMeter = 0;
-        }
+        Debug.Log("Score: " + _score);
+        Debug.Log("Level: " + _currentLevel);
     }
 
     // Increase level
