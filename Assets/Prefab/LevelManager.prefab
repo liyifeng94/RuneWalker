@@ -53,10 +53,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PlayerPrefab: {fileID: 1000011513608102, guid: b7226ee5de46cc0429e91be8f95a90f2,
     type: 2}
-  EnemyPrefabs: []
-  EnemiesSpawnFrequency: []
-  PlayerSpawnLocation: {x: -10, y: -2, z: 0}
-  EnemySpawnLocation: {x: 0, y: 0, z: 0}
+  EnemyPrefabs:
+  - {fileID: 1000011353145028, guid: 183f0f0cce89bfe47b4fde67e82c7c03, type: 2}
+  EnemiesSpawnFrequency:
+  - 3
+  PlayerSpawnLocation: {x: -6.79, y: -2, z: 0}
+  EnemySpawnLocation: {x: 8, y: -2.1, z: 0}
   ForegroundPrefabs: []
   BackgroundPrefabs: []
-  DecisionTimer: 2
