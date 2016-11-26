@@ -7,10 +7,12 @@ using System.IO;
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance = null;
-    public int[] LevelKillCount;
+
+    public int LevelUpMultiplier = 4;
+
     public int BaseScore = 1;
 
-    public int MaxScoreMultiplier = 10;
+    public int MaxScoreMultiplier = 100;
 
     //TODO: get player from text box
     public string PlayerName;
@@ -37,8 +39,9 @@ public class GameManager : MonoBehaviour
     private int _playerKillsCurrentLevel = 0;
     private int _score = 0;
     // Power meter for the special attack;
+    private int _specialsUsed = 0;
     private int _specialMeter = 0;
-    private int _specialMeterMax = 2;
+    [HideInInspector] public int SpecialMeterMax = 2;
     public int MaxSpecialMultiplier = 2;
 
     //TODO: set up score Multiplier 
@@ -46,6 +49,7 @@ public class GameManager : MonoBehaviour
 
     private LevelManager _gameLevelManager;
 
+    public FibonacciSequence FibonacciSequence;
 
 #if UNITY_EDITOR
     private const string HighScoreBoardPath = "Assets/Resources/GameJSONData/HighScore.json";
@@ -81,7 +85,7 @@ public class GameManager : MonoBehaviour
         return _score;
     }
 
-    public int ScoreMultiplier()
+    public int GetScoreMultiplier()
     {
         return _scoreMultiplier;
     }
@@ -99,12 +103,13 @@ public class GameManager : MonoBehaviour
         _playerKillsCurrentLevel = 0;
         _score = 0;
         _specialMeter = 0;
-        _specialMeterMax = 2;
-}
+        SpecialMeterMax = 2;
+        _specialsUsed = 0;
+    }
 
     public bool HasSpecialAttack()
     {
-        if (_specialMeter >= _specialMeterMax)
+        if (_specialMeter >= SpecialMeterMax)
         {
             return true;
         }
@@ -115,7 +120,8 @@ public class GameManager : MonoBehaviour
     {
         _scoreMultiplier = 1;
         _specialMeter = 0;
-        _specialMeterMax *= MaxSpecialMultiplier*_currentLevel;
+        ++_specialsUsed;
+        SpecialMeterMax = MaxSpecialMultiplier * FibonacciSequence[_specialsUsed];
     }
 
     public void EnemiesKilled(int kills)
@@ -152,14 +158,7 @@ public class GameManager : MonoBehaviour
     // Get the kills needed to level
     int GetLevelUpKills()
     {
-        // If the next level is not configured
-        if (_currentLevel > LevelKillCount.Length)
-        {
-            return -1;
-        }
-
-        //TODO: Change to dynamically changed from code. Instead of fixed amount.
-        return LevelKillCount[_currentLevel];
+        return FibonacciSequence[_currentLevel] * 2;
     }
 
     void InitGame()
@@ -179,7 +178,9 @@ public class GameManager : MonoBehaviour
         if (Instance == null)
 	    {
 	        Instance = this;
-	    }
+            FibonacciSequence = new FibonacciSequence();
+
+        }
 	    else
 	    {
 	        Destroy(gameObject);
@@ -190,12 +191,6 @@ public class GameManager : MonoBehaviour
 	    LoadHighScoreBoard();
 	}
 	
-	// Update is called once per frame
-	void Update ()
-    {
-	    
-	}
-
     // Sorted by time entered. Will need to be sorted by score in decreasing order.
     public HighScoreBoard GetHighScoreBoard()
     {

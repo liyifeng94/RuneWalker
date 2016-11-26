@@ -15,16 +15,12 @@ public class LevelManager : MonoBehaviour
     public GameObject[] ForegroundPrefabs;
     public GameObject[] BackgroundPrefabs;
 
-    // Decision Time in seconds
-    public float DecisionTimer = 2;
-
-
     private int _level = 1;
     private Transform _levelHolder;
     private float _spawnFrequency;
     private GameObject _playerHolder;
     private Enemy _enemyInCombat;
-    private List<Enemy> _enemiesHolder;
+    private LinkedList<Enemy> _enemiesHolder;
     private bool _inCombat;
     private float lastSpawnTime;
 
@@ -67,7 +63,7 @@ public class LevelManager : MonoBehaviour
     {
         _inCombat = false;
         _enemyInCombat = null;
-        _enemiesHolder = new List<Enemy>();
+        _enemiesHolder = new LinkedList<Enemy>();
         LevelChange();
         SpawnPlayer();
         float currentTime = Time.time;
@@ -81,7 +77,7 @@ public class LevelManager : MonoBehaviour
         //TODO: spawn enemy
         GameObject newEnemy = (GameObject)Instantiate(enemy, EnemySpawnLocation, Quaternion.identity);
         Enemy newEnemyScript = newEnemy.GetComponent<Enemy>();
-        _enemiesHolder.Add(newEnemyScript);
+        _enemiesHolder.AddLast(newEnemyScript);
 
         //TODO: added enemy to enemies spawn array
     }
@@ -159,6 +155,7 @@ public class LevelManager : MonoBehaviour
             GameManager.Instance.EnemiesKilled(1);
         }
         _enemiesHolder.Clear();
+        GameManager.Instance.UseSpecialAttack();
     }
 
     public void SetLevel(int level)
