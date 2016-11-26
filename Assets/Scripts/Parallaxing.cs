@@ -3,17 +3,15 @@ using System.Collections;
 
 public class Parallaxing
 {
-    public void Parallax(Vector3 currentPos, Vector3 targetPos , Transform[] backgrounds, float distanceScale, float smoothing = 1f)
+    public void Parallax(Vector3 currentPos, Vector3 targetPos , Transform[] backgrounds, float scollScale, float smoothing = 1f)
     {
         foreach (Transform layer in backgrounds)
         {
             float parallax = 0;
             if (layer.position.z != 0.0)
             {
-                parallax = (targetPos.x - currentPos.x)*(-1/layer.position.z);
+                parallax = (targetPos.x - currentPos.x)*(-1/layer.position.z*scollScale);
             }
-
-            parallax *= distanceScale;
 
             float backgroundTargetPosX = layer.position.x + parallax;
 

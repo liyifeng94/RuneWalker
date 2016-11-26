@@ -21,7 +21,7 @@ GameObject:
   - 4: {fileID: 4000013124181266}
   - 114: {fileID: 114000010124573016}
   m_Layer: 0
-  m_Name: BackgroundManager 1
+  m_Name: BackgroundManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -53,4 +53,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BackgroundLayersPrefab:
   - {fileID: 1000010844909740, guid: e4aacccfbc85fdf4aaddf50c9a1ded60, type: 2}
-  ScollingDistance: 50
+  BackgroundScollSpeed: 3

@@ -6,7 +6,7 @@ public class BackgroundManager : MonoBehaviour
 
     public GameObject[] BackgroundLayersPrefab;
 
-    public float ScollingDistance = 0.01f;
+    public float BackgroundScollSpeed = 1f;
 
     private BackgroundLayers _backgroundLayers;
 
@@ -62,7 +62,7 @@ public class BackgroundManager : MonoBehaviour
         {
             Vector3 currentMousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 
-            _parallaxingManager.Parallax(_lastMousePos, currentMousePos, _backgroundLayers.BackgroundsTransforms, ScollingDistance);
+            _parallaxingManager.Parallax(_lastMousePos, currentMousePos, _backgroundLayers.BackgroundsTransforms, BackgroundScollSpeed);
 
             _lastMousePos = currentMousePos;
         }
