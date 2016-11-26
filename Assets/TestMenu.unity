@@ -129,15 +129,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 1000010738202378, guid: 51876bfe362473147b819b10505141c6, type: 2}
-      propertyPath: m_Name
-      value: BackgroundManager
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000010124573016, guid: 51876bfe362473147b819b10505141c6,
-        type: 2}
-      propertyPath: BackgroundScollSpeed
-      value: 3
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 51876bfe362473147b819b10505141c6, type: 2}
   m_IsPrefabParent: 0
