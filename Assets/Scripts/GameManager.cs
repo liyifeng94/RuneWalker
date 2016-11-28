@@ -29,27 +29,15 @@ public class GameManager : MonoBehaviour
     public class HighScoreBoard
     {
         public List<HighScoreEntry> HighScoreList;
+
+        public HighScoreBoard()
+        {
+            HighScoreList = new List<HighScoreEntry>();
+        }
     }
 
     // This should be sorted by time. 
     private HighScoreBoard _highScoreBoard;
-
-    private int _currentLevel = 1;
-    private int _playerKills = 0;
-    private int _playerKillsCurrentLevel = 0;
-    private int _score = 0;
-    // Power meter for the special attack;
-    private int _specialsUsed = 0;
-    private int _specialMeter = 0;
-    [HideInInspector] public int SpecialMeterMax = 2;
-    public int MaxSpecialMultiplier = 2;
-
-    //TODO: set up score Multiplier 
-    private int _scoreMultiplier = 1;
-
-    private LevelManager _gameLevelManager;
-
-    public FibonacciSequence FibonacciSequence;
 
 #if UNITY_EDITOR
     private const string HighScoreBoardPath = "Assets/Resources/GameJSONData/HighScore.json";
@@ -58,6 +46,43 @@ public class GameManager : MonoBehaviour
 #else
     private const string HighScoreBoardPath = "HighScore.json";
 #endif
+
+    public class GameState
+    {
+        public int CurrentLevel = 1;
+        public int PlayerKills = 0;
+        public int PlayerKillsCurrentLevel = 0;
+        public int Score = 0;
+
+        // Power meter for the special attack;
+        public int SpecialsUsed = 0;
+        public int SpecialMeter = 0;
+        public int SpecialMeterMax = 2;
+
+        public int ScoreMultiplier = 1;
+
+        public void Reset()
+        {
+            CurrentLevel = 1;
+            PlayerKills = 0;
+            PlayerKillsCurrentLevel = 0;
+            Score = 0;
+
+            // Power meter for the special attack;
+            SpecialsUsed = 0;
+            SpecialMeter = 0;
+
+            ScoreMultiplier = 1;
+        }
+    }
+
+    private GameState _gameState;
+    
+    public int MaxSpecialMultiplier = 2;
+
+    private LevelManager _gameLevelManager;
+
+    public FibonacciSequence FibonacciSequence;
 
     public void AddLevelManager(LevelManager gameLevelManager)
     {
@@ -72,44 +97,43 @@ public class GameManager : MonoBehaviour
 
     public int GetCurrentLevel()
     {
-        return _currentLevel;
+        return _gameState.CurrentLevel;
     }
 
     public int GetPlayerKills()
     {
-        return _playerKills;
+        return _gameState.PlayerKills;
     }
 
     public int GetScore()
     {
-        return _score;
+        return _gameState.Score;
     }
 
     public int GetScoreMultiplier()
     {
-        return _scoreMultiplier;
+        return _gameState.ScoreMultiplier;
     }
 
     public int GetSpecialMeter()
     {
-        return _specialMeter;
+        return _gameState.SpecialMeter;
+    }
+
+    public int GetSpecialMeterMax()
+    {
+        return _gameState.SpecialMeterMax;
     }
 
     public void ResetGame()
     {
         _gameLevelManager.InitLevel();
-        _currentLevel = 1;
-        _playerKills = 0;
-        _playerKillsCurrentLevel = 0;
-        _score = 0;
-        _specialMeter = 0;
-        SpecialMeterMax = 2;
-        _specialsUsed = 0;
+        _gameState.Reset();
     }
 
     public bool HasSpecialAttack()
     {
-        if (_specialMeter >= SpecialMeterMax)
+        if (_gameState.SpecialMeter >= _gameState.SpecialMeterMax)
         {
             return true;
         }
@@ -118,68 +142,60 @@ public class GameManager : MonoBehaviour
 
     public void UseSpecialAttack()
     {
-        _scoreMultiplier = 1;
-        _specialMeter = 0;
-        ++_specialsUsed;
-        SpecialMeterMax = MaxSpecialMultiplier * FibonacciSequence[_specialsUsed];
+        _gameState.ScoreMultiplier = 1;
+        _gameState.SpecialMeter = 0;
+        _gameState.SpecialMeterMax = MaxSpecialMultiplier * FibonacciSequence[++_gameState.SpecialsUsed];
     }
 
     public void EnemiesKilled(int kills)
     {
         // group kills together even if the kills passed the level limit
-        _score += kills*BaseScore*_currentLevel*_scoreMultiplier;
-        _playerKills += kills;
-        _playerKillsCurrentLevel += kills;
-        _specialMeter += kills;
+        _gameState.Score += kills*BaseScore* _gameState.CurrentLevel * _gameState.ScoreMultiplier;
+        _gameState.PlayerKills += kills;
+        _gameState.PlayerKillsCurrentLevel += kills;
+        _gameState.SpecialMeter += kills;
 
-        if (_scoreMultiplier < MaxScoreMultiplier && _specialMeter == _scoreMultiplier + 1)
+        if (_gameState.ScoreMultiplier < MaxScoreMultiplier && _gameState.SpecialMeter == _gameState.ScoreMultiplier + 1)
         {
-            ++_scoreMultiplier;
+            ++_gameState.ScoreMultiplier;
         }
 
         // Increase game level because the level kill count 
-        if (_playerKillsCurrentLevel > GetLevelUpKills())
+        if (_gameState.PlayerKillsCurrentLevel > GetLevelUpKills())
         {
             IncreaseLevel();
         }
-
-        Debug.Log("Score: " + _score);
-        Debug.Log("Level: " + _currentLevel);
     }
 
     // Increase level
     void IncreaseLevel()
     {
-        _playerKillsCurrentLevel = 0;
-        ++_currentLevel;
-        _gameLevelManager.SetLevel(_currentLevel);
+        _gameState.PlayerKillsCurrentLevel = 0;
+        
+        _gameLevelManager.SetLevel(++_gameState.CurrentLevel);
     }
 
     // Get the kills needed to level
     int GetLevelUpKills()
     {
-        return FibonacciSequence[_currentLevel] * 2;
+        return FibonacciSequence[_gameState.CurrentLevel] * 2;
     }
 
     void InitGame()
     {
-        _currentLevel = 1;
-        _playerKills = 0;
-        _playerKillsCurrentLevel = 0;
-
-        _score = 0;
+        _gameState.Reset();
     }
 
 	// Use this for initialization
 	void Awake ()
 	{
-        Debug.Log(DateTime.Now.ToString());
         // Make the game object a singleton 
         if (Instance == null)
 	    {
 	        Instance = this;
             FibonacciSequence = new FibonacciSequence();
-
+            _gameState = new GameState();
+            LoadHighScoreBoard();
         }
 	    else
 	    {
@@ -187,8 +203,6 @@ public class GameManager : MonoBehaviour
 	    }
 
         DontDestroyOnLoad(gameObject);
-
-	    LoadHighScoreBoard();
 	}
 	
     // Sorted by time entered. Will need to be sorted by score in decreasing order.
@@ -197,11 +211,11 @@ public class GameManager : MonoBehaviour
         return _highScoreBoard;
     }
 
-    void UpdateHighScoreBoard()
+    public void UpdateHighScoreBoard(string playerName)
     {
         HighScoreEntry newHighScoreEntry = new HighScoreEntry();
-        newHighScoreEntry.Name = PlayerName;
-        newHighScoreEntry.Score = _score;
+        newHighScoreEntry.Name = playerName;
+        newHighScoreEntry.Score = _gameState.Score;
         newHighScoreEntry.DateTime = DateTime.UtcNow.ToShortDateString();
 
         _highScoreBoard.HighScoreList.Add(newHighScoreEntry);
@@ -209,12 +223,12 @@ public class GameManager : MonoBehaviour
 
     public void GameOver()
     {
-        UpdateHighScoreBoard();
-        enabled = false;
+        //enabled = false;
     }
 
     void LoadHighScoreBoard()
     {
+        _highScoreBoard = null;
         using (FileStream fs = new FileStream(HighScoreBoardPath, FileMode.Create))
         {
             using (StreamReader reader = new StreamReader(fs))
