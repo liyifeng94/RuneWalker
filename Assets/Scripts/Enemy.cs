@@ -33,7 +33,7 @@ public class Enemy : MonoBehaviour
 	protected virtual void Update ()
     {
         Transform thisTransform = GetComponent<Transform>();
-        thisTransform.position += MovementVelocity;
+        thisTransform.position += MovementVelocity * Time.deltaTime;
 	}
 
     protected virtual void OnTriggerEnter2D(Collider2D colliObject)

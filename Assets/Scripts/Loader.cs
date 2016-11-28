@@ -13,5 +13,7 @@ public class Loader : MonoBehaviour
             Instantiate(MainGameManager);
         }
 
+        //Fix resolution and aspect ratio of the game
+        Screen.SetResolution(1280, 720, false);
     }
 }

@@ -9,30 +9,30 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1000010350581344}
+  m_RootGameObject: {fileID: 1000010738202378}
   m_IsPrefabParent: 1
---- !u!1 &1000010350581344
+--- !u!1 &1000010738202378
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 4
   m_Component:
-  - 4: {fileID: 4000011554536650}
-  - 114: {fileID: 114000010234198732}
-  m_Layer: 8
-  m_Name: LevelManager
-  m_TagString: GameController
+  - 4: {fileID: 4000013124181266}
+  - 114: {fileID: 114000010124573016}
+  m_Layer: 0
+  m_Name: BackgroundManager
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4000011554536650
+--- !u!4 &4000013124181266
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000010350581344}
+  m_GameObject: {fileID: 1000010738202378}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -40,24 +40,17 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
---- !u!114 &114000010234198732
+--- !u!114 &114000010124573016
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000010350581344}
+  m_GameObject: {fileID: 1000010738202378}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 88586a9887854e345a6d7b7d0faa78ec, type: 3}
+  m_Script: {fileID: 11500000, guid: c464b4bb40fe00248a2d3255dc57266e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerPrefab: {fileID: 1000011513608102, guid: b7226ee5de46cc0429e91be8f95a90f2,
-    type: 2}
-  EnemyPrefabs:
-  - {fileID: 1000011353145028, guid: 183f0f0cce89bfe47b4fde67e82c7c03, type: 2}
-  EnemiesSpawnFrequency:
-  - 3
-  PlayerSpawnLocation: {x: -6.79, y: -2, z: 0}
-  EnemySpawnLocation: {x: 8, y: -2.1, z: 0}
-  ForegroundPrefabs: []
-  BackgroundPrefabs: []
+  BackgroundLayersPrefab:
+  - {fileID: 1000012914184808, guid: 0600813f205cf004fb3767440445542e, type: 2}
+  BackgroundScollSpeed: 3
