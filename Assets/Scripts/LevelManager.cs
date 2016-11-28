@@ -137,7 +137,8 @@ public class LevelManager : MonoBehaviour
 
         Debug.Log("EnemyExitCombat");
         // Player take damage
-        _playerHolder.SendMessage("TakeDamage", 1);
+        Player playerObject = _playerHolder.GetComponent<Player>();
+        playerObject.TakeDamage(1);
         _enemyInCombat.EndCombat(true);
     }
 
