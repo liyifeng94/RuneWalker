@@ -7,7 +7,7 @@ public class PlayerSoundEvents : MonoBehaviour
     public AudioClip WalkingSound;
     public AudioClip DeathSound;
     public AudioClip SpecialSound;
-
+    public AudioClip NewSound;
     private Transform _transform;
 
     void Start()
@@ -33,5 +33,10 @@ public class PlayerSoundEvents : MonoBehaviour
     public void OnSpecialEvent()
     {
         AudioSource.PlayClipAtPoint(SpecialSound, _transform.position);
+    }
+
+    public void OnNewSoundEvent()
+    {
+        AudioSource.PlayClipAtPoint(NewSound, _transform.position);
     }
 }

@@ -24,7 +24,7 @@ public class SimpleUI : MonoBehaviour
 
         string specialText = "Special: ";
         int special = GameManager.Instance.GetSpecialMeter();
-        int specialMax = GameManager.Instance.SpecialMeterMax;
+        int specialMax = GameManager.Instance.GetSpecialMeterMax();
         special = Math.Min(special, specialMax);
         int specialMeter = (int)(((double)special/(double)specialMax) * 100);
         specialText += specialMeter.ToString() + "%";

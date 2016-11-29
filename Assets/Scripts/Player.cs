@@ -27,15 +27,6 @@ public class Player : MonoBehaviour
 
     private Animator _animator;
 
-    //TODO: Add Death delay
-
-    //Calls when enemy is in range
-    public void StartCombat()
-    {
-        //TODO: change animation state to combat
-        _inCombat = true;
-    }
-
     // Use this for initialization
     void Start ()
 	{
@@ -54,7 +45,16 @@ public class Player : MonoBehaviour
 	// Update is called once per frame
 	void Update ()
     {
-        //TODO: Get player combat action
+        // Wait for combat action to finish
+        if (_inCombat)
+        {
+            return;
+        }
+
+        if (_playerHealth <= 0)
+        {
+            _animator.SetTrigger("playerDeath");
+        }
 
         // Check for player action and update
         if (GetUserInput() == true)
@@ -68,14 +68,6 @@ public class Player : MonoBehaviour
         UpdateAnimationTrigger();
 	}
 
-    void OnCollisionEnter2D(Collision2D colliObject)
-    {
-        if (colliObject.gameObject.tag == "Enemy")
-        {
-            EnterCombat();
-        }
-    }
-
     public void TakeDamage(int damage)
     {
         Debug.Log("TakeDamage");
@@ -83,23 +75,14 @@ public class Player : MonoBehaviour
         ExitCombat();
     }
 
-    public void EnterCombat()
-    {
-        _inCombat = true;
-    }
-
     public void ExitCombat()
     {
         _inCombat = false;
-        if (_playerHealth <= 0)
-        {
-            //player death
-            //TODO: handle player death
-            
-            _animator.SetTrigger("playerDeath");
+    }
 
-            Destroy(gameObject, _animator.GetCurrentAnimatorStateInfo(0).length);
-        }
+    public void PlayerDeathEvent()
+    {
+        Destroy(gameObject);
     }
 
     void CheckPlayerAction()
@@ -163,12 +146,15 @@ public class Player : MonoBehaviour
         {
             case PlayerState.Jump:
                 _animator.SetTrigger("playerJump");
+                _inCombat = true;
                 break;
             case PlayerState.Block:
                 _animator.SetTrigger("playerBlock");
+                _inCombat = true;
                 break;
             case PlayerState.Duck:
                 _animator.SetTrigger("playerDuck");
+                _inCombat = true;
                 break;
             case PlayerState.Death:
                 _animator.SetTrigger("playerDeath");
@@ -181,7 +167,6 @@ public class Player : MonoBehaviour
         //Animation triggered reset
         _currentPlayerState = PlayerState.Idle;
     }
-
 
     void OnDestory()
     {

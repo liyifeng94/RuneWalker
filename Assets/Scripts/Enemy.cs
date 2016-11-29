@@ -36,6 +36,11 @@ public class Enemy : MonoBehaviour
         thisTransform.position += MovementVelocity * Time.deltaTime;
 	}
 
+    public void ChangeVelocity(Vector3 newVelocity)
+    {
+        MovementVelocity = newVelocity;
+    }
+
     protected virtual void OnTriggerEnter2D(Collider2D colliObject)
     {
         //check if collision is with an enemy.
@@ -46,13 +51,10 @@ public class Enemy : MonoBehaviour
         }
     }
 
-    protected virtual void OnTriggerExit2D(Collider2D colliObject)
+    //Animation hit event callback function
+    public void HitTarget()
     {
-        //check if collision is with an enemy.
-        if (colliObject.gameObject.tag == "Player")
-        {
-            GameManager.Instance.GetLevelManager().EnemyExitCombat();
-        }
+        GameManager.Instance.GetLevelManager().EnemyExitCombat();
     }
 
     protected virtual void EnterCombat()
@@ -78,21 +80,5 @@ public class Enemy : MonoBehaviour
     void PlayAnimation()
     {
         _animator.SetTrigger("enemyCombat");
-        /*
-        switch (CurrentAttackMove)
-        {
-            case AttackMove.High:
-                _animator.SetTrigger("enemyHighAtk");
-                break;
-            case AttackMove.Low:
-                _animator.SetTrigger("enemyLowAtk");
-                break;
-            case AttackMove.Mid:
-                _animator.SetTrigger("enemyMidAtk");
-                break;
-            default:
-                break;
-        }
-        */
     }
 }
