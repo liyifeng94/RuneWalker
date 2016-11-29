@@ -82,6 +82,7 @@ public class Player : MonoBehaviour
 
     public void PlayerDeathEvent()
     {
+        GameManager.Instance.GameOver();
         Destroy(gameObject);
     }
 

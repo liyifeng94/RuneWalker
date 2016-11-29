@@ -41,7 +41,7 @@ public class LevelManager : MonoBehaviour
         float currentTime = Time.time;
         if (currentTime - _lastSpawnTime > _spawnFrequency)
         {
-            int enemyIndex = Random.Range(0, EnemyPrefabs.Length - 1);
+            int enemyIndex = Random.Range(0, EnemyPrefabs.Length);
             SpawnEnemy(EnemyPrefabs[enemyIndex]);
             _lastSpawnTime = currentTime;
         }
@@ -169,5 +169,10 @@ public class LevelManager : MonoBehaviour
     public void InitLevel()
     {
         LevelSetup();
+    }
+
+    public void Gameover()
+    {
+        
     }
 }
