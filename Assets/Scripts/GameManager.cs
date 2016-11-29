@@ -230,6 +230,7 @@ public class GameManager : MonoBehaviour
     void LoadHighScoreBoard()
     {
         _highScoreBoard = null;
+        Directory.CreateDirectory(Path.GetDirectoryName(HighScoreBoardPath));
         using (FileStream fs = new FileStream(HighScoreBoardPath, FileMode.OpenOrCreate))
         {
             using (StreamReader reader = new StreamReader(fs))
@@ -248,6 +249,7 @@ public class GameManager : MonoBehaviour
     void SaveHighScoreBoard()
     {
         string jsonDataString = JsonUtility.ToJson(_highScoreBoard);
+        Directory.CreateDirectory(Path.GetDirectoryName(HighScoreBoardPath));
         using (FileStream fs = new FileStream(HighScoreBoardPath, FileMode.Create))
         {
             using (StreamWriter writer = new StreamWriter(fs))
