@@ -40,7 +40,7 @@ public class GameManager : MonoBehaviour
     private HighScoreBoard _highScoreBoard;
 
 #if UNITY_EDITOR
-    private const string HighScoreBoardPath = "Assets/Resources/GameJSONData/HighScore.json";
+    private const string HighScoreBoardPath = "Assets/Resources/GameJSONData/Runtime/HighScore.json";
 #elif UNITY_STANDALONE
     private const string HighScoreBoardPath = "GameData/Resources/GameJSONData/HighScore.json";
 #else
@@ -216,7 +216,7 @@ public class GameManager : MonoBehaviour
         HighScoreEntry newHighScoreEntry = new HighScoreEntry();
         newHighScoreEntry.Name = playerName;
         newHighScoreEntry.Score = _gameState.Score;
-        newHighScoreEntry.DateTime = DateTime.UtcNow.ToShortDateString();
+        newHighScoreEntry.DateTime = DateTime.UtcNow.ToString();
 
         _highScoreBoard.HighScoreList.Add(newHighScoreEntry);
     }
@@ -224,12 +224,13 @@ public class GameManager : MonoBehaviour
     public void GameOver()
     {
         //enabled = false;
+        _gameLevelManager.Gameover();
     }
 
     void LoadHighScoreBoard()
     {
         _highScoreBoard = null;
-        using (FileStream fs = new FileStream(HighScoreBoardPath, FileMode.Create))
+        using (FileStream fs = new FileStream(HighScoreBoardPath, FileMode.OpenOrCreate))
         {
             using (StreamReader reader = new StreamReader(fs))
             {

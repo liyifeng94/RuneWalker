@@ -170,4 +170,9 @@ public class LevelManager : MonoBehaviour
     {
         LevelSetup();
     }
+
+    public void Gameover()
+    {
+        
+    }
 }
