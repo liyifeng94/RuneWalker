@@ -68,8 +68,12 @@ public class Enemy : MonoBehaviour
         if (alive == false)
         {
             _animator.SetTrigger("enemyDeath");
-            Destroy(gameObject, _animator.GetCurrentAnimatorStateInfo(0).length);
         }
+    }
+
+    public void OnDeath()
+    {
+        Destroy(gameObject);
     }
 
     public AttackMove GetAttackMove()
