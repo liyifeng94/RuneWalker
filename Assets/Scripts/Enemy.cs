@@ -32,6 +32,10 @@ public class Enemy : MonoBehaviour
 	// Update is called once per frame
 	protected virtual void Update ()
     {
+        if (Alive == false)
+        {
+            _animator.SetTrigger("enemyDeath");
+        }
         Transform thisTransform = GetComponent<Transform>();
         thisTransform.position += MovementVelocity * Time.deltaTime;
 	}
@@ -65,10 +69,6 @@ public class Enemy : MonoBehaviour
     public void EndCombat(bool alive)
     {
         Alive = alive;
-        if (alive == false)
-        {
-            _animator.SetTrigger("enemyDeath");
-        }
     }
 
     public void OnDeath()
