@@ -36,6 +36,11 @@ public class Enemy : MonoBehaviour
         thisTransform.position += MovementVelocity * Time.deltaTime;
 	}
 
+    public void ChangeVelocity(Vector3 newVelocity)
+    {
+        MovementVelocity = newVelocity;
+    }
+
     protected virtual void OnTriggerEnter2D(Collider2D colliObject)
     {
         //check if collision is with an enemy.

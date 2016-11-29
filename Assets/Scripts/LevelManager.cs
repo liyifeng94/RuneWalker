@@ -2,6 +2,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Random = UnityEngine.Random;
 
 public class LevelManager : MonoBehaviour
 {
@@ -15,40 +16,41 @@ public class LevelManager : MonoBehaviour
     public GameObject[] ForegroundPrefabs;
     public GameObject[] BackgroundPrefabs;
 
+    public Vector3 InitEnemyVelocity;
+
     private int _level = 1;
-    private Transform _levelHolder;
     private float _spawnFrequency;
     private GameObject _playerHolder;
     private Enemy _enemyInCombat;
     private LinkedList<Enemy> _enemiesHolder;
     private bool _inCombat;
-    private float lastSpawnTime;
+    private float _lastSpawnTime;
+    private Vector3 _enemyVelocity;
 
     void Start()
     {
         Debug.Log("Level started");
         GameManager.Instance.AddLevelManager(this);
         LevelSetup();
-        lastSpawnTime = 0;
+        _lastSpawnTime = 0;
         UpdateEnemiesSpawnFrequency();
     }
 
     void Update()
     {
-        //TODO: spawn enemies
         float currentTime = Time.time;
-        if (currentTime - lastSpawnTime > _spawnFrequency)
+        if (currentTime - _lastSpawnTime > _spawnFrequency)
         {
-            SpawnEnemy(EnemyPrefabs[0]);
-            lastSpawnTime = currentTime;
+            int enemyIndex = Random.Range(0, EnemyPrefabs.Length - 1);
+            SpawnEnemy(EnemyPrefabs[enemyIndex]);
+            _lastSpawnTime = currentTime;
         }
     }
 
     void UpdateEnemiesSpawnFrequency()
     {
-        //TODO: change to dynamically changed from code
-        //_spawnFrequency = EnemiesSpawnFrequency[_level-1];
-        _spawnFrequency = EnemiesSpawnFrequency[0];
+        int frequencyIndex = Math.Min(_level - 1, EnemiesSpawnFrequency.Length-1);
+        _spawnFrequency = EnemiesSpawnFrequency[frequencyIndex];
     }
 
     void LevelChange()
@@ -57,6 +59,7 @@ public class LevelManager : MonoBehaviour
 
         //TODO: update spawn frequency
         UpdateEnemiesSpawnFrequency();
+        
     }
 
     void LevelSetup()
@@ -67,26 +70,22 @@ public class LevelManager : MonoBehaviour
         LevelChange();
         SpawnPlayer();
         float currentTime = Time.time;
-        SpawnEnemy(EnemyPrefabs[0]);
-        lastSpawnTime = currentTime;
+        _lastSpawnTime = currentTime;
+        _enemyVelocity = InitEnemyVelocity;
     }
 
     // Spawns a enemy at SpawnLocation
     void SpawnEnemy(GameObject enemy)
     {
-        //TODO: spawn enemy
         GameObject newEnemy = (GameObject)Instantiate(enemy, EnemySpawnLocation, Quaternion.identity);
         Enemy newEnemyScript = newEnemy.GetComponent<Enemy>();
+        newEnemyScript.ChangeVelocity(_enemyVelocity);
         _enemiesHolder.AddLast(newEnemyScript);
-
-        //TODO: added enemy to enemies spawn array
     }
 
     void SpawnPlayer()
     {
-        //TODO: spawn player
         _playerHolder = (GameObject)Instantiate(PlayerPrefab, PlayerSpawnLocation, Quaternion.identity);
-        Debug.Log(_playerHolder);
     }
 
     public void ResolveCombat(Player.PlayerState playerAction)
@@ -97,7 +96,6 @@ public class LevelManager : MonoBehaviour
             return;
         }
 
-        //TODO: check if player action is valid
         if ((int) playerAction >= (int) (Enemy.AttackMove.NumOfMoves) || _inCombat == false)
         {
             return;
@@ -122,7 +120,6 @@ public class LevelManager : MonoBehaviour
 
     public void EnemyInCombat(Enemy enemyRef)
     {
-        Debug.Log("EnemyInCombat");
         _enemyInCombat = enemyRef;
         _inCombat = true;
     }
@@ -135,7 +132,6 @@ public class LevelManager : MonoBehaviour
             return;
         }
 
-        Debug.Log("EnemyExitCombat");
         // Player take damage
         Player playerObject = _playerHolder.GetComponent<Player>();
         playerObject.TakeDamage(1);
@@ -149,7 +145,6 @@ public class LevelManager : MonoBehaviour
 
     void PlayerUseSpecial()
     {
-        Debug.Log("Use Special");
         foreach (var enemy in _enemiesHolder)
         {
             enemy.EndCombat(false);
@@ -162,12 +157,13 @@ public class LevelManager : MonoBehaviour
     public void SetLevel(int level)
     {
         _level = level;
+        _enemyVelocity = InitEnemyVelocity;
+        _enemyVelocity.x -= (level * 0.2f);
         LevelChange();
     }
 
     public void InitLevel()
     {
-        _levelHolder = new GameObject("GameLevel").transform;
         LevelSetup();
     }
 }

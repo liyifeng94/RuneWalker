@@ -56,8 +56,18 @@ MonoBehaviour:
   EnemyPrefabs:
   - {fileID: 1000011353145028, guid: 183f0f0cce89bfe47b4fde67e82c7c03, type: 2}
   EnemiesSpawnFrequency:
+  - 5
+  - 4.5
   - 3
+  - 2.5
+  - 2
+  - 1.5
+  - 1
+  - 1
+  - 1
+  - 1
   PlayerSpawnLocation: {x: -6.79, y: -2, z: 0}
-  EnemySpawnLocation: {x: 8, y: -2.1, z: 0}
+  EnemySpawnLocation: {x: 9.66, y: -2.1, z: 0}
   ForegroundPrefabs: []
   BackgroundPrefabs: []
+  InitEnemyVelocity: {x: -1, y: 0, z: 0}
