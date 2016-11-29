@@ -133,6 +133,10 @@ public class LevelManager : MonoBehaviour
         }
 
         // Player take damage
+        if (_playerHolder == null)
+        {
+            return;
+        }
         Player playerObject = _playerHolder.GetComponent<Player>();
         playerObject.TakeDamage(1);
         _enemyInCombat.EndCombat(true);
