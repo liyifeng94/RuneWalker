@@ -1,33 +1,32 @@
 fileFormatVersion: 2
-guid: d702155d5b36a3940a59bc919efd68be
-timeCreated: 1480399033
+guid: 410609fca16d28044a521c6f2a7b2cea
+timeCreated: 1480478733
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Rockman_walking_1_0
-    21300002: Rockman_walking_1_1
-    21300004: Rockman_walking_1_2
-    21300006: Rockman_walking_1_3
-    21300008: Rockman_walking_1_4
-    21300010: Rockman_walking_1_5
-    21300012: Rockman_walking_1_6
-    21300014: Rockman_walking_1_7
-    21300016: Rockman_walking_1_8
-    21300018: Rockman_walking_1_9
-    21300020: Rockman_walking_1_10
-    21300022: Rockman_walking_1_11
-    21300024: Rockman_walking_1_12
-    21300026: Rockman_walking_1_13
-    21300028: Rockman_walking_1_14
-    21300030: Rockman_walking_1_15
-    21300032: Rockman_walking_1_16
-    21300034: Rockman_walking_1_17
-    21300036: Rockman_walking_1_18
-    21300038: Rockman_walking_1_19
-    21300040: Rockman_walking_1_20
-    21300042: Rockman_walking_1_21
-    21300044: Rockman_walking_1_22
-    21300046: Rockman_walking_1_23
+    21300000: Rockman_walking_0
+    21300002: Rockman_walking_1
+    21300004: Rockman_walking_2
+    21300006: Rockman_walking_3
+    21300008: Rockman_walking_4
+    21300010: Rockman_walking_5
+    21300012: Rockman_walking_6
+    21300014: Rockman_walking_7
+    21300016: Rockman_walking_8
+    21300018: Rockman_walking_9
+    21300020: Rockman_walking_10
+    21300022: Rockman_walking_11
+    21300024: Rockman_walking_12
+    21300026: Rockman_walking_13
+    21300028: Rockman_walking_14
+    21300030: Rockman_walking_15
+    21300032: Rockman_walking_16
+    21300034: Rockman_walking_17
+    21300036: Rockman_walking_18
+    21300038: Rockman_walking_19
+    21300040: Rockman_walking_20
+    21300042: Rockman_walking_21
+    21300044: Rockman_walking_22
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -77,312 +76,299 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Rockman_walking_1_0
+      name: Rockman_walking_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 410
-        width: 86
-        height: 102
+        y: 1747
+        width: 251
+        height: 301
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Rockman_walking_1_1
+      name: Rockman_walking_1
       rect:
         serializedVersion: 2
-        x: 86
-        y: 410
-        width: 86
-        height: 102
+        x: 251
+        y: 1747
+        width: 251
+        height: 301
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Rockman_walking_1_2
+      name: Rockman_walking_2
       rect:
         serializedVersion: 2
-        x: 172
-        y: 410
-        width: 86
-        height: 102
+        x: 502
+        y: 1747
+        width: 251
+        height: 301
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Rockman_walking_1_3
+      name: Rockman_walking_3
       rect:
         serializedVersion: 2
-        x: 258
-        y: 410
-        width: 86
-        height: 102
+        x: 753
+        y: 1747
+        width: 251
+        height: 301
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Rockman_walking_1_4
-      rect:
-        serializedVersion: 2
-        x: 344
-        y: 410
-        width: 86
-        height: 102
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Rockman_walking_1_5
+      name: Rockman_walking_4
       rect:
         serializedVersion: 2
         x: 0
-        y: 308
-        width: 86
-        height: 102
+        y: 1446
+        width: 251
+        height: 301
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Rockman_walking_1_6
+      name: Rockman_walking_5
       rect:
         serializedVersion: 2
-        x: 86
-        y: 308
-        width: 86
-        height: 102
+        x: 251
+        y: 1446
+        width: 251
+        height: 301
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Rockman_walking_1_7
+      name: Rockman_walking_6
       rect:
         serializedVersion: 2
-        x: 172
-        y: 308
-        width: 86
-        height: 102
+        x: 502
+        y: 1446
+        width: 251
+        height: 301
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Rockman_walking_1_8
+      name: Rockman_walking_7
       rect:
         serializedVersion: 2
-        x: 258
-        y: 308
-        width: 86
-        height: 102
+        x: 753
+        y: 1446
+        width: 251
+        height: 301
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Rockman_walking_1_9
-      rect:
-        serializedVersion: 2
-        x: 344
-        y: 308
-        width: 86
-        height: 102
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Rockman_walking_1_10
+      name: Rockman_walking_8
       rect:
         serializedVersion: 2
         x: 0
-        y: 206
-        width: 86
-        height: 102
+        y: 1145
+        width: 251
+        height: 301
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Rockman_walking_1_11
+      name: Rockman_walking_9
       rect:
         serializedVersion: 2
-        x: 86
-        y: 206
-        width: 86
-        height: 102
+        x: 251
+        y: 1145
+        width: 251
+        height: 301
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Rockman_walking_1_12
+      name: Rockman_walking_10
       rect:
         serializedVersion: 2
-        x: 172
-        y: 206
-        width: 86
-        height: 102
+        x: 502
+        y: 1145
+        width: 251
+        height: 301
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Rockman_walking_1_13
+      name: Rockman_walking_11
       rect:
         serializedVersion: 2
-        x: 258
-        y: 206
-        width: 86
-        height: 102
+        x: 753
+        y: 1145
+        width: 251
+        height: 301
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Rockman_walking_1_14
-      rect:
-        serializedVersion: 2
-        x: 344
-        y: 206
-        width: 86
-        height: 102
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Rockman_walking_1_15
+      name: Rockman_walking_12
       rect:
         serializedVersion: 2
         x: 0
-        y: 104
-        width: 86
-        height: 102
+        y: 844
+        width: 251
+        height: 301
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Rockman_walking_1_16
+      name: Rockman_walking_13
       rect:
         serializedVersion: 2
-        x: 86
-        y: 104
-        width: 86
-        height: 102
+        x: 251
+        y: 844
+        width: 251
+        height: 301
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Rockman_walking_1_17
+      name: Rockman_walking_14
       rect:
         serializedVersion: 2
-        x: 172
-        y: 104
-        width: 86
-        height: 102
+        x: 502
+        y: 844
+        width: 251
+        height: 301
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Rockman_walking_1_18
+      name: Rockman_walking_15
       rect:
         serializedVersion: 2
-        x: 258
-        y: 104
-        width: 86
-        height: 102
+        x: 753
+        y: 844
+        width: 251
+        height: 301
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Rockman_walking_1_19
-      rect:
-        serializedVersion: 2
-        x: 344
-        y: 104
-        width: 86
-        height: 102
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Rockman_walking_1_20
+      name: Rockman_walking_16
       rect:
         serializedVersion: 2
         x: 0
-        y: 2
-        width: 86
-        height: 102
+        y: 543
+        width: 251
+        height: 301
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Rockman_walking_1_21
+      name: Rockman_walking_17
       rect:
         serializedVersion: 2
-        x: 86
-        y: 2
-        width: 86
-        height: 102
+        x: 251
+        y: 543
+        width: 251
+        height: 301
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Rockman_walking_1_22
+      name: Rockman_walking_18
       rect:
         serializedVersion: 2
-        x: 172
-        y: 2
-        width: 86
-        height: 102
+        x: 502
+        y: 543
+        width: 251
+        height: 301
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Rockman_walking_1_23
+      name: Rockman_walking_19
       rect:
         serializedVersion: 2
-        x: 258
-        y: 2
-        width: 86
-        height: 102
+        x: 753
+        y: 543
+        width: 251
+        height: 301
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Rockman_walking_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 242
+        width: 251
+        height: 301
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Rockman_walking_21
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 242
+        width: 251
+        height: 301
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Rockman_walking_22
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 242
+        width: 251
+        height: 301
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

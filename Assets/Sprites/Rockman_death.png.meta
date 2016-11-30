@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 2e290a555a8bc1b499eb82b10c53ff25
-timeCreated: 1480456486
+timeCreated: 1480478698
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -75,9 +75,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 917
-        width: 153
-        height: 107
+        y: 1736
+        width: 453
+        height: 312
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -87,10 +87,10 @@ TextureImporter:
       name: Rockman_death_1
       rect:
         serializedVersion: 2
-        x: 153
-        y: 917
-        width: 153
-        height: 107
+        x: 453
+        y: 1736
+        width: 453
+        height: 312
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -100,10 +100,10 @@ TextureImporter:
       name: Rockman_death_2
       rect:
         serializedVersion: 2
-        x: 306
-        y: 917
-        width: 153
-        height: 107
+        x: 906
+        y: 1736
+        width: 453
+        height: 312
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -113,10 +113,10 @@ TextureImporter:
       name: Rockman_death_3
       rect:
         serializedVersion: 2
-        x: 0
-        y: 810
-        width: 153
-        height: 107
+        x: 1359
+        y: 1736
+        width: 453
+        height: 312
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -126,10 +126,10 @@ TextureImporter:
       name: Rockman_death_4
       rect:
         serializedVersion: 2
-        x: 153
-        y: 810
-        width: 153
-        height: 107
+        x: 0
+        y: 1424
+        width: 453
+        height: 312
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -139,10 +139,10 @@ TextureImporter:
       name: Rockman_death_5
       rect:
         serializedVersion: 2
-        x: 306
-        y: 810
-        width: 153
-        height: 107
+        x: 453
+        y: 1424
+        width: 453
+        height: 312
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -152,10 +152,10 @@ TextureImporter:
       name: Rockman_death_6
       rect:
         serializedVersion: 2
-        x: 0
-        y: 703
-        width: 153
-        height: 107
+        x: 906
+        y: 1424
+        width: 453
+        height: 312
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -165,10 +165,10 @@ TextureImporter:
       name: Rockman_death_7
       rect:
         serializedVersion: 2
-        x: 153
-        y: 703
-        width: 153
-        height: 107
+        x: 1359
+        y: 1424
+        width: 453
+        height: 312
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -178,10 +178,10 @@ TextureImporter:
       name: Rockman_death_8
       rect:
         serializedVersion: 2
-        x: 306
-        y: 703
-        width: 153
-        height: 107
+        x: 0
+        y: 1112
+        width: 453
+        height: 312
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -191,10 +191,10 @@ TextureImporter:
       name: Rockman_death_9
       rect:
         serializedVersion: 2
-        x: 0
-        y: 596
-        width: 153
-        height: 107
+        x: 453
+        y: 1112
+        width: 453
+        height: 312
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -204,10 +204,10 @@ TextureImporter:
       name: Rockman_death_10
       rect:
         serializedVersion: 2
-        x: 153
-        y: 596
-        width: 153
-        height: 107
+        x: 906
+        y: 1112
+        width: 453
+        height: 312
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -217,10 +217,10 @@ TextureImporter:
       name: Rockman_death_11
       rect:
         serializedVersion: 2
-        x: 306
-        y: 596
-        width: 153
-        height: 107
+        x: 1359
+        y: 1112
+        width: 453
+        height: 312
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -231,9 +231,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 489
-        width: 153
-        height: 107
+        y: 800
+        width: 453
+        height: 312
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -243,10 +243,10 @@ TextureImporter:
       name: Rockman_death_13
       rect:
         serializedVersion: 2
-        x: 153
-        y: 489
-        width: 153
-        height: 107
+        x: 453
+        y: 800
+        width: 453
+        height: 312
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -256,10 +256,10 @@ TextureImporter:
       name: Rockman_death_14
       rect:
         serializedVersion: 2
-        x: 306
-        y: 489
-        width: 153
-        height: 107
+        x: 906
+        y: 800
+        width: 453
+        height: 312
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -269,10 +269,10 @@ TextureImporter:
       name: Rockman_death_15
       rect:
         serializedVersion: 2
-        x: 0
-        y: 382
-        width: 153
-        height: 107
+        x: 1359
+        y: 800
+        width: 453
+        height: 312
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -282,10 +282,10 @@ TextureImporter:
       name: Rockman_death_16
       rect:
         serializedVersion: 2
-        x: 153
-        y: 382
-        width: 153
-        height: 107
+        x: 0
+        y: 488
+        width: 453
+        height: 312
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -295,10 +295,10 @@ TextureImporter:
       name: Rockman_death_17
       rect:
         serializedVersion: 2
-        x: 306
-        y: 382
-        width: 153
-        height: 107
+        x: 453
+        y: 488
+        width: 453
+        height: 312
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
