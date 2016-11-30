@@ -14,9 +14,6 @@ public class LevelManager : MonoBehaviour
     public Transform PlayerSpawnMarker;
     public Transform EnemySpawnMarker;
 
-    public GameObject[] ForegroundPrefabs;
-    public GameObject[] BackgroundPrefabs;
-
     public Vector3 InitEnemyVelocity;
 
     private int _level = 1;
@@ -72,6 +69,7 @@ public class LevelManager : MonoBehaviour
         float currentTime = Time.time;
         _lastSpawnTime = currentTime;
         _enemyVelocity = InitEnemyVelocity;
+        SpawnEnemy(EnemyPrefabs[0]);
     }
 
     // Spawns a enemy at SpawnLocation
