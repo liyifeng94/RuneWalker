@@ -3,6 +3,9 @@ using System.Collections;
 
 public class Loader : MonoBehaviour
 {
+    public const int ScreenWidth = 1280;
+    public const int ScreenHeight = 720;
+
     public GameObject MainGameManager;
 
 	// Use this for initialization
@@ -14,6 +17,6 @@ public class Loader : MonoBehaviour
         }
 
         //Fix resolution and aspect ratio of the game
-        Screen.SetResolution(1280, 720, false);
+        Screen.SetResolution(ScreenWidth, ScreenHeight, false);
     }
 }

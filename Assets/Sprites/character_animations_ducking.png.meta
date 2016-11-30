@@ -1,0 +1,395 @@
+fileFormatVersion: 2
+guid: b071875c5eed141b79a833671f3e9524
+timeCreated: 1480485827
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: character_animations_ducking_0
+    21300002: character_animations_ducking_1
+    21300004: character_animations_ducking_2
+    21300006: character_animations_ducking_3
+    21300008: character_animations_ducking_4
+    21300010: character_animations_ducking_5
+    21300012: character_animations_ducking_6
+    21300014: character_animations_ducking_7
+    21300016: character_animations_ducking_8
+    21300018: character_animations_ducking_9
+    21300020: character_animations_ducking_10
+    21300022: character_animations_ducking_11
+    21300024: character_animations_ducking_12
+    21300026: character_animations_ducking_13
+    21300028: character_animations_ducking_14
+    21300030: character_animations_ducking_15
+    21300032: character_animations_ducking_16
+    21300034: character_animations_ducking_17
+    21300036: character_animations_ducking_18
+    21300038: character_animations_ducking_19
+    21300040: character_animations_ducking_20
+    21300042: character_animations_ducking_21
+    21300044: character_animations_ducking_22
+    21300046: character_animations_ducking_23
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: character_animations_ducking_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3566
+        width: 378
+        height: 530
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: character_animations_ducking_1
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 3566
+        width: 378
+        height: 530
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: character_animations_ducking_2
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 3566
+        width: 378
+        height: 530
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: character_animations_ducking_3
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 3566
+        width: 378
+        height: 530
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: character_animations_ducking_4
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 3566
+        width: 378
+        height: 530
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: character_animations_ducking_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3036
+        width: 378
+        height: 530
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: character_animations_ducking_6
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 3036
+        width: 378
+        height: 530
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: character_animations_ducking_7
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 3036
+        width: 378
+        height: 530
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: character_animations_ducking_8
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 3036
+        width: 378
+        height: 530
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: character_animations_ducking_9
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 3036
+        width: 378
+        height: 530
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: character_animations_ducking_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2506
+        width: 378
+        height: 530
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: character_animations_ducking_11
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 2506
+        width: 378
+        height: 530
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: character_animations_ducking_12
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 2506
+        width: 378
+        height: 530
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: character_animations_ducking_13
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 2506
+        width: 378
+        height: 530
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: character_animations_ducking_14
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 2506
+        width: 378
+        height: 530
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: character_animations_ducking_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1976
+        width: 378
+        height: 530
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: character_animations_ducking_16
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 1976
+        width: 378
+        height: 530
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: character_animations_ducking_17
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 1976
+        width: 378
+        height: 530
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: character_animations_ducking_18
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 1976
+        width: 378
+        height: 530
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: character_animations_ducking_19
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 1976
+        width: 378
+        height: 530
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: character_animations_ducking_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1446
+        width: 378
+        height: 530
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: character_animations_ducking_21
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 1446
+        width: 378
+        height: 530
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: character_animations_ducking_22
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 1446
+        width: 378
+        height: 530
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: character_animations_ducking_23
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 1446
+        width: 378
+        height: 530
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
