@@ -17,6 +17,8 @@ public class HighScore : MonoBehaviour {
 		scores.text = "";
 		time.text = "";
 
+	
+	#region old unused code, just keeping for future reference
 		/*for (int i = 0; i < length; i++) {
 			scores.text += gameManagerScript.GetHighScoreBoard ().HighScoreList [i].Name.ToString () + "\t\t\t" +
 			gameManagerScript.GetHighScoreBoard ().HighScoreList [i].Score.ToString () + "\t\t\t" +
@@ -33,6 +35,7 @@ public class HighScore : MonoBehaviour {
 			scores.text += s;
 			 
 		}*/
+	#endregion
 
 		for (int i = 0; i < length; i++) {
 			name.text += gameManagerScript.GetHighScoreBoard ().HighScoreList [i].Name.ToString () +"\n";
