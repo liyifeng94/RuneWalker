@@ -1,0 +1,333 @@
+fileFormatVersion: 2
+guid: 0f3d70994074a44f9ba98fdb976d2ff9
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: lizard-walking_0
+    21300002: lizard-walking_1
+    21300004: lizard-walking_2
+    21300006: lizard-walking_3
+    21300008: lizard-walking_4
+    21300010: lizard-walking_5
+    21300012: lizard-walking_6
+    21300014: lizard-walking_7
+    21300016: lizard-walking_8
+    21300018: lizard-walking_9
+    21300020: lizard-walking_10
+    21300022: lizard-walking_11
+    21300024: lizard-walking_12
+    21300026: lizard-walking_13
+    21300028: lizard-walking_14
+    21300030: lizard-walking_15
+    21300032: lizard-walking_16
+    21300034: lizard-walking_17
+    21300036: lizard-walking_18
+    21300038: lizard-walking_19
+    21300040: lizard-walking_20
+    21300042: lizard-walking_21
+    21300044: lizard-walking_22
+    21300046: lizard-walking_23
+    21300048: lizard-walking_24
+    21300050: lizard-walking_25
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: lizard-walking_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1860
+        width: 336
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lizard-walking_1
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1860
+        width: 336
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lizard-walking_2
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 1860
+        width: 336
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lizard-walking_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1672
+        width: 336
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lizard-walking_4
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1672
+        width: 336
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lizard-walking_5
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 1672
+        width: 336
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lizard-walking_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1484
+        width: 336
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lizard-walking_7
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1484
+        width: 336
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lizard-walking_8
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 1484
+        width: 336
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lizard-walking_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1296
+        width: 336
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lizard-walking_10
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1296
+        width: 336
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lizard-walking_11
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 1296
+        width: 336
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lizard-walking_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1108
+        width: 336
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lizard-walking_13
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1108
+        width: 336
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lizard-walking_14
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 1108
+        width: 336
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lizard-walking_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 920
+        width: 336
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lizard-walking_16
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 920
+        width: 336
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lizard-walking_17
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 920
+        width: 336
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lizard-walking_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 732
+        width: 336
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lizard-walking_19
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 732
+        width: 336
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lizard-walking_20
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 732
+        width: 336
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lizard-walking_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 544
+        width: 336
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lizard-walking_22
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 544
+        width: 336
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lizard-walking_23
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 544
+        width: 336
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lizard-walking_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 356
+        width: 336
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lizard-walking_25
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 356
+        width: 336
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

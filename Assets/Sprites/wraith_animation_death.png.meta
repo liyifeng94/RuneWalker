@@ -1,0 +1,366 @@
+fileFormatVersion: 2
+guid: 8a61e9d9b9a1f4e7cb9b7daa8ec8b968
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: wraith_animation_death_0
+    21300002: wraith_animation_death_1
+    21300004: wraith_animation_death_2
+    21300006: wraith_animation_death_3
+    21300008: wraith_animation_death_4
+    21300010: wraith_animation_death_5
+    21300012: wraith_animation_death_6
+    21300014: wraith_animation_death_7
+    21300016: wraith_animation_death_8
+    21300018: wraith_animation_death_9
+    21300020: wraith_animation_death_10
+    21300022: wraith_animation_death_11
+    21300024: wraith_animation_death_12
+    21300026: wraith_animation_death_13
+    21300028: wraith_animation_death_14
+    21300030: wraith_animation_death_15
+    21300032: wraith_animation_death_16
+    21300034: wraith_animation_death_17
+    21300036: wraith_animation_death_18
+    21300038: wraith_animation_death_19
+    21300040: wraith_animation_death_20
+    21300042: wraith_animation_death_21
+    21300044: wraith_animation_death_22
+    21300046: wraith_animation_death_23
+    21300048: wraith_animation_death_24
+    21300050: wraith_animation_death_25
+    21300052: wraith_animation_death_26
+    21300054: wraith_animation_death_27
+    21300056: wraith_animation_death_28
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: wraith_animation_death_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1803
+        width: 386
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wraith_animation_death_1
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 1803
+        width: 386
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wraith_animation_death_2
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 1803
+        width: 386
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wraith_animation_death_3
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 1803
+        width: 386
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wraith_animation_death_4
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 1803
+        width: 386
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wraith_animation_death_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1558
+        width: 386
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wraith_animation_death_6
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 1558
+        width: 386
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wraith_animation_death_7
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 1558
+        width: 386
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wraith_animation_death_8
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 1558
+        width: 386
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wraith_animation_death_9
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 1558
+        width: 386
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wraith_animation_death_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1313
+        width: 386
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wraith_animation_death_11
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 1313
+        width: 386
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wraith_animation_death_12
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 1313
+        width: 386
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wraith_animation_death_13
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 1313
+        width: 386
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wraith_animation_death_14
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 1313
+        width: 386
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wraith_animation_death_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1068
+        width: 386
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wraith_animation_death_16
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 1068
+        width: 386
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wraith_animation_death_17
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 1068
+        width: 386
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wraith_animation_death_18
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 1068
+        width: 386
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wraith_animation_death_19
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 1068
+        width: 386
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wraith_animation_death_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 823
+        width: 386
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wraith_animation_death_21
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 823
+        width: 386
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wraith_animation_death_22
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 823
+        width: 386
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wraith_animation_death_23
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 823
+        width: 386
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wraith_animation_death_24
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 823
+        width: 386
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wraith_animation_death_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 578
+        width: 386
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wraith_animation_death_26
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 578
+        width: 386
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wraith_animation_death_27
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 578
+        width: 386
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wraith_animation_death_28
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 578
+        width: 386
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

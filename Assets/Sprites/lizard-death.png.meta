@@ -1,34 +1,34 @@
 fileFormatVersion: 2
-guid: 05af0ed434a524770b3a9bd678a765c4
+guid: a93583a3a4b254a7c88e43d2498ab7dc
 TextureImporter:
   fileIDToRecycleName:
-    21300000: character_animations_jumping_0
-    21300002: character_animations_jumping_1
-    21300004: character_animations_jumping_2
-    21300006: character_animations_jumping_3
-    21300008: character_animations_jumping_4
-    21300010: character_animations_jumping_5
-    21300012: character_animations_jumping_6
-    21300014: character_animations_jumping_7
-    21300016: character_animations_jumping_8
-    21300018: character_animations_jumping_9
-    21300020: character_animations_jumping_10
-    21300022: character_animations_jumping_11
-    21300024: character_animations_jumping_12
-    21300026: character_animations_jumping_13
-    21300028: character_animations_jumping_14
-    21300030: character_animations_jumping_15
-    21300032: character_animations_jumping_16
-    21300034: character_animations_jumping_17
-    21300036: character_animations_jumping_18
-    21300038: character_animations_jumping_19
-    21300040: character_animations_jumping_20
-    21300042: character_animations_jumping_21
-    21300044: character_animations_jumping_22
-    21300046: character_animations_jumping_23
-    21300048: character_animations_jumping_24
-    21300050: character_animations_jumping_25
-    21300052: character_animations_jumping_26
+    21300000: lizard-death_0
+    21300002: lizard-death_1
+    21300004: lizard-death_2
+    21300006: lizard-death_3
+    21300008: lizard-death_4
+    21300010: lizard-death_5
+    21300012: lizard-death_6
+    21300014: lizard-death_7
+    21300016: lizard-death_8
+    21300018: lizard-death_9
+    21300020: lizard-death_10
+    21300022: lizard-death_11
+    21300024: lizard-death_12
+    21300026: lizard-death_13
+    21300028: lizard-death_14
+    21300030: lizard-death_15
+    21300032: lizard-death_16
+    21300034: lizard-death_17
+    21300036: lizard-death_18
+    21300038: lizard-death_19
+    21300040: lizard-death_20
+    21300042: lizard-death_21
+    21300044: lizard-death_22
+    21300046: lizard-death_23
+    21300048: lizard-death_24
+    21300050: lizard-death_25
+    21300052: lizard-death_26
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -70,273 +70,273 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: character_animations_jumping_0
+    - name: lizard-death_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 3597
-        width: 472
-        height: 499
+        y: 1862
+        width: 283
+        height: 186
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: character_animations_jumping_1
+    - name: lizard-death_1
       rect:
         serializedVersion: 2
-        x: 472
-        y: 3597
-        width: 472
-        height: 499
+        x: 283
+        y: 1862
+        width: 283
+        height: 186
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: character_animations_jumping_2
+    - name: lizard-death_2
       rect:
         serializedVersion: 2
-        x: 944
-        y: 3597
-        width: 472
-        height: 499
+        x: 566
+        y: 1862
+        width: 283
+        height: 186
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: character_animations_jumping_3
-      rect:
-        serializedVersion: 2
-        x: 1416
-        y: 3597
-        width: 472
-        height: 499
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: character_animations_jumping_4
+    - name: lizard-death_3
       rect:
         serializedVersion: 2
         x: 0
-        y: 3098
-        width: 472
-        height: 499
+        y: 1676
+        width: 283
+        height: 186
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: character_animations_jumping_5
+    - name: lizard-death_4
       rect:
         serializedVersion: 2
-        x: 472
-        y: 3098
-        width: 472
-        height: 499
+        x: 283
+        y: 1676
+        width: 283
+        height: 186
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: character_animations_jumping_6
+    - name: lizard-death_5
       rect:
         serializedVersion: 2
-        x: 944
-        y: 3098
-        width: 472
-        height: 499
+        x: 566
+        y: 1676
+        width: 283
+        height: 186
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: character_animations_jumping_7
-      rect:
-        serializedVersion: 2
-        x: 1416
-        y: 3098
-        width: 472
-        height: 499
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: character_animations_jumping_8
+    - name: lizard-death_6
       rect:
         serializedVersion: 2
         x: 0
-        y: 2599
-        width: 472
-        height: 499
+        y: 1490
+        width: 283
+        height: 186
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: character_animations_jumping_9
+    - name: lizard-death_7
       rect:
         serializedVersion: 2
-        x: 472
-        y: 2599
-        width: 472
-        height: 499
+        x: 283
+        y: 1490
+        width: 283
+        height: 186
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: character_animations_jumping_10
+    - name: lizard-death_8
       rect:
         serializedVersion: 2
-        x: 944
-        y: 2599
-        width: 472
-        height: 499
+        x: 566
+        y: 1490
+        width: 283
+        height: 186
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: character_animations_jumping_11
-      rect:
-        serializedVersion: 2
-        x: 1416
-        y: 2599
-        width: 472
-        height: 499
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: character_animations_jumping_12
+    - name: lizard-death_9
       rect:
         serializedVersion: 2
         x: 0
-        y: 2100
-        width: 472
-        height: 499
+        y: 1304
+        width: 283
+        height: 186
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: character_animations_jumping_13
+    - name: lizard-death_10
       rect:
         serializedVersion: 2
-        x: 472
-        y: 2100
-        width: 472
-        height: 499
+        x: 283
+        y: 1304
+        width: 283
+        height: 186
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: character_animations_jumping_14
+    - name: lizard-death_11
       rect:
         serializedVersion: 2
-        x: 944
-        y: 2100
-        width: 472
-        height: 499
+        x: 566
+        y: 1304
+        width: 283
+        height: 186
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: character_animations_jumping_15
-      rect:
-        serializedVersion: 2
-        x: 1416
-        y: 2100
-        width: 472
-        height: 499
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: character_animations_jumping_16
+    - name: lizard-death_12
       rect:
         serializedVersion: 2
         x: 0
-        y: 1601
-        width: 472
-        height: 499
+        y: 1118
+        width: 283
+        height: 186
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: character_animations_jumping_17
+    - name: lizard-death_13
       rect:
         serializedVersion: 2
-        x: 472
-        y: 1601
-        width: 472
-        height: 499
+        x: 283
+        y: 1118
+        width: 283
+        height: 186
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: character_animations_jumping_18
+    - name: lizard-death_14
       rect:
         serializedVersion: 2
-        x: 944
-        y: 1601
-        width: 472
-        height: 499
+        x: 566
+        y: 1118
+        width: 283
+        height: 186
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: character_animations_jumping_19
-      rect:
-        serializedVersion: 2
-        x: 1416
-        y: 1601
-        width: 472
-        height: 499
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: character_animations_jumping_20
+    - name: lizard-death_15
       rect:
         serializedVersion: 2
         x: 0
-        y: 1102
-        width: 472
-        height: 499
+        y: 932
+        width: 283
+        height: 186
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: character_animations_jumping_21
+    - name: lizard-death_16
       rect:
         serializedVersion: 2
-        x: 472
-        y: 1102
-        width: 472
-        height: 499
+        x: 283
+        y: 932
+        width: 283
+        height: 186
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: character_animations_jumping_22
+    - name: lizard-death_17
       rect:
         serializedVersion: 2
-        x: 944
-        y: 1102
-        width: 472
-        height: 499
+        x: 566
+        y: 932
+        width: 283
+        height: 186
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: character_animations_jumping_23
+    - name: lizard-death_18
       rect:
         serializedVersion: 2
-        x: 1416
-        y: 1102
-        width: 472
-        height: 499
+        x: 0
+        y: 746
+        width: 283
+        height: 186
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: character_animations_jumping_24
+    - name: lizard-death_19
       rect:
         serializedVersion: 2
-        x: 472
-        y: 603
-        width: 472
-        height: 499
+        x: 283
+        y: 746
+        width: 283
+        height: 186
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: character_animations_jumping_25
+    - name: lizard-death_20
       rect:
         serializedVersion: 2
-        x: 944
-        y: 603
-        width: 472
-        height: 499
+        x: 566
+        y: 746
+        width: 283
+        height: 186
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: character_animations_jumping_26
+    - name: lizard-death_21
       rect:
         serializedVersion: 2
-        x: 1416
-        y: 603
-        width: 472
-        height: 499
+        x: 0
+        y: 560
+        width: 283
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lizard-death_22
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 560
+        width: 283
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lizard-death_23
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 560
+        width: 283
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lizard-death_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 374
+        width: 283
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lizard-death_25
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 374
+        width: 283
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lizard-death_26
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 374
+        width: 283
+        height: 186
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
