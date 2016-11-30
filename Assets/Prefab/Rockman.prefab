@@ -118,8 +118,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8b8a287d1738ad48a542ae588d0ca0c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AttackSound: {fileID: 0}
-  WalkingSound: {fileID: 0}
+  PrepSound: {fileID: 8300000, guid: 9c771d2421ebe2b4a88c835dab6bc16a, type: 3}
+  AttackSound: {fileID: 8300000, guid: 87857ebcfb02f20419745aa7f1d8a01d, type: 3}
+  Walking1Sound: {fileID: 8300000, guid: cbc3fe3f3c0908e47ac6b1efb46d753d, type: 3}
+  Walking2Sound: {fileID: 8300000, guid: a23ad58a07b8aa0438bdb05e88c00e2a, type: 3}
+  Walking3Sound: {fileID: 8300000, guid: bb80a67e07c59d14e8614d0972a7e4e1, type: 3}
+  Walking4Sound: {fileID: 8300000, guid: afa7cb9ba8f348b4fb180acf7a28a9d3, type: 3}
   DeathSound: {fileID: 8300000, guid: ab88a9c26c6c97945a0413953b70437a, type: 3}
 --- !u!212 &212000012954063038
 SpriteRenderer:
