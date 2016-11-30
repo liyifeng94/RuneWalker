@@ -3,9 +3,13 @@ using System.Collections;
 
 public class EnemySoundEvents : MonoBehaviour {
 
+	public AudioClip PrepSound;
     public AudioClip AttackSound;
-    public AudioClip WalkingSound;
-    public AudioClip DeathSound;
+    public AudioClip Walking1Sound;
+    public AudioClip Walking2Sound;
+	public AudioClip Walking3Sound;
+	public AudioClip Walking4Sound;
+	public AudioClip DeathSound;
 
     private Transform _transform;
 
@@ -16,16 +20,36 @@ public class EnemySoundEvents : MonoBehaviour {
 
     public void OnAttackEvent()
     {
-        AudioSource.PlayClipAtPoint(AttackSound, _transform.position);
+        AudioSource.PlayClipAtPoint(AttackSound, _transform.position,0.4f);
     }
 
-    public void OnWalkingEvent()
+    public void OnWalking1Event()
     {
-        AudioSource.PlayClipAtPoint(WalkingSound, _transform.position);
+        AudioSource.PlayClipAtPoint(Walking1Sound, _transform.position,0.1f);
     }
 
     public void OnDeathEvent()
     {
         AudioSource.PlayClipAtPoint(DeathSound, _transform.position);
     }
+
+	public void OnWalking2Event()
+	{
+		AudioSource.PlayClipAtPoint(Walking2Sound, _transform.position,0.1f);
+	}
+
+	public void OnWalking3Event()
+	{
+		AudioSource.PlayClipAtPoint(Walking3Sound, _transform.position,0.1f);
+	}
+
+	public void OnWalking4Event()
+	{
+		AudioSource.PlayClipAtPoint(Walking4Sound, _transform.position, 0.1f);
+	}
+
+	public void OnPrepEvent()
+	{
+		AudioSource.PlayClipAtPoint(PrepSound, _transform.position,0.4f);
+	}
 }

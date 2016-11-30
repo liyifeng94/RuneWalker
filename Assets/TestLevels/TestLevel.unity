@@ -97,11 +97,6 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 114000010234198732, guid: c523423f081cb8946bcbf6d52eb5452a,
-        type: 2}
-      propertyPath: EnemyPrefabs.Array.size
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 4000011554536650, guid: c523423f081cb8946bcbf6d52eb5452a, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -132,20 +127,18 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000011554536650, guid: c523423f081cb8946bcbf6d52eb5452a, type: 2}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 114000010234198732, guid: c523423f081cb8946bcbf6d52eb5452a,
         type: 2}
-      propertyPath: EnemyPrefabs.Array.data[1]
+      propertyPath: PlayerSpawnMarker
       value: 
-      objectReference: {fileID: 1000011353145028, guid: 183f0f0cce89bfe47b4fde67e82c7c03,
-        type: 2}
+      objectReference: {fileID: 576540764}
     - target: {fileID: 114000010234198732, guid: c523423f081cb8946bcbf6d52eb5452a,
         type: 2}
-      propertyPath: EnemyPrefabs.Array.data[0]
+      propertyPath: EnemySpawnMarker
       value: 
-      objectReference: {fileID: 1000012341050310, guid: 5a9d783e5a9ce484ebc41f053e33104c,
-        type: 2}
+      objectReference: {fileID: 1633478414}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c523423f081cb8946bcbf6d52eb5452a, type: 2}
   m_IsPrefabParent: 0
@@ -171,7 +164,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 576540763}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.79, y: -1.81, z: 0}
+  m_LocalPosition: {x: -7.86, y: -1.84, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
@@ -407,4 +400,4 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2

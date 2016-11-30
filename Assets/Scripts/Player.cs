@@ -24,6 +24,7 @@ public class Player : MonoBehaviour
     private Rigidbody2D _rb2D;
     private PlayerState _currentPlayerState;
     private PlayerState _currentPlayerAction;
+    private PlayerState _playerAttack;
 
     private Animator _animator;
 
@@ -35,6 +36,7 @@ public class Player : MonoBehaviour
 	    _rb2D = GetComponent<Rigidbody2D>();
 	    _currentPlayerState = PlayerState.Idle;
 	    _currentPlayerAction = PlayerState.Idle;
+        _playerAttack = PlayerState.Idle;
         _playerHealth = MaxHealth;
 
         //TODO: set to true for testing
@@ -61,7 +63,6 @@ public class Player : MonoBehaviour
         {
             Debug.Log("Has Input");
             CheckPlayerAction();
-            GameManager.Instance.GetLevelManager().ResolveCombat(_currentPlayerAction);
         }        
 
         //Trigger animation
@@ -143,6 +144,7 @@ public class Player : MonoBehaviour
         {
             return;
         }
+        _playerAttack = _currentPlayerAction;
         switch (_currentPlayerState)
         {
             case PlayerState.Jump:
@@ -172,5 +174,11 @@ public class Player : MonoBehaviour
     void OnDestory()
     {
         GameManager.Instance.GameOver();
+    }
+
+    void HitEnemy()
+    {
+        GameManager.Instance.GetLevelManager().ResolveCombat(_playerAttack);
+        _playerAttack = PlayerState.Idle;
     }
 }

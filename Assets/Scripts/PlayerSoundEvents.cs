@@ -4,10 +4,13 @@ using System.Collections;
 public class PlayerSoundEvents : MonoBehaviour
 {
     public AudioClip AttackSound;
-    public AudioClip WalkingSound;
+	public AudioClip DodgeSound;
+    public AudioClip Walking1Sound;
+	public AudioClip Walking2Sound;
+	public AudioClip Walking3Sound;
+	public AudioClip Walking4Sound;
     public AudioClip DeathSound;
     public AudioClip SpecialSound;
-    public AudioClip NewSound;
     private Transform _transform;
 
     void Start()
@@ -20,10 +23,30 @@ public class PlayerSoundEvents : MonoBehaviour
         AudioSource.PlayClipAtPoint(AttackSound, _transform.position);
     }
 
-    public void OnWalkingEvent()
+	public void OnDodgeEvent()
+	{
+		AudioSource.PlayClipAtPoint(DodgeSound, _transform.position);
+	}
+
+    public void OnWalking1Event()
     {
-        AudioSource.PlayClipAtPoint(WalkingSound, _transform.position);
+        AudioSource.PlayClipAtPoint(Walking1Sound, _transform.position);
     }
+
+	public void OnWalking2Event()
+	{
+		AudioSource.PlayClipAtPoint(Walking2Sound, _transform.position);
+	}
+
+	public void OnWalking3Event()
+	{
+		AudioSource.PlayClipAtPoint(Walking3Sound, _transform.position);
+	}
+
+	public void OnWalking4Event()
+	{
+		AudioSource.PlayClipAtPoint(Walking4Sound, _transform.position);
+	}
 
     public void OnDeathEvent()
     {
@@ -34,9 +57,5 @@ public class PlayerSoundEvents : MonoBehaviour
     {
         AudioSource.PlayClipAtPoint(SpecialSound, _transform.position);
     }
-
-    public void OnNewSoundEvent()
-    {
-        AudioSource.PlayClipAtPoint(NewSound, _transform.position);
-    }
+		
 }
