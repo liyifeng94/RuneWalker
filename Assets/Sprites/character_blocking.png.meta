@@ -1,27 +1,33 @@
 fileFormatVersion: 2
-guid: 2e290a555a8bc1b499eb82b10c53ff25
-timeCreated: 1480456486
+guid: 30c1c27a107dc6d4198acf270b3d97ef
+timeCreated: 1480462827
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Rockman_death_0
-    21300002: Rockman_death_1
-    21300004: Rockman_death_2
-    21300006: Rockman_death_3
-    21300008: Rockman_death_4
-    21300010: Rockman_death_5
-    21300012: Rockman_death_6
-    21300014: Rockman_death_7
-    21300016: Rockman_death_8
-    21300018: Rockman_death_9
-    21300020: Rockman_death_10
-    21300022: Rockman_death_11
-    21300024: Rockman_death_12
-    21300026: Rockman_death_13
-    21300028: Rockman_death_14
-    21300030: Rockman_death_15
-    21300032: Rockman_death_16
-    21300034: Rockman_death_17
+    21300000: character_blocking_0
+    21300002: character_blocking_1
+    21300004: character_blocking_2
+    21300006: character_blocking_3
+    21300008: character_blocking_4
+    21300010: character_blocking_5
+    21300012: character_blocking_6
+    21300014: character_blocking_7
+    21300016: character_blocking_8
+    21300018: character_blocking_9
+    21300020: character_blocking_10
+    21300022: character_blocking_11
+    21300024: character_blocking_12
+    21300026: character_blocking_13
+    21300028: character_blocking_14
+    21300030: character_blocking_15
+    21300032: character_blocking_16
+    21300034: character_blocking_17
+    21300036: character_blocking_18
+    21300038: character_blocking_19
+    21300040: character_blocking_20
+    21300042: character_blocking_21
+    21300044: character_blocking_22
+    21300046: character_blocking_23
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -71,234 +77,312 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Rockman_death_0
+      name: character_blocking_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 917
-        width: 153
-        height: 107
+        y: 903
+        width: 248
+        height: 121
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Rockman_death_1
+      name: character_blocking_1
       rect:
         serializedVersion: 2
-        x: 153
-        y: 917
-        width: 153
-        height: 107
+        x: 248
+        y: 903
+        width: 248
+        height: 121
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Rockman_death_2
+      name: character_blocking_2
       rect:
         serializedVersion: 2
-        x: 306
-        y: 917
-        width: 153
-        height: 107
+        x: 496
+        y: 903
+        width: 248
+        height: 121
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Rockman_death_3
+      name: character_blocking_3
       rect:
         serializedVersion: 2
-        x: 0
-        y: 810
-        width: 153
-        height: 107
+        x: 744
+        y: 903
+        width: 248
+        height: 121
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Rockman_death_4
-      rect:
-        serializedVersion: 2
-        x: 153
-        y: 810
-        width: 153
-        height: 107
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Rockman_death_5
-      rect:
-        serializedVersion: 2
-        x: 306
-        y: 810
-        width: 153
-        height: 107
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Rockman_death_6
+      name: character_blocking_4
       rect:
         serializedVersion: 2
         x: 0
-        y: 703
-        width: 153
-        height: 107
+        y: 782
+        width: 248
+        height: 121
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Rockman_death_7
+      name: character_blocking_5
       rect:
         serializedVersion: 2
-        x: 153
-        y: 703
-        width: 153
-        height: 107
+        x: 248
+        y: 782
+        width: 248
+        height: 121
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Rockman_death_8
+      name: character_blocking_6
       rect:
         serializedVersion: 2
-        x: 306
-        y: 703
-        width: 153
-        height: 107
+        x: 496
+        y: 782
+        width: 248
+        height: 121
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Rockman_death_9
+      name: character_blocking_7
       rect:
         serializedVersion: 2
-        x: 0
-        y: 596
-        width: 153
-        height: 107
+        x: 744
+        y: 782
+        width: 248
+        height: 121
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Rockman_death_10
-      rect:
-        serializedVersion: 2
-        x: 153
-        y: 596
-        width: 153
-        height: 107
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Rockman_death_11
-      rect:
-        serializedVersion: 2
-        x: 306
-        y: 596
-        width: 153
-        height: 107
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Rockman_death_12
+      name: character_blocking_8
       rect:
         serializedVersion: 2
         x: 0
-        y: 489
-        width: 153
-        height: 107
+        y: 661
+        width: 248
+        height: 121
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Rockman_death_13
+      name: character_blocking_9
       rect:
         serializedVersion: 2
-        x: 153
-        y: 489
-        width: 153
-        height: 107
+        x: 248
+        y: 661
+        width: 248
+        height: 121
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Rockman_death_14
+      name: character_blocking_10
       rect:
         serializedVersion: 2
-        x: 306
-        y: 489
-        width: 153
-        height: 107
+        x: 496
+        y: 661
+        width: 248
+        height: 121
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Rockman_death_15
+      name: character_blocking_11
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 661
+        width: 248
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: character_blocking_12
       rect:
         serializedVersion: 2
         x: 0
-        y: 382
-        width: 153
-        height: 107
+        y: 540
+        width: 248
+        height: 121
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Rockman_death_16
+      name: character_blocking_13
       rect:
         serializedVersion: 2
-        x: 153
-        y: 382
-        width: 153
-        height: 107
+        x: 248
+        y: 540
+        width: 248
+        height: 121
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Rockman_death_17
+      name: character_blocking_14
       rect:
         serializedVersion: 2
-        x: 306
-        y: 382
-        width: 153
-        height: 107
+        x: 496
+        y: 540
+        width: 248
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: character_blocking_15
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 540
+        width: 248
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: character_blocking_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 419
+        width: 248
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: character_blocking_17
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 419
+        width: 248
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: character_blocking_18
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 419
+        width: 248
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: character_blocking_19
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 419
+        width: 248
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: character_blocking_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 298
+        width: 248
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: character_blocking_21
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 298
+        width: 248
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: character_blocking_22
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 298
+        width: 248
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: character_blocking_23
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 298
+        width: 248
+        height: 121
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

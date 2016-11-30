@@ -3,6 +3,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -225,6 +226,7 @@ public class GameManager : MonoBehaviour
     {
         //enabled = false;
         _gameLevelManager.Gameover();
+        SceneManager.LoadScene("HighScore");
     }
 
     void LoadHighScoreBoard()

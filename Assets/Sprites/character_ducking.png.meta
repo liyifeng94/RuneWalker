@@ -1,27 +1,33 @@
 fileFormatVersion: 2
-guid: 2e290a555a8bc1b499eb82b10c53ff25
-timeCreated: 1480456486
+guid: d6f30e7069a60cf4496c37d4aef44a06
+timeCreated: 1480463171
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Rockman_death_0
-    21300002: Rockman_death_1
-    21300004: Rockman_death_2
-    21300006: Rockman_death_3
-    21300008: Rockman_death_4
-    21300010: Rockman_death_5
-    21300012: Rockman_death_6
-    21300014: Rockman_death_7
-    21300016: Rockman_death_8
-    21300018: Rockman_death_9
-    21300020: Rockman_death_10
-    21300022: Rockman_death_11
-    21300024: Rockman_death_12
-    21300026: Rockman_death_13
-    21300028: Rockman_death_14
-    21300030: Rockman_death_15
-    21300032: Rockman_death_16
-    21300034: Rockman_death_17
+    21300000: character_ducking_0
+    21300002: character_ducking_1
+    21300004: character_ducking_2
+    21300006: character_ducking_3
+    21300008: character_ducking_4
+    21300010: character_ducking_5
+    21300012: character_ducking_6
+    21300014: character_ducking_7
+    21300016: character_ducking_8
+    21300018: character_ducking_9
+    21300020: character_ducking_10
+    21300022: character_ducking_11
+    21300024: character_ducking_12
+    21300026: character_ducking_13
+    21300028: character_ducking_14
+    21300030: character_ducking_15
+    21300032: character_ducking_16
+    21300034: character_ducking_17
+    21300036: character_ducking_18
+    21300038: character_ducking_19
+    21300040: character_ducking_20
+    21300042: character_ducking_21
+    21300044: character_ducking_22
+    21300046: character_ducking_23
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -71,234 +77,312 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Rockman_death_0
+      name: character_ducking_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 917
-        width: 153
-        height: 107
+        y: 844
+        width: 128
+        height: 180
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Rockman_death_1
+      name: character_ducking_1
       rect:
         serializedVersion: 2
-        x: 153
-        y: 917
-        width: 153
-        height: 107
+        x: 128
+        y: 844
+        width: 128
+        height: 180
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Rockman_death_2
+      name: character_ducking_2
       rect:
         serializedVersion: 2
-        x: 306
-        y: 917
-        width: 153
-        height: 107
+        x: 256
+        y: 844
+        width: 128
+        height: 180
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Rockman_death_3
+      name: character_ducking_3
       rect:
         serializedVersion: 2
-        x: 0
-        y: 810
-        width: 153
-        height: 107
+        x: 384
+        y: 844
+        width: 128
+        height: 180
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Rockman_death_4
+      name: character_ducking_4
       rect:
         serializedVersion: 2
-        x: 153
-        y: 810
-        width: 153
-        height: 107
+        x: 512
+        y: 844
+        width: 128
+        height: 180
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Rockman_death_5
+      name: character_ducking_5
       rect:
         serializedVersion: 2
-        x: 306
-        y: 810
-        width: 153
-        height: 107
+        x: 640
+        y: 844
+        width: 128
+        height: 180
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Rockman_death_6
+      name: character_ducking_6
       rect:
         serializedVersion: 2
-        x: 0
-        y: 703
-        width: 153
-        height: 107
+        x: 768
+        y: 844
+        width: 128
+        height: 180
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Rockman_death_7
+      name: character_ducking_7
       rect:
         serializedVersion: 2
-        x: 153
-        y: 703
-        width: 153
-        height: 107
+        x: 896
+        y: 844
+        width: 128
+        height: 180
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Rockman_death_8
-      rect:
-        serializedVersion: 2
-        x: 306
-        y: 703
-        width: 153
-        height: 107
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Rockman_death_9
+      name: character_ducking_8
       rect:
         serializedVersion: 2
         x: 0
-        y: 596
-        width: 153
-        height: 107
+        y: 664
+        width: 128
+        height: 180
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Rockman_death_10
+      name: character_ducking_9
       rect:
         serializedVersion: 2
-        x: 153
-        y: 596
-        width: 153
-        height: 107
+        x: 128
+        y: 664
+        width: 128
+        height: 180
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Rockman_death_11
+      name: character_ducking_10
       rect:
         serializedVersion: 2
-        x: 306
-        y: 596
-        width: 153
-        height: 107
+        x: 256
+        y: 664
+        width: 128
+        height: 180
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Rockman_death_12
+      name: character_ducking_11
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 664
+        width: 128
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: character_ducking_12
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 664
+        width: 128
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: character_ducking_13
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 664
+        width: 128
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: character_ducking_14
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 664
+        width: 128
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: character_ducking_15
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 664
+        width: 128
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: character_ducking_16
       rect:
         serializedVersion: 2
         x: 0
-        y: 489
-        width: 153
-        height: 107
+        y: 484
+        width: 128
+        height: 180
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Rockman_death_13
+      name: character_ducking_17
       rect:
         serializedVersion: 2
-        x: 153
-        y: 489
-        width: 153
-        height: 107
+        x: 128
+        y: 484
+        width: 128
+        height: 180
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Rockman_death_14
+      name: character_ducking_18
       rect:
         serializedVersion: 2
-        x: 306
-        y: 489
-        width: 153
-        height: 107
+        x: 256
+        y: 484
+        width: 128
+        height: 180
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Rockman_death_15
+      name: character_ducking_19
       rect:
         serializedVersion: 2
-        x: 0
-        y: 382
-        width: 153
-        height: 107
+        x: 384
+        y: 484
+        width: 128
+        height: 180
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Rockman_death_16
+      name: character_ducking_20
       rect:
         serializedVersion: 2
-        x: 153
-        y: 382
-        width: 153
-        height: 107
+        x: 512
+        y: 484
+        width: 128
+        height: 180
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Rockman_death_17
+      name: character_ducking_21
       rect:
         serializedVersion: 2
-        x: 306
-        y: 382
-        width: 153
-        height: 107
+        x: 640
+        y: 484
+        width: 128
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: character_ducking_22
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 484
+        width: 128
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: character_ducking_23
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 484
+        width: 128
+        height: 180
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
