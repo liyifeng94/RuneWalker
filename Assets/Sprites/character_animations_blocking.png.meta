@@ -1,33 +1,33 @@
 fileFormatVersion: 2
-guid: 30c1c27a107dc6d4198acf270b3d97ef
-timeCreated: 1480462827
+guid: 4b139e10ba8904924ae2d67c3fde3deb
+timeCreated: 1480485734
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: character_blocking_0
-    21300002: character_blocking_1
-    21300004: character_blocking_2
-    21300006: character_blocking_3
-    21300008: character_blocking_4
-    21300010: character_blocking_5
-    21300012: character_blocking_6
-    21300014: character_blocking_7
-    21300016: character_blocking_8
-    21300018: character_blocking_9
-    21300020: character_blocking_10
-    21300022: character_blocking_11
-    21300024: character_blocking_12
-    21300026: character_blocking_13
-    21300028: character_blocking_14
-    21300030: character_blocking_15
-    21300032: character_blocking_16
-    21300034: character_blocking_17
-    21300036: character_blocking_18
-    21300038: character_blocking_19
-    21300040: character_blocking_20
-    21300042: character_blocking_21
-    21300044: character_blocking_22
-    21300046: character_blocking_23
+    21300000: character_animations_blocking_0
+    21300002: character_animations_blocking_1
+    21300004: character_animations_blocking_2
+    21300006: character_animations_blocking_3
+    21300008: character_animations_blocking_4
+    21300010: character_animations_blocking_5
+    21300012: character_animations_blocking_6
+    21300014: character_animations_blocking_7
+    21300016: character_animations_blocking_8
+    21300018: character_animations_blocking_9
+    21300020: character_animations_blocking_10
+    21300022: character_animations_blocking_11
+    21300024: character_animations_blocking_12
+    21300026: character_animations_blocking_13
+    21300028: character_animations_blocking_14
+    21300030: character_animations_blocking_15
+    21300032: character_animations_blocking_16
+    21300034: character_animations_blocking_17
+    21300036: character_animations_blocking_18
+    21300038: character_animations_blocking_19
+    21300040: character_animations_blocking_20
+    21300042: character_animations_blocking_21
+    21300044: character_animations_blocking_22
+    21300046: character_animations_blocking_23
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -77,312 +77,312 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: character_blocking_0
+      name: character_animations_blocking_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 903
-        width: 248
-        height: 121
+        y: 3740
+        width: 550
+        height: 356
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: character_blocking_1
+      name: character_animations_blocking_1
       rect:
         serializedVersion: 2
-        x: 248
-        y: 903
-        width: 248
-        height: 121
+        x: 550
+        y: 3740
+        width: 550
+        height: 356
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: character_blocking_2
+      name: character_animations_blocking_2
       rect:
         serializedVersion: 2
-        x: 496
-        y: 903
-        width: 248
-        height: 121
+        x: 1100
+        y: 3740
+        width: 550
+        height: 356
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: character_blocking_3
-      rect:
-        serializedVersion: 2
-        x: 744
-        y: 903
-        width: 248
-        height: 121
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: character_blocking_4
+      name: character_animations_blocking_3
       rect:
         serializedVersion: 2
         x: 0
-        y: 782
-        width: 248
-        height: 121
+        y: 3384
+        width: 550
+        height: 356
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: character_blocking_5
+      name: character_animations_blocking_4
       rect:
         serializedVersion: 2
-        x: 248
-        y: 782
-        width: 248
-        height: 121
+        x: 550
+        y: 3384
+        width: 550
+        height: 356
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: character_blocking_6
+      name: character_animations_blocking_5
       rect:
         serializedVersion: 2
-        x: 496
-        y: 782
-        width: 248
-        height: 121
+        x: 1100
+        y: 3384
+        width: 550
+        height: 356
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: character_blocking_7
-      rect:
-        serializedVersion: 2
-        x: 744
-        y: 782
-        width: 248
-        height: 121
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: character_blocking_8
+      name: character_animations_blocking_6
       rect:
         serializedVersion: 2
         x: 0
-        y: 661
-        width: 248
-        height: 121
+        y: 3028
+        width: 550
+        height: 356
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: character_blocking_9
+      name: character_animations_blocking_7
       rect:
         serializedVersion: 2
-        x: 248
-        y: 661
-        width: 248
-        height: 121
+        x: 550
+        y: 3028
+        width: 550
+        height: 356
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: character_blocking_10
+      name: character_animations_blocking_8
       rect:
         serializedVersion: 2
-        x: 496
-        y: 661
-        width: 248
-        height: 121
+        x: 1100
+        y: 3028
+        width: 550
+        height: 356
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: character_blocking_11
-      rect:
-        serializedVersion: 2
-        x: 744
-        y: 661
-        width: 248
-        height: 121
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: character_blocking_12
+      name: character_animations_blocking_9
       rect:
         serializedVersion: 2
         x: 0
-        y: 540
-        width: 248
-        height: 121
+        y: 2672
+        width: 550
+        height: 356
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: character_blocking_13
+      name: character_animations_blocking_10
       rect:
         serializedVersion: 2
-        x: 248
-        y: 540
-        width: 248
-        height: 121
+        x: 550
+        y: 2672
+        width: 550
+        height: 356
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: character_blocking_14
+      name: character_animations_blocking_11
       rect:
         serializedVersion: 2
-        x: 496
-        y: 540
-        width: 248
-        height: 121
+        x: 1100
+        y: 2672
+        width: 550
+        height: 356
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: character_blocking_15
-      rect:
-        serializedVersion: 2
-        x: 744
-        y: 540
-        width: 248
-        height: 121
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: character_blocking_16
+      name: character_animations_blocking_12
       rect:
         serializedVersion: 2
         x: 0
-        y: 419
-        width: 248
-        height: 121
+        y: 2316
+        width: 550
+        height: 356
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: character_blocking_17
+      name: character_animations_blocking_13
       rect:
         serializedVersion: 2
-        x: 248
-        y: 419
-        width: 248
-        height: 121
+        x: 550
+        y: 2316
+        width: 550
+        height: 356
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: character_blocking_18
+      name: character_animations_blocking_14
       rect:
         serializedVersion: 2
-        x: 496
-        y: 419
-        width: 248
-        height: 121
+        x: 1100
+        y: 2316
+        width: 550
+        height: 356
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: character_blocking_19
-      rect:
-        serializedVersion: 2
-        x: 744
-        y: 419
-        width: 248
-        height: 121
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: character_blocking_20
+      name: character_animations_blocking_15
       rect:
         serializedVersion: 2
         x: 0
-        y: 298
-        width: 248
-        height: 121
+        y: 1960
+        width: 550
+        height: 356
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: character_blocking_21
+      name: character_animations_blocking_16
       rect:
         serializedVersion: 2
-        x: 248
-        y: 298
-        width: 248
-        height: 121
+        x: 550
+        y: 1960
+        width: 550
+        height: 356
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: character_blocking_22
+      name: character_animations_blocking_17
       rect:
         serializedVersion: 2
-        x: 496
-        y: 298
-        width: 248
-        height: 121
+        x: 1100
+        y: 1960
+        width: 550
+        height: 356
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: character_blocking_23
+      name: character_animations_blocking_18
       rect:
         serializedVersion: 2
-        x: 744
-        y: 298
-        width: 248
-        height: 121
+        x: 0
+        y: 1604
+        width: 550
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: character_animations_blocking_19
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 1604
+        width: 550
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: character_animations_blocking_20
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 1604
+        width: 550
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: character_animations_blocking_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1248
+        width: 550
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: character_animations_blocking_22
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 1248
+        width: 550
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: character_animations_blocking_23
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 1248
+        width: 550
+        height: 356
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
