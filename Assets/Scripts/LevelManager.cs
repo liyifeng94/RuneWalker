@@ -10,8 +10,9 @@ public class LevelManager : MonoBehaviour
     public GameObject[] EnemyPrefabs;
 
     public float[] EnemiesSpawnFrequency;
-    public Vector3 PlayerSpawnLocation;
-    public Vector3 EnemySpawnLocation;
+
+    public Transform PlayerSpawnMarker;
+    public Transform EnemySpawnMarker;
 
     public GameObject[] ForegroundPrefabs;
     public GameObject[] BackgroundPrefabs;
@@ -29,7 +30,6 @@ public class LevelManager : MonoBehaviour
 
     void Start()
     {
-        Debug.Log("Level started");
         GameManager.Instance.AddLevelManager(this);
         LevelSetup();
         _lastSpawnTime = 0;
@@ -77,7 +77,7 @@ public class LevelManager : MonoBehaviour
     // Spawns a enemy at SpawnLocation
     void SpawnEnemy(GameObject enemy)
     {
-        GameObject newEnemy = (GameObject)Instantiate(enemy, EnemySpawnLocation, Quaternion.identity);
+        GameObject newEnemy = (GameObject)Instantiate(enemy, EnemySpawnMarker.position, Quaternion.identity);
         Enemy newEnemyScript = newEnemy.GetComponent<Enemy>();
         newEnemyScript.ChangeVelocity(_enemyVelocity);
         _enemiesHolder.AddLast(newEnemyScript);
@@ -85,7 +85,7 @@ public class LevelManager : MonoBehaviour
 
     void SpawnPlayer()
     {
-        _playerHolder = (GameObject)Instantiate(PlayerPrefab, PlayerSpawnLocation, Quaternion.identity);
+        _playerHolder = (GameObject)Instantiate(PlayerPrefab, PlayerSpawnMarker.position, Quaternion.identity);
     }
 
     public void ResolveCombat(Player.PlayerState playerAction)
