@@ -20,12 +20,12 @@ public class EnemySoundEvents : MonoBehaviour {
 
     public void OnAttackEvent()
     {
-        AudioSource.PlayClipAtPoint(AttackSound, _transform.position);
+        AudioSource.PlayClipAtPoint(AttackSound, _transform.position,0.4f);
     }
 
     public void OnWalking1Event()
     {
-        AudioSource.PlayClipAtPoint(Walking1Sound, _transform.position);
+        AudioSource.PlayClipAtPoint(Walking1Sound, _transform.position,0.1f);
     }
 
     public void OnDeathEvent()
@@ -35,21 +35,21 @@ public class EnemySoundEvents : MonoBehaviour {
 
 	public void OnWalking2Event()
 	{
-		AudioSource.PlayClipAtPoint(Walking2Sound, _transform.position);
+		AudioSource.PlayClipAtPoint(Walking2Sound, _transform.position,0.1f);
 	}
 
 	public void OnWalking3Event()
 	{
-		AudioSource.PlayClipAtPoint(Walking3Sound, _transform.position);
+		AudioSource.PlayClipAtPoint(Walking3Sound, _transform.position,0.1f);
 	}
 
 	public void OnWalking4Event()
 	{
-		AudioSource.PlayClipAtPoint(Walking4Sound, _transform.position);
+		AudioSource.PlayClipAtPoint(Walking4Sound, _transform.position, 0.1f);
 	}
 
 	public void OnPrepEvent()
 	{
-		AudioSource.PlayClipAtPoint(PrepSound, _transform.position);
+		AudioSource.PlayClipAtPoint(PrepSound, _transform.position,0.4f);
 	}
 }
