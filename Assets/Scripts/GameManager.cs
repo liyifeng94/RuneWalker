@@ -219,7 +219,14 @@ public class GameManager : MonoBehaviour
         newHighScoreEntry.DateTime = DateTime.UtcNow.ToString();
 
         _highScoreBoard.HighScoreList.Add(newHighScoreEntry);
+		_highScoreBoard.HighScoreList.Sort (SortByScore);
+		_highScoreBoard.HighScoreList.Reverse ();
     }
+
+
+	static int SortByScore(HighScoreEntry score1, HighScoreEntry score2){
+		return score1.Score.CompareTo (score2.Score);
+	}
 
     public void GameOver()
     {
