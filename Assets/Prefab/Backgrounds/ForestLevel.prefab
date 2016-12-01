@@ -19,6 +19,8 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 4000013999150850}
+  - 114: {fileID: 114000011270059372}
+  - 114: {fileID: 114000013699924088}
   m_Layer: 10
   m_Name: ForestLevel
   m_TagString: Untagged
@@ -322,7 +324,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ae1c78cd155cc9408baf8064953f640, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
+  _speed: 1
+--- !u!114 &114000011270059372
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011489688306}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c391305edb403cd45bad4be8b191be26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114000012249502028
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -334,7 +347,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ae1c78cd155cc9408baf8064953f640, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
+  _speed: 1
 --- !u!114 &114000012858155846
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -346,7 +359,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ae1c78cd155cc9408baf8064953f640, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
+  _speed: 1
+--- !u!114 &114000013699924088
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011489688306}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c391305edb403cd45bad4be8b191be26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114000013786593498
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -358,4 +382,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ae1c78cd155cc9408baf8064953f640, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
+  _speed: 1

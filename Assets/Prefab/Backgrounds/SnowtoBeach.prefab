@@ -56,6 +56,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 4000014222780012}
+  - 114: {fileID: 114000011184111336}
   m_Layer: 10
   m_Name: SnowtoBeach
   m_TagString: Untagged
@@ -188,6 +189,17 @@ MeshCollider:
   serializedVersion: 2
   m_Convex: 0
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &114000011184111336
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012705344202}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c391305edb403cd45bad4be8b191be26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114000011564067604
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -199,7 +211,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ae1c78cd155cc9408baf8064953f640, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
+  _speed: 0
 --- !u!114 &114000012137052110
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -211,4 +223,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ae1c78cd155cc9408baf8064953f640, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
+  _speed: 0

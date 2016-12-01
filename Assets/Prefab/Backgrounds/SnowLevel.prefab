@@ -94,6 +94,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 4000013445031464}
+  - 114: {fileID: 114000013690259902}
   m_Layer: 10
   m_Name: SnowLevel
   m_TagString: Untagged
@@ -361,7 +362,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ae1c78cd155cc9408baf8064953f640, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
+  _speed: 0
 --- !u!114 &114000010505362330
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -373,7 +374,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ae1c78cd155cc9408baf8064953f640, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
+  _speed: 0
 --- !u!114 &114000011090167742
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -385,7 +386,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ae1c78cd155cc9408baf8064953f640, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
+  _speed: 0
 --- !u!114 &114000011314016612
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -397,4 +398,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ae1c78cd155cc9408baf8064953f640, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
+  _speed: 0
+--- !u!114 &114000013690259902
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013310716054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c391305edb403cd45bad4be8b191be26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
