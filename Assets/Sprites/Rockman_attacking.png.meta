@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: c00c3bacd9f3cad4f96b265c5d622426
-timeCreated: 1480399000
+timeCreated: 1480478621
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -81,9 +81,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 921
-        width: 151
-        height: 103
+        y: 1743
+        width: 450
+        height: 305
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -93,10 +93,10 @@ TextureImporter:
       name: Rockman_attacking_1
       rect:
         serializedVersion: 2
-        x: 151
-        y: 921
-        width: 151
-        height: 103
+        x: 450
+        y: 1743
+        width: 450
+        height: 305
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -106,10 +106,10 @@ TextureImporter:
       name: Rockman_attacking_2
       rect:
         serializedVersion: 2
-        x: 302
-        y: 921
-        width: 151
-        height: 103
+        x: 900
+        y: 1743
+        width: 450
+        height: 305
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -119,10 +119,10 @@ TextureImporter:
       name: Rockman_attacking_3
       rect:
         serializedVersion: 2
-        x: 0
-        y: 818
-        width: 151
-        height: 103
+        x: 1350
+        y: 1743
+        width: 450
+        height: 305
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -132,10 +132,10 @@ TextureImporter:
       name: Rockman_attacking_4
       rect:
         serializedVersion: 2
-        x: 151
-        y: 818
-        width: 151
-        height: 103
+        x: 0
+        y: 1438
+        width: 450
+        height: 305
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,10 +145,10 @@ TextureImporter:
       name: Rockman_attacking_5
       rect:
         serializedVersion: 2
-        x: 302
-        y: 818
-        width: 151
-        height: 103
+        x: 450
+        y: 1438
+        width: 450
+        height: 305
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,10 +158,10 @@ TextureImporter:
       name: Rockman_attacking_6
       rect:
         serializedVersion: 2
-        x: 0
-        y: 715
-        width: 151
-        height: 103
+        x: 900
+        y: 1438
+        width: 450
+        height: 305
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -171,10 +171,10 @@ TextureImporter:
       name: Rockman_attacking_7
       rect:
         serializedVersion: 2
-        x: 151
-        y: 715
-        width: 151
-        height: 103
+        x: 1350
+        y: 1438
+        width: 450
+        height: 305
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -184,10 +184,10 @@ TextureImporter:
       name: Rockman_attacking_8
       rect:
         serializedVersion: 2
-        x: 302
-        y: 715
-        width: 151
-        height: 103
+        x: 0
+        y: 1133
+        width: 450
+        height: 305
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -197,10 +197,10 @@ TextureImporter:
       name: Rockman_attacking_9
       rect:
         serializedVersion: 2
-        x: 0
-        y: 612
-        width: 151
-        height: 103
+        x: 450
+        y: 1133
+        width: 450
+        height: 305
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -210,10 +210,10 @@ TextureImporter:
       name: Rockman_attacking_10
       rect:
         serializedVersion: 2
-        x: 151
-        y: 612
-        width: 151
-        height: 103
+        x: 900
+        y: 1133
+        width: 450
+        height: 305
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -223,10 +223,10 @@ TextureImporter:
       name: Rockman_attacking_11
       rect:
         serializedVersion: 2
-        x: 302
-        y: 612
-        width: 151
-        height: 103
+        x: 1350
+        y: 1133
+        width: 450
+        height: 305
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -237,9 +237,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 509
-        width: 151
-        height: 103
+        y: 828
+        width: 450
+        height: 305
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -249,10 +249,10 @@ TextureImporter:
       name: Rockman_attacking_13
       rect:
         serializedVersion: 2
-        x: 151
-        y: 509
-        width: 151
-        height: 103
+        x: 450
+        y: 828
+        width: 450
+        height: 305
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -262,10 +262,10 @@ TextureImporter:
       name: Rockman_attacking_14
       rect:
         serializedVersion: 2
-        x: 302
-        y: 509
-        width: 151
-        height: 103
+        x: 900
+        y: 828
+        width: 450
+        height: 305
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -275,10 +275,10 @@ TextureImporter:
       name: Rockman_attacking_15
       rect:
         serializedVersion: 2
-        x: 0
-        y: 406
-        width: 151
-        height: 103
+        x: 1350
+        y: 828
+        width: 450
+        height: 305
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -288,10 +288,10 @@ TextureImporter:
       name: Rockman_attacking_16
       rect:
         serializedVersion: 2
-        x: 151
-        y: 406
-        width: 151
-        height: 103
+        x: 0
+        y: 523
+        width: 450
+        height: 305
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -301,10 +301,10 @@ TextureImporter:
       name: Rockman_attacking_17
       rect:
         serializedVersion: 2
-        x: 302
-        y: 406
-        width: 151
-        height: 103
+        x: 450
+        y: 523
+        width: 450
+        height: 305
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -314,10 +314,10 @@ TextureImporter:
       name: Rockman_attacking_18
       rect:
         serializedVersion: 2
-        x: 0
-        y: 303
-        width: 151
-        height: 103
+        x: 900
+        y: 523
+        width: 450
+        height: 305
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -327,10 +327,10 @@ TextureImporter:
       name: Rockman_attacking_19
       rect:
         serializedVersion: 2
-        x: 151
-        y: 303
-        width: 151
-        height: 103
+        x: 1350
+        y: 523
+        width: 450
+        height: 305
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -340,10 +340,10 @@ TextureImporter:
       name: Rockman_attacking_20
       rect:
         serializedVersion: 2
-        x: 302
-        y: 303
-        width: 151
-        height: 103
+        x: 0
+        y: 218
+        width: 450
+        height: 305
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -353,10 +353,10 @@ TextureImporter:
       name: Rockman_attacking_21
       rect:
         serializedVersion: 2
-        x: 0
-        y: 200
-        width: 151
-        height: 103
+        x: 450
+        y: 218
+        width: 450
+        height: 305
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -366,23 +366,10 @@ TextureImporter:
       name: Rockman_attacking_22
       rect:
         serializedVersion: 2
-        x: 151
-        y: 200
-        width: 151
-        height: 103
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Rockman_attacking_23
-      rect:
-        serializedVersion: 2
-        x: 302
-        y: 200
-        width: 151
-        height: 103
+        x: 900
+        y: 218
+        width: 450
+        height: 305
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

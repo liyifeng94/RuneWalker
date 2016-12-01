@@ -5,7 +5,7 @@ public class MenuManager : MonoBehaviour {
 
 
 	public void OnPlay () {
-		Application.LoadLevel ("TestLevel");
+		Application.LoadLevel ("GameLevel");
 	}
 
 	public void OnHighScore () {
