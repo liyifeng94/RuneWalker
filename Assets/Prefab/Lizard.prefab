@@ -24,6 +24,7 @@ GameObject:
   - 114: {fileID: 114000013187348554}
   - 114: {fileID: 114000010439237768}
   - 50: {fileID: 50000010817930280}
+  - 61: {fileID: 61000013105487018}
   m_Layer: 9
   m_Name: Lizard
   m_TagString: Untagged
@@ -55,12 +56,26 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!61 &61000013105487018
+BoxCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012670345720}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
 --- !u!95 &95000013322538220
 Animator:
   serializedVersion: 3
