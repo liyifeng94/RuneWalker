@@ -169,7 +169,7 @@ public class GameManager : MonoBehaviour
     }
 
     // Increase level
-   public void IncreaseLevel()
+   void IncreaseLevel()
     {
         _gameState.PlayerKillsCurrentLevel = 0;
         
