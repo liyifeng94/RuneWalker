@@ -104,13 +104,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8b8a287d1738ad48a542ae588d0ca0c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PrepSound: {fileID: 0}
-  AttackSound: {fileID: 0}
+  PrepSound: {fileID: 8300000, guid: 92abf123f1e2e9645b29d79449ba0899, type: 3}
+  AttackSound: {fileID: 8300000, guid: 2712aec8ce8397240bb959b54f4218a1, type: 3}
   Walking1Sound: {fileID: 0}
   Walking2Sound: {fileID: 0}
   Walking3Sound: {fileID: 0}
   Walking4Sound: {fileID: 0}
-  DeathSound: {fileID: 0}
+  DeathSound: {fileID: 8300000, guid: 38ff09c71eda7404bb814d6a6be64661, type: 3}
 --- !u!114 &114000012703834550
 MonoBehaviour:
   m_ObjectHideFlags: 1

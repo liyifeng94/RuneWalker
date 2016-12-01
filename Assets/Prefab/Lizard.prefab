@@ -118,8 +118,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8b8a287d1738ad48a542ae588d0ca0c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PrepSound: {fileID: 0}
-  AttackSound: {fileID: 0}
+  PrepSound: {fileID: 8300000, guid: a98b42eedb6ec8e44bc6172eda28630a, type: 3}
+  AttackSound: {fileID: 8300000, guid: 660ffbe3a86ba5044b5c80b653b4b91e, type: 3}
   Walking1Sound: {fileID: 0}
   Walking2Sound: {fileID: 0}
   Walking3Sound: {fileID: 0}
