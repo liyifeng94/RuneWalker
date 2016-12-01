@@ -1,5 +1,7 @@
 fileFormatVersion: 2
 guid: fbaf62ef413da47fea2cc1523ce38c5d
+timeCreated: 1480563761
+licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: lizard-attacking_0
@@ -79,313 +81,313 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 1809
-        width: 352
-        height: 239
+        y: 1794
+        width: 412
+        height: 254
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: lizard-attacking_1
       rect:
         serializedVersion: 2
-        x: 352
-        y: 1809
-        width: 352
-        height: 239
+        x: 412
+        y: 1794
+        width: 412
+        height: 254
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: lizard-attacking_2
       rect:
         serializedVersion: 2
-        x: 704
-        y: 1809
-        width: 352
-        height: 239
+        x: 824
+        y: 1794
+        width: 412
+        height: 254
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: lizard-attacking_3
       rect:
         serializedVersion: 2
-        x: 1056
-        y: 1809
-        width: 352
-        height: 239
+        x: 1236
+        y: 1794
+        width: 412
+        height: 254
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: lizard-attacking_4
       rect:
         serializedVersion: 2
-        x: 1408
-        y: 1809
-        width: 352
-        height: 239
+        x: 0
+        y: 1540
+        width: 412
+        height: 254
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: lizard-attacking_5
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1570
-        width: 352
-        height: 239
+        x: 412
+        y: 1540
+        width: 412
+        height: 254
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: lizard-attacking_6
       rect:
         serializedVersion: 2
-        x: 352
-        y: 1570
-        width: 352
-        height: 239
+        x: 824
+        y: 1540
+        width: 412
+        height: 254
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: lizard-attacking_7
       rect:
         serializedVersion: 2
-        x: 704
-        y: 1570
-        width: 352
-        height: 239
+        x: 1236
+        y: 1540
+        width: 412
+        height: 254
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: lizard-attacking_8
       rect:
         serializedVersion: 2
-        x: 1056
-        y: 1570
-        width: 352
-        height: 239
+        x: 0
+        y: 1286
+        width: 412
+        height: 254
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: lizard-attacking_9
       rect:
         serializedVersion: 2
-        x: 1408
-        y: 1570
-        width: 352
-        height: 239
+        x: 412
+        y: 1286
+        width: 412
+        height: 254
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: lizard-attacking_10
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1331
-        width: 352
-        height: 239
+        x: 824
+        y: 1286
+        width: 412
+        height: 254
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: lizard-attacking_11
       rect:
         serializedVersion: 2
-        x: 352
-        y: 1331
-        width: 352
-        height: 239
+        x: 1236
+        y: 1286
+        width: 412
+        height: 254
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: lizard-attacking_12
       rect:
         serializedVersion: 2
-        x: 704
-        y: 1331
-        width: 352
-        height: 239
+        x: 0
+        y: 1032
+        width: 412
+        height: 254
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: lizard-attacking_13
       rect:
         serializedVersion: 2
-        x: 1056
-        y: 1331
-        width: 352
-        height: 239
+        x: 412
+        y: 1032
+        width: 412
+        height: 254
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: lizard-attacking_14
       rect:
         serializedVersion: 2
-        x: 1408
-        y: 1331
-        width: 352
-        height: 239
+        x: 824
+        y: 1032
+        width: 412
+        height: 254
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: lizard-attacking_15
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1092
-        width: 352
-        height: 239
+        x: 1236
+        y: 1032
+        width: 412
+        height: 254
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: lizard-attacking_16
       rect:
         serializedVersion: 2
-        x: 352
-        y: 1092
-        width: 352
-        height: 239
+        x: 0
+        y: 778
+        width: 412
+        height: 254
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: lizard-attacking_17
       rect:
         serializedVersion: 2
-        x: 704
-        y: 1092
-        width: 352
-        height: 239
+        x: 412
+        y: 778
+        width: 412
+        height: 254
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: lizard-attacking_18
       rect:
         serializedVersion: 2
-        x: 1056
-        y: 1092
-        width: 352
-        height: 239
+        x: 824
+        y: 778
+        width: 412
+        height: 254
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: lizard-attacking_19
       rect:
         serializedVersion: 2
-        x: 1408
-        y: 1092
-        width: 352
-        height: 239
+        x: 1236
+        y: 778
+        width: 412
+        height: 254
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: lizard-attacking_20
       rect:
         serializedVersion: 2
         x: 0
-        y: 853
-        width: 352
-        height: 239
+        y: 524
+        width: 412
+        height: 254
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: lizard-attacking_21
       rect:
         serializedVersion: 2
-        x: 352
-        y: 853
-        width: 352
-        height: 239
+        x: 412
+        y: 524
+        width: 412
+        height: 254
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: lizard-attacking_22
       rect:
         serializedVersion: 2
-        x: 704
-        y: 853
-        width: 352
-        height: 239
+        x: 824
+        y: 524
+        width: 412
+        height: 254
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: lizard-attacking_23
       rect:
         serializedVersion: 2
-        x: 1056
-        y: 853
-        width: 352
-        height: 239
+        x: 1236
+        y: 524
+        width: 412
+        height: 254
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     outline: []
   spritePackingTag: 
   userData: 

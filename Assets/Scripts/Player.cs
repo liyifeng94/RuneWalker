@@ -81,7 +81,7 @@ public class Player : MonoBehaviour
         _inCombat = false;
     }
 
-    public void PlayerDeathEvent()
+    public void PlayerDeath()
     {
         GameManager.Instance.GameOver();
         Destroy(gameObject);
@@ -176,7 +176,7 @@ public class Player : MonoBehaviour
         GameManager.Instance.GameOver();
     }
 
-    void HitEnemy()
+    public void HitTarget()
     {
         GameManager.Instance.GetLevelManager().ResolveCombat(_playerAttack);
         _playerAttack = PlayerState.Idle;

@@ -51,10 +51,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 88586a9887854e345a6d7b7d0faa78ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerPrefab: {fileID: 1000011513608102, guid: b7226ee5de46cc0429e91be8f95a90f2,
+  PlayerPrefab: {fileID: 1000013464188130, guid: b9274e912d802064a97e381cf9ab0195,
     type: 2}
   EnemyPrefabs:
-  - {fileID: 1000012341050310, guid: 5a9d783e5a9ce484ebc41f053e33104c, type: 2}
+  - {fileID: 1000012670345720, guid: 5c83ffb1220e64dffaf754cb6ec1676d, type: 2}
   EnemiesSpawnFrequency:
   - 5
   - 4.5
@@ -68,6 +68,4 @@ MonoBehaviour:
   - 1
   PlayerSpawnMarker: {fileID: 0}
   EnemySpawnMarker: {fileID: 0}
-  ForegroundPrefabs: []
-  BackgroundPrefabs: []
   InitEnemyVelocity: {x: -1, y: 0, z: 0}

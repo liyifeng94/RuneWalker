@@ -1,5 +1,7 @@
 fileFormatVersion: 2
 guid: 05af0ed434a524770b3a9bd678a765c4
+timeCreated: 1480563014
+licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: character_animations_jumping_0
@@ -82,352 +84,326 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 3597
-        width: 472
-        height: 499
+        y: 3732
+        width: 422
+        height: 364
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: character_animations_jumping_1
       rect:
         serializedVersion: 2
-        x: 472
-        y: 3597
-        width: 472
-        height: 499
+        x: 422
+        y: 3732
+        width: 422
+        height: 364
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: character_animations_jumping_2
       rect:
         serializedVersion: 2
-        x: 944
-        y: 3597
-        width: 472
-        height: 499
+        x: 844
+        y: 3732
+        width: 422
+        height: 364
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: character_animations_jumping_3
       rect:
         serializedVersion: 2
-        x: 1416
-        y: 3597
-        width: 472
-        height: 499
+        x: 1266
+        y: 3732
+        width: 422
+        height: 364
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: character_animations_jumping_4
       rect:
         serializedVersion: 2
         x: 0
-        y: 3098
-        width: 472
-        height: 499
+        y: 3368
+        width: 422
+        height: 364
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: character_animations_jumping_5
       rect:
         serializedVersion: 2
-        x: 472
-        y: 3098
-        width: 472
-        height: 499
+        x: 422
+        y: 3368
+        width: 422
+        height: 364
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: character_animations_jumping_6
       rect:
         serializedVersion: 2
-        x: 944
-        y: 3098
-        width: 472
-        height: 499
+        x: 844
+        y: 3368
+        width: 422
+        height: 364
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: character_animations_jumping_7
       rect:
         serializedVersion: 2
-        x: 1416
-        y: 3098
-        width: 472
-        height: 499
+        x: 1266
+        y: 3368
+        width: 422
+        height: 364
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: character_animations_jumping_8
       rect:
         serializedVersion: 2
         x: 0
-        y: 2599
-        width: 472
-        height: 499
+        y: 3004
+        width: 422
+        height: 364
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: character_animations_jumping_9
       rect:
         serializedVersion: 2
-        x: 472
-        y: 2599
-        width: 472
-        height: 499
+        x: 422
+        y: 3004
+        width: 422
+        height: 364
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: character_animations_jumping_10
       rect:
         serializedVersion: 2
-        x: 944
-        y: 2599
-        width: 472
-        height: 499
+        x: 844
+        y: 3004
+        width: 422
+        height: 364
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: character_animations_jumping_11
       rect:
         serializedVersion: 2
-        x: 1416
-        y: 2599
-        width: 472
-        height: 499
+        x: 1266
+        y: 3004
+        width: 422
+        height: 364
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: character_animations_jumping_12
       rect:
         serializedVersion: 2
         x: 0
-        y: 2100
-        width: 472
-        height: 499
+        y: 2640
+        width: 422
+        height: 364
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: character_animations_jumping_13
       rect:
         serializedVersion: 2
-        x: 472
-        y: 2100
-        width: 472
-        height: 499
+        x: 422
+        y: 2640
+        width: 422
+        height: 364
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: character_animations_jumping_14
       rect:
         serializedVersion: 2
-        x: 944
-        y: 2100
-        width: 472
-        height: 499
+        x: 844
+        y: 2640
+        width: 422
+        height: 364
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: character_animations_jumping_15
       rect:
         serializedVersion: 2
-        x: 1416
-        y: 2100
-        width: 472
-        height: 499
+        x: 1266
+        y: 2640
+        width: 422
+        height: 364
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: character_animations_jumping_16
       rect:
         serializedVersion: 2
         x: 0
-        y: 1601
-        width: 472
-        height: 499
+        y: 2276
+        width: 422
+        height: 364
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: character_animations_jumping_17
       rect:
         serializedVersion: 2
-        x: 472
-        y: 1601
-        width: 472
-        height: 499
+        x: 422
+        y: 2276
+        width: 422
+        height: 364
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: character_animations_jumping_18
       rect:
         serializedVersion: 2
-        x: 944
-        y: 1601
-        width: 472
-        height: 499
+        x: 844
+        y: 2276
+        width: 422
+        height: 364
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: character_animations_jumping_19
       rect:
         serializedVersion: 2
-        x: 1416
-        y: 1601
-        width: 472
-        height: 499
+        x: 1266
+        y: 2276
+        width: 422
+        height: 364
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: character_animations_jumping_20
       rect:
         serializedVersion: 2
         x: 0
-        y: 1102
-        width: 472
-        height: 499
+        y: 1912
+        width: 422
+        height: 364
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: character_animations_jumping_21
       rect:
         serializedVersion: 2
-        x: 472
-        y: 1102
-        width: 472
-        height: 499
+        x: 422
+        y: 1912
+        width: 422
+        height: 364
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: character_animations_jumping_22
       rect:
         serializedVersion: 2
-        x: 944
-        y: 1102
-        width: 472
-        height: 499
+        x: 844
+        y: 1912
+        width: 422
+        height: 364
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: character_animations_jumping_23
       rect:
         serializedVersion: 2
-        x: 1416
-        y: 1102
-        width: 472
-        height: 499
+        x: 1266
+        y: 1912
+        width: 422
+        height: 364
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: character_animations_jumping_24
       rect:
         serializedVersion: 2
-        x: 472
-        y: 603
-        width: 472
-        height: 499
+        x: 0
+        y: 1548
+        width: 422
+        height: 364
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: character_animations_jumping_25
-      rect:
-        serializedVersion: 2
-        x: 944
-        y: 603
-        width: 472
-        height: 499
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: character_animations_jumping_26
-      rect:
-        serializedVersion: 2
-        x: 1416
-        y: 603
-        width: 472
-        height: 499
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     outline: []
   spritePackingTag: 
   userData: 

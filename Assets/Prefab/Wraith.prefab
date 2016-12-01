@@ -24,7 +24,7 @@ GameObject:
   - 114: {fileID: 114000012703834550}
   - 114: {fileID: 114000011873713474}
   - 50: {fileID: 50000011702093704}
-  - 61: {fileID: 61000013098675952}
+  - 61: {fileID: 61000010289215582}
   m_Layer: 0
   m_Name: Wraith
   m_TagString: Untagged
@@ -40,7 +40,7 @@ Transform:
   m_GameObject: {fileID: 1000010978589512}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.75, y: 0.75, z: 0.75}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
@@ -62,7 +62,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!61 &61000013098675952
+--- !u!61 &61000010289215582
 BoxCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -75,7 +75,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 1.91, y: 2.73}
 --- !u!95 &95000013071820420
 Animator:
   serializedVersion: 3
@@ -124,7 +124,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MovementVelocity: {x: 0, y: 0, z: 0}
   Alive: 0
-  CurrentAttackMove: 0
+  CurrentAttackMove: 2
 --- !u!212 &212000010347473816
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -154,7 +154,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1840381115
   m_SortingOrder: 0
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: a2db162a50adf40a489c7fe7bfdc146c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

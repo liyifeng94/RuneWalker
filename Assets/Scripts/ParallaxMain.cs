@@ -27,7 +27,8 @@ public class ParallaxMain : MonoBehaviour
     // Use this for initialization
     void Start ()
 	{
-	    _transform = GetComponent<Transform>();
+        _childLayers = new List<ScrollScriptSingle>();
+        _transform = GetComponent<Transform>();
 	    for (int i = 0; i < _transform.childCount ; i++)
 	    {
 	        GameObject childLayerObject = _transform.GetChild(i).gameObject;
