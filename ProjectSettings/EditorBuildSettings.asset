@@ -15,3 +15,5 @@ EditorBuildSettings:
     path: Assets/Levels/GameLevel.unity
   - enabled: 0
     path: Assets/TestLevels/TestLevel.unity
+  - enabled: 1
+    path: Assets/Levels/PlayerNameLevel.unity
