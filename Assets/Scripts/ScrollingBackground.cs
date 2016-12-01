@@ -36,8 +36,6 @@ public class ScrollingBackground : MonoBehaviour
         {
             return;
         }
-        _currentBg.GetComponent<ParallaxMain>().Pause();
-        _nextBg.GetComponent<ParallaxMain>().Pause();
         Vector3 newPos = _currentBgTransform.position;
         newPos.x -= Speed * Time.time;
         _currentBgTransform.position = newPos;
@@ -49,6 +47,9 @@ public class ScrollingBackground : MonoBehaviour
         newPos = _nextBgTransform.position;
         newPos.x -= Speed * Time.time;
         _nextBgTransform.position = newPos;
+
+        _currentBg.GetComponent<ParallaxMain>().Pause();
+        _nextBg.GetComponent<ParallaxMain>().Pause();
 
         if (newPos.x <= 0)
         {
@@ -88,6 +89,7 @@ public class ScrollingBackground : MonoBehaviour
         _transition = null;
         _nextBg = null;
         Destroy(temp);
+        _currentBg.GetComponent<ParallaxMain>().UnPause();
         _levelManager.LevelBackgroundUpdated();
         _levelManager = null;
         _inTransition = false;

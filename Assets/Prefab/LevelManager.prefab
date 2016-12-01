@@ -94,4 +94,4 @@ MonoBehaviour:
   - {fileID: 1000011812436328, guid: 598665ff9a8264849b154edfbed6ff34, type: 2}
   - {fileID: 1000012705344202, guid: c6117629a17124ea8975de94ef9ea67c, type: 2}
   BackgroundWidth: 18
-  Speed: 0.005
+  Speed: 0.05

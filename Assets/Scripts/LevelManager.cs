@@ -96,7 +96,6 @@ public class LevelManager : MonoBehaviour
         float currentTime = Time.time;
         _lastSpawnTime = currentTime;
         _enemyVelocity = InitEnemyVelocity;
-        SpawnEnemy(EnemyPrefabs[0]);
 
         UpdateEnemiesSpawnFrequency();
     }
