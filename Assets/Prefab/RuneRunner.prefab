@@ -104,13 +104,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 55d21682da297a84eaeca34d9be0038d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AttackSound: {fileID: 0}
-  DodgeSound: {fileID: 0}
-  Walking1Sound: {fileID: 0}
-  Walking2Sound: {fileID: 0}
-  Walking3Sound: {fileID: 0}
-  Walking4Sound: {fileID: 0}
-  DeathSound: {fileID: 0}
+  AttackSound: {fileID: 8300000, guid: c2f0911e069f7a6469e767be03c3bb8e, type: 3}
+  DodgeSound: {fileID: 8300000, guid: 79e868bcdaef59148aa9e07de2953a4c, type: 3}
+  Walking1Sound: {fileID: 8300000, guid: 4a807f601828cf84286b3f89ec181e26, type: 3}
+  Walking2Sound: {fileID: 8300000, guid: 907dac6fbcbbb7d41936a1f101d72284, type: 3}
+  Walking3Sound: {fileID: 8300000, guid: 46959ee93e78530468f36ebf204023d2, type: 3}
+  Walking4Sound: {fileID: 8300000, guid: 7bfe36f7af7e8eb498d8cf28d48d1b35, type: 3}
+  DeathSound: {fileID: 8300000, guid: ccfb151655b7f0440a60908f2db76728, type: 3}
   SpecialSound: {fileID: 0}
 --- !u!114 &114000012196623080
 MonoBehaviour:
