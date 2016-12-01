@@ -55,6 +55,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 4000010607114086}
+  - 114: {fileID: 114000010161292546}
   m_Layer: 10
   m_Name: BeachLevel
   m_TagString: Untagged
@@ -311,6 +312,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000012468084702}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &114000010161292546
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011831011184}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c391305edb403cd45bad4be8b191be26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114000011049894822
 MonoBehaviour:
   m_ObjectHideFlags: 1
