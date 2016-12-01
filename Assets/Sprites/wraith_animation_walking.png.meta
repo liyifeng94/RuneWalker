@@ -58,14 +58,17 @@ TextureImporter:
   bumpmap:
     convertToNormalMap: 0
     externalNormalMap: 0
-    heightScale: .25
+    heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
   grayScaleToAlpha: 0
   generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
   textureFormat: -1
-  maxTextureSize: 1024
+  maxTextureSize: 2048
   textureSettings:
     filterMode: -1
     aniso: 16
@@ -73,20 +76,25 @@ TextureImporter:
     wrapMode: 1
   nPOTScale: 0
   lightmap: 0
+  rGBM: 0
   compressionQuality: 50
+  allowsAlphaSplitting: 0
   spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
-  spritePivot: {x: .5, y: .5}
+  spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
   alphaIsTransparency: 1
+  spriteTessellationDetail: -1
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
+    serializedVersion: 2
     sprites:
-    - name: wraith_animation_walking_0
+    - serializedVersion: 2
+      name: wraith_animation_walking_0
       rect:
         serializedVersion: 2
         x: 0
@@ -96,7 +104,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: wraith_animation_walking_1
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wraith_animation_walking_1
       rect:
         serializedVersion: 2
         x: 191
@@ -106,7 +117,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: wraith_animation_walking_2
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wraith_animation_walking_2
       rect:
         serializedVersion: 2
         x: 382
@@ -116,7 +130,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: wraith_animation_walking_3
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wraith_animation_walking_3
       rect:
         serializedVersion: 2
         x: 573
@@ -126,7 +143,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: wraith_animation_walking_4
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wraith_animation_walking_4
       rect:
         serializedVersion: 2
         x: 764
@@ -136,7 +156,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: wraith_animation_walking_5
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wraith_animation_walking_5
       rect:
         serializedVersion: 2
         x: 955
@@ -146,7 +169,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: wraith_animation_walking_6
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wraith_animation_walking_6
       rect:
         serializedVersion: 2
         x: 1146
@@ -156,7 +182,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: wraith_animation_walking_7
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wraith_animation_walking_7
       rect:
         serializedVersion: 2
         x: 1337
@@ -166,7 +195,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: wraith_animation_walking_8
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wraith_animation_walking_8
       rect:
         serializedVersion: 2
         x: 1528
@@ -176,7 +208,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: wraith_animation_walking_9
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wraith_animation_walking_9
       rect:
         serializedVersion: 2
         x: 1719
@@ -186,7 +221,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: wraith_animation_walking_10
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wraith_animation_walking_10
       rect:
         serializedVersion: 2
         x: 0
@@ -196,7 +234,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: wraith_animation_walking_11
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wraith_animation_walking_11
       rect:
         serializedVersion: 2
         x: 191
@@ -206,7 +247,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: wraith_animation_walking_12
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wraith_animation_walking_12
       rect:
         serializedVersion: 2
         x: 382
@@ -216,7 +260,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: wraith_animation_walking_13
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wraith_animation_walking_13
       rect:
         serializedVersion: 2
         x: 573
@@ -226,7 +273,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: wraith_animation_walking_14
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wraith_animation_walking_14
       rect:
         serializedVersion: 2
         x: 764
@@ -236,7 +286,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: wraith_animation_walking_15
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wraith_animation_walking_15
       rect:
         serializedVersion: 2
         x: 955
@@ -246,7 +299,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: wraith_animation_walking_16
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wraith_animation_walking_16
       rect:
         serializedVersion: 2
         x: 1146
@@ -256,7 +312,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: wraith_animation_walking_17
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wraith_animation_walking_17
       rect:
         serializedVersion: 2
         x: 1337
@@ -266,7 +325,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: wraith_animation_walking_18
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wraith_animation_walking_18
       rect:
         serializedVersion: 2
         x: 1528
@@ -276,7 +338,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: wraith_animation_walking_19
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wraith_animation_walking_19
       rect:
         serializedVersion: 2
         x: 1719
@@ -286,7 +351,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: wraith_animation_walking_20
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wraith_animation_walking_20
       rect:
         serializedVersion: 2
         x: 0
@@ -296,7 +364,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: wraith_animation_walking_21
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wraith_animation_walking_21
       rect:
         serializedVersion: 2
         x: 191
@@ -306,7 +377,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: wraith_animation_walking_22
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wraith_animation_walking_22
       rect:
         serializedVersion: 2
         x: 382
@@ -316,7 +390,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: wraith_animation_walking_23
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wraith_animation_walking_23
       rect:
         serializedVersion: 2
         x: 573
@@ -326,7 +403,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: wraith_animation_walking_24
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wraith_animation_walking_24
       rect:
         serializedVersion: 2
         x: 764
@@ -336,7 +416,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: wraith_animation_walking_25
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wraith_animation_walking_25
       rect:
         serializedVersion: 2
         x: 955
@@ -346,7 +429,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: wraith_animation_walking_26
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wraith_animation_walking_26
       rect:
         serializedVersion: 2
         x: 1146
@@ -356,7 +442,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: wraith_animation_walking_27
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wraith_animation_walking_27
       rect:
         serializedVersion: 2
         x: 1337
@@ -366,7 +455,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: wraith_animation_walking_28
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wraith_animation_walking_28
       rect:
         serializedVersion: 2
         x: 1528
@@ -376,7 +468,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: wraith_animation_walking_29
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wraith_animation_walking_29
       rect:
         serializedVersion: 2
         x: 1719
@@ -386,7 +481,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: wraith_animation_walking_30
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wraith_animation_walking_30
       rect:
         serializedVersion: 2
         x: 0
@@ -396,7 +494,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: wraith_animation_walking_31
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wraith_animation_walking_31
       rect:
         serializedVersion: 2
         x: 191
@@ -406,7 +507,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: wraith_animation_walking_32
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wraith_animation_walking_32
       rect:
         serializedVersion: 2
         x: 382
@@ -416,7 +520,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: wraith_animation_walking_33
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wraith_animation_walking_33
       rect:
         serializedVersion: 2
         x: 573
@@ -426,7 +533,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: wraith_animation_walking_34
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wraith_animation_walking_34
       rect:
         serializedVersion: 2
         x: 764
@@ -436,7 +546,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: wraith_animation_walking_35
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wraith_animation_walking_35
       rect:
         serializedVersion: 2
         x: 955
@@ -446,7 +559,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: wraith_animation_walking_36
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wraith_animation_walking_36
       rect:
         serializedVersion: 2
         x: 1146
@@ -456,7 +572,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: wraith_animation_walking_37
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wraith_animation_walking_37
       rect:
         serializedVersion: 2
         x: 1337
@@ -466,7 +585,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: wraith_animation_walking_38
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wraith_animation_walking_38
       rect:
         serializedVersion: 2
         x: 1528
@@ -476,7 +598,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: wraith_animation_walking_39
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wraith_animation_walking_39
       rect:
         serializedVersion: 2
         x: 1719
@@ -486,7 +611,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: wraith_animation_walking_40
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wraith_animation_walking_40
       rect:
         serializedVersion: 2
         x: 0
@@ -496,7 +624,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: wraith_animation_walking_41
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wraith_animation_walking_41
       rect:
         serializedVersion: 2
         x: 191
@@ -506,7 +637,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: wraith_animation_walking_42
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wraith_animation_walking_42
       rect:
         serializedVersion: 2
         x: 382
@@ -516,5 +650,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    outline: []
   spritePackingTag: 
   userData: 
+  assetBundleName: 
+  assetBundleVariant: 
