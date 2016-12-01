@@ -15,7 +15,6 @@ public class GameManager : MonoBehaviour
 
     public int MaxScoreMultiplier = 100;
 
-    //TODO: get player from text box
     public string PlayerName;
 
     [Serializable]
@@ -233,7 +232,7 @@ public class GameManager : MonoBehaviour
     {
         //enabled = false;
         _gameLevelManager.Gameover();
-        SceneManager.LoadScene("HighScore");
+        SceneManager.LoadScene("PlayerNameLevel");
     }
 
     void LoadHighScoreBoard()
@@ -267,6 +266,14 @@ public class GameManager : MonoBehaviour
             }
         }
     }
+
+	public void SetPlayerNameAndHighScore(String name)
+	{
+		PlayerName = name;
+		UpdateHighScoreBoard (PlayerName);
+		SaveHighScoreBoard ();
+		SceneManager.LoadScene("HighScore");
+	}
 
     void OnApplicationQuit()
     {

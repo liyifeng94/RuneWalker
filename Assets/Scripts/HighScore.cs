@@ -36,13 +36,15 @@ public class HighScore : MonoBehaviour {
 			 
 		}*/
 	#endregion
+		int NumberOfEntries = gameManagerScript.GetHighScoreBoard ().HighScoreList.Count;
+		
+	for (int i = 0; i < ((NumberOfEntries < length)? NumberOfEntries:length); i++) {
+				name.text += gameManagerScript.GetHighScoreBoard ().HighScoreList [i].Name.ToString () + "\n";
+				scores.text += gameManagerScript.GetHighScoreBoard ().HighScoreList [i].Score.ToString () + "\n";
+				time.text += gameManagerScript.GetHighScoreBoard ().HighScoreList [i].DateTime.ToString () + "\n";
 
-		for (int i = 0; i < length; i++) {
-			name.text += gameManagerScript.GetHighScoreBoard ().HighScoreList [i].Name.ToString () +"\n";
-			scores.text += gameManagerScript.GetHighScoreBoard ().HighScoreList [i].Score.ToString ()+"\n";
-			time.text += gameManagerScript.GetHighScoreBoard ().HighScoreList [i].DateTime.ToString ()+"\n";
-
-		}
+			}
+		
 	}
 	
 	// Update is called once per frame
