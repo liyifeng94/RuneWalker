@@ -55,5 +55,6 @@ MonoBehaviour:
   - {fileID: 1000011418960320, guid: 0bbd9d24b569fff4598a3e7c2f7ee9be, type: 2}
   - {fileID: 1000013279132238, guid: 88dd040e1df8bc241bf171f714aa3fdc, type: 2}
   - {fileID: 1000013769977456, guid: 3781d888ca76620478d4d8001e2e769c, type: 2}
+  - {fileID: 1000013769977456, guid: 3781d888ca76620478d4d8001e2e769c, type: 2}
   - {fileID: 1000014248014888, guid: 8134c4d94752ed0418b75b58c56aef64, type: 2}
   BackgroundsTransforms: []
