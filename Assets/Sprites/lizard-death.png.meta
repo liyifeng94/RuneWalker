@@ -1,0 +1,398 @@
+fileFormatVersion: 2
+guid: a93583a3a4b254a7c88e43d2498ab7dc
+timeCreated: 1480560158
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: lizard-death_0
+    21300002: lizard-death_1
+    21300004: lizard-death_2
+    21300006: lizard-death_3
+    21300008: lizard-death_4
+    21300010: lizard-death_5
+    21300012: lizard-death_6
+    21300014: lizard-death_7
+    21300016: lizard-death_8
+    21300018: lizard-death_9
+    21300020: lizard-death_10
+    21300022: lizard-death_11
+    21300024: lizard-death_12
+    21300026: lizard-death_13
+    21300028: lizard-death_14
+    21300030: lizard-death_15
+    21300032: lizard-death_16
+    21300034: lizard-death_17
+    21300036: lizard-death_18
+    21300038: lizard-death_19
+    21300040: lizard-death_20
+    21300042: lizard-death_21
+    21300044: lizard-death_22
+    21300046: lizard-death_23
+    21300048: lizard-death_24
+    21300050: lizard-death_25
+    21300052: lizard-death_26
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: lizard-death_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1862
+        width: 283
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lizard-death_1
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 1862
+        width: 283
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lizard-death_2
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 1862
+        width: 283
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lizard-death_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1676
+        width: 283
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lizard-death_4
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 1676
+        width: 283
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lizard-death_5
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 1676
+        width: 283
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lizard-death_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1490
+        width: 283
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lizard-death_7
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 1490
+        width: 283
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lizard-death_8
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 1490
+        width: 283
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lizard-death_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1304
+        width: 283
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lizard-death_10
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 1304
+        width: 283
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lizard-death_11
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 1304
+        width: 283
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lizard-death_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1118
+        width: 283
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lizard-death_13
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 1118
+        width: 283
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lizard-death_14
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 1118
+        width: 283
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lizard-death_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 932
+        width: 283
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lizard-death_16
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 932
+        width: 283
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lizard-death_17
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 932
+        width: 283
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lizard-death_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 746
+        width: 283
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lizard-death_19
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 746
+        width: 283
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lizard-death_20
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 746
+        width: 283
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lizard-death_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 560
+        width: 283
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lizard-death_22
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 560
+        width: 283
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lizard-death_23
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 560
+        width: 283
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

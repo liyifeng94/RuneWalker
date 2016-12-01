@@ -1,0 +1,395 @@
+fileFormatVersion: 2
+guid: 8f8d08c7e85334a6b9263f817271091e
+timeCreated: 1480485979
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: character_animations_walking_0
+    21300002: character_animations_walking_1
+    21300004: character_animations_walking_2
+    21300006: character_animations_walking_3
+    21300008: character_animations_walking_4
+    21300010: character_animations_walking_5
+    21300012: character_animations_walking_6
+    21300014: character_animations_walking_7
+    21300016: character_animations_walking_8
+    21300018: character_animations_walking_9
+    21300020: character_animations_walking_10
+    21300022: character_animations_walking_11
+    21300024: character_animations_walking_12
+    21300026: character_animations_walking_13
+    21300028: character_animations_walking_14
+    21300030: character_animations_walking_15
+    21300032: character_animations_walking_16
+    21300034: character_animations_walking_17
+    21300036: character_animations_walking_18
+    21300038: character_animations_walking_19
+    21300040: character_animations_walking_20
+    21300042: character_animations_walking_21
+    21300044: character_animations_walking_22
+    21300046: character_animations_walking_23
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: character_animations_walking_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1746
+        width: 248
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: character_animations_walking_1
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 1746
+        width: 248
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: character_animations_walking_2
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 1746
+        width: 248
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: character_animations_walking_3
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 1746
+        width: 248
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: character_animations_walking_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1444
+        width: 248
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: character_animations_walking_5
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 1444
+        width: 248
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: character_animations_walking_6
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 1444
+        width: 248
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: character_animations_walking_7
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 1444
+        width: 248
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: character_animations_walking_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1142
+        width: 248
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: character_animations_walking_9
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 1142
+        width: 248
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: character_animations_walking_10
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 1142
+        width: 248
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: character_animations_walking_11
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 1142
+        width: 248
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: character_animations_walking_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 840
+        width: 248
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: character_animations_walking_13
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 840
+        width: 248
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: character_animations_walking_14
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 840
+        width: 248
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: character_animations_walking_15
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 840
+        width: 248
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: character_animations_walking_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 538
+        width: 248
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: character_animations_walking_17
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 538
+        width: 248
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: character_animations_walking_18
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 538
+        width: 248
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: character_animations_walking_19
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 538
+        width: 248
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: character_animations_walking_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 236
+        width: 248
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: character_animations_walking_21
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 236
+        width: 248
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: character_animations_walking_22
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 236
+        width: 248
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: character_animations_walking_23
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 236
+        width: 248
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

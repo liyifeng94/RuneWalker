@@ -22,9 +22,9 @@ GameObject:
   - 212: {fileID: 212000013614582064}
   - 95: {fileID: 95000012794053998}
   - 50: {fileID: 50000013631678778}
-  - 61: {fileID: 61000013234537058}
   - 114: {fileID: 114000012196623080}
   - 114: {fileID: 114000011035958562}
+  - 61: {fileID: 61000012124161500}
   m_Layer: 9
   m_Name: RuneRunner
   m_TagString: Player
@@ -40,7 +40,7 @@ Transform:
   m_GameObject: {fileID: 1000013464188130}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.75, y: 0.75, z: 0.75}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
@@ -56,13 +56,13 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!61 &61000013234537058
+--- !u!61 &61000012124161500
 BoxCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -75,7 +75,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 2.48, y: 3.02}
 --- !u!95 &95000012794053998
 Animator:
   serializedVersion: 3
@@ -85,7 +85,7 @@ Animator:
   m_GameObject: {fileID: 1000013464188130}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 4638f4eb51c02af4385aec5615c3811e, type: 2}
+  m_Controller: {fileID: 9100000, guid: 995180014a5344eb4b5418a225fa2c46, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -105,12 +105,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AttackSound: {fileID: 0}
-  DodgeSound: {fileID: 8300000, guid: 79e868bcdaef59148aa9e07de2953a4c, type: 3}
-  Walking1Sound: {fileID: 8300000, guid: 4a807f601828cf84286b3f89ec181e26, type: 3}
-  Walking2Sound: {fileID: 8300000, guid: 907dac6fbcbbb7d41936a1f101d72284, type: 3}
-  Walking3Sound: {fileID: 8300000, guid: 46959ee93e78530468f36ebf204023d2, type: 3}
-  Walking4Sound: {fileID: 8300000, guid: 7bfe36f7af7e8eb498d8cf28d48d1b35, type: 3}
-  DeathSound: {fileID: 8300000, guid: ccfb151655b7f0440a60908f2db76728, type: 3}
+  DodgeSound: {fileID: 0}
+  Walking1Sound: {fileID: 0}
+  Walking2Sound: {fileID: 0}
+  Walking3Sound: {fileID: 0}
+  Walking4Sound: {fileID: 0}
+  DeathSound: {fileID: 0}
   SpecialSound: {fileID: 0}
 --- !u!114 &114000012196623080
 MonoBehaviour:
@@ -156,7 +156,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 8f8d08c7e85334a6b9263f817271091e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
