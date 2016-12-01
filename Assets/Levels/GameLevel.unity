@@ -288,11 +288,6 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 114000010234198732, guid: c523423f081cb8946bcbf6d52eb5452a,
-        type: 2}
-      propertyPath: EnemyPrefabs.Array.size
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 4000011554536650, guid: c523423f081cb8946bcbf6d52eb5452a, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -335,24 +330,6 @@ Prefab:
       propertyPath: EnemySpawnMarker
       value: 
       objectReference: {fileID: 1215868044}
-    - target: {fileID: 114000010234198732, guid: c523423f081cb8946bcbf6d52eb5452a,
-        type: 2}
-      propertyPath: EnemyPrefabs.Array.data[0]
-      value: 
-      objectReference: {fileID: 1000012341050310, guid: 5a9d783e5a9ce484ebc41f053e33104c,
-        type: 2}
-    - target: {fileID: 114000010234198732, guid: c523423f081cb8946bcbf6d52eb5452a,
-        type: 2}
-      propertyPath: EnemyPrefabs.Array.data[1]
-      value: 
-      objectReference: {fileID: 1000011810865452, guid: 5c83ffb1220e64dffaf754cb6ec1676d,
-        type: 2}
-    - target: {fileID: 114000010234198732, guid: c523423f081cb8946bcbf6d52eb5452a,
-        type: 2}
-      propertyPath: EnemyPrefabs.Array.data[2]
-      value: 
-      objectReference: {fileID: 1000010978589512, guid: bb9ab8bcaa50e4e58833076f4b3c6b58,
-        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c523423f081cb8946bcbf6d52eb5452a, type: 2}
   m_IsPrefabParent: 0
