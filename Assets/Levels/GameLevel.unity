@@ -301,6 +301,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 114000010234198732, guid: c523423f081cb8946bcbf6d52eb5452a,
+        type: 2}
+      propertyPath: EnemiesSpawnFrequency.Array.size
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 4000011554536650, guid: c523423f081cb8946bcbf6d52eb5452a, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -343,6 +348,41 @@ Prefab:
       propertyPath: EnemySpawnMarker
       value: 
       objectReference: {fileID: 1215868044}
+    - target: {fileID: 114000010234198732, guid: c523423f081cb8946bcbf6d52eb5452a,
+        type: 2}
+      propertyPath: EnemiesSpawnFrequency.Array.data[3]
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010234198732, guid: c523423f081cb8946bcbf6d52eb5452a,
+        type: 2}
+      propertyPath: EnemiesSpawnFrequency.Array.data[4]
+      value: 1.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010234198732, guid: c523423f081cb8946bcbf6d52eb5452a,
+        type: 2}
+      propertyPath: EnemiesSpawnFrequency.Array.data[5]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010234198732, guid: c523423f081cb8946bcbf6d52eb5452a,
+        type: 2}
+      propertyPath: EnemiesSpawnFrequency.Array.data[6]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010234198732, guid: c523423f081cb8946bcbf6d52eb5452a,
+        type: 2}
+      propertyPath: EnemiesSpawnFrequency.Array.data[7]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010234198732, guid: c523423f081cb8946bcbf6d52eb5452a,
+        type: 2}
+      propertyPath: EnemiesSpawnFrequency.Array.data[8]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010234198732, guid: c523423f081cb8946bcbf6d52eb5452a,
+        type: 2}
+      propertyPath: EnemiesSpawnFrequency.Array.data[9]
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c523423f081cb8946bcbf6d52eb5452a, type: 2}
   m_IsPrefabParent: 0
