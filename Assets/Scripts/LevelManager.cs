@@ -114,23 +114,22 @@ public class LevelManager : MonoBehaviour
 
     public void ResolveCombat(Player.PlayerState playerAction)
     {
-        if (playerAction == Player.PlayerState.Special)
-        {
-            PlayerUseSpecial();
-            return;
-        }
-
         if ((int) playerAction >= (int) (Enemy.AttackMove.NumOfMoves) || _inCombat == false || _enemyInCombat == null)
         {
             return;
         }
 
-        Enemy target = _enemyInCombat.GetComponent<Enemy>();
-        if (target == null)
+        if (_enemyInCombat == null)
         {
             return;
         }
-        if ((int) playerAction == (int)target.CurrentAttackMove)
+        if (playerAction == Player.PlayerState.Special)
+        {
+            _enemyInCombat.Alive = false;
+            return;
+        }
+
+        if ((int) playerAction == (int)_enemyInCombat.CurrentAttackMove)
         {
             _enemyInCombat.EndCombat(false);
             GameManager.Instance.EnemiesKilled(1);
@@ -171,7 +170,7 @@ public class LevelManager : MonoBehaviour
         ResolveCombat(playerAction);
     }
 
-    void PlayerUseSpecial()
+    public void PlayerUseSpecial()
     {
         foreach (var enemy in _enemiesHolder)
         {
