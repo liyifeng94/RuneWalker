@@ -9,6 +9,10 @@ public class LevelManager : MonoBehaviour
     public GameObject PlayerPrefab;
     public GameObject[] EnemyPrefabs;
 
+	public GameObject[] BackgroundPrefabs;
+	public GameObject[] TransitionPrefabs;
+	GameObject currentBg;
+
     public float[] EnemiesSpawnFrequency;
 
     public Transform PlayerSpawnMarker;
@@ -58,6 +62,7 @@ public class LevelManager : MonoBehaviour
             int enemyIndex = Random.Range(0, EnemyPrefabs.Length);
             SpawnEnemy(EnemyPrefabs[enemyIndex]);
             _lastSpawnTime = currentTime;
+			GameManager.Instance.IncreaseLevel ();
         }
     }
 
@@ -72,6 +77,15 @@ public class LevelManager : MonoBehaviour
         _holdSpawning = true;
         //TODO: set background
         //_changingLevel = true
+		if (_level <= 4) {
+
+			if (currentBg != null) {
+				currentBg.GetComponent<ParallaxMain> ().Pause ();
+				Destroy (currentBg);
+
+			}
+			currentBg = (GameObject)Instantiate (BackgroundPrefabs [_level - 1], this.transform.position, Quaternion.identity);
+		}
         //TODO: update spawn frequency
         UpdateEnemiesSpawnFrequency();
 
