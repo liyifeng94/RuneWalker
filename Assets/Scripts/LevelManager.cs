@@ -24,6 +24,8 @@ public class LevelManager : MonoBehaviour
     private bool _inCombat;
     private float _lastSpawnTime;
     private Vector3 _enemyVelocity;
+    private bool _holdSpawning;
+    private bool _changingLevel;
 
     void Start()
     {
@@ -38,6 +40,21 @@ public class LevelManager : MonoBehaviour
         float currentTime = Time.time;
         if (currentTime - _lastSpawnTime > _spawnFrequency)
         {
+            if (_changingLevel)
+            {
+                return;
+            }
+            if (_holdSpawning)
+            {
+                if (_enemiesHolder.Count == 0)
+                {
+                    _holdSpawning = false;
+                }
+                else
+                {
+                    return;
+                }
+            }
             int enemyIndex = Random.Range(0, EnemyPrefabs.Length);
             SpawnEnemy(EnemyPrefabs[enemyIndex]);
             _lastSpawnTime = currentTime;
@@ -52,24 +69,33 @@ public class LevelManager : MonoBehaviour
 
     void LevelChange()
     {
+        _holdSpawning = true;
         //TODO: set background
-
+        //_changingLevel = true
         //TODO: update spawn frequency
         UpdateEnemiesSpawnFrequency();
-        
+
+    }
+
+    public void LevelBackgroundUpdated()
+    {
+        _changingLevel = false;
     }
 
     void LevelSetup()
     {
+        _holdSpawning = false;
         _inCombat = false;
+        _changingLevel = false;
         _enemyInCombat = null;
         _enemiesHolder = new LinkedList<Enemy>();
-        LevelChange();
         SpawnPlayer();
         float currentTime = Time.time;
         _lastSpawnTime = currentTime;
         _enemyVelocity = InitEnemyVelocity;
         SpawnEnemy(EnemyPrefabs[0]);
+
+        UpdateEnemiesSpawnFrequency();
     }
 
     // Spawns a enemy at SpawnLocation
@@ -94,7 +120,7 @@ public class LevelManager : MonoBehaviour
             return;
         }
 
-        if ((int) playerAction >= (int) (Enemy.AttackMove.NumOfMoves) || _inCombat == false)
+        if ((int) playerAction >= (int) (Enemy.AttackMove.NumOfMoves) || _inCombat == false || _enemyInCombat == null)
         {
             return;
         }
