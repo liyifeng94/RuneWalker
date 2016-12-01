@@ -139,6 +139,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 114000010234198732, guid: c523423f081cb8946bcbf6d52eb5452a,
+        type: 2}
+      propertyPath: BackgroundPrefabs.Array.size
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 4000011554536650, guid: c523423f081cb8946bcbf6d52eb5452a, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -181,6 +186,36 @@ Prefab:
       propertyPath: EnemySpawnMarker
       value: 
       objectReference: {fileID: 1633478414}
+    - target: {fileID: 114000010234198732, guid: c523423f081cb8946bcbf6d52eb5452a,
+        type: 2}
+      propertyPath: BackgroundPrefabs.Array.data[0]
+      value: 
+      objectReference: {fileID: 1000013310716054, guid: e3603cb3ecbf44a52a1a0007c427c68e,
+        type: 2}
+    - target: {fileID: 114000010234198732, guid: c523423f081cb8946bcbf6d52eb5452a,
+        type: 2}
+      propertyPath: BackgroundPrefabs.Array.data[1]
+      value: 
+      objectReference: {fileID: 1000011831011184, guid: 1990c564704fc4bb59e9c9b963593d4e,
+        type: 2}
+    - target: {fileID: 114000010234198732, guid: c523423f081cb8946bcbf6d52eb5452a,
+        type: 2}
+      propertyPath: BackgroundPrefabs.Array.data[2]
+      value: 
+      objectReference: {fileID: 1000011489688306, guid: 73ac6167ae42b46548527e34277e31d0,
+        type: 2}
+    - target: {fileID: 114000010234198732, guid: c523423f081cb8946bcbf6d52eb5452a,
+        type: 2}
+      propertyPath: BackgroundPrefabs.Array.data[3]
+      value: 
+      objectReference: {fileID: 1000011825897570, guid: 1f196e59e27a9427f94bdcf98b18a029,
+        type: 2}
+    - target: {fileID: 114000010234198732, guid: c523423f081cb8946bcbf6d52eb5452a,
+        type: 2}
+      propertyPath: EnemyPrefabs.Array.data[0]
+      value: 
+      objectReference: {fileID: 1000012341050310, guid: 5a9d783e5a9ce484ebc41f053e33104c,
+        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c523423f081cb8946bcbf6d52eb5452a, type: 2}
   m_IsPrefabParent: 0

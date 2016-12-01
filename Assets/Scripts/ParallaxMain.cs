@@ -4,13 +4,13 @@ using System.Collections.Generic;
 
 public class ParallaxMain : MonoBehaviour
 {
-    private List<ScrollScriptSingle> _childLayers;
+    public List<ScrollScriptSingle> _childLayers; //I SWITCHED FROM PRIVATE TO PUBLIC AND FIXED ERROR, TODO: FIGURE OUT WHY LATER
 
     private Transform _transform;
 
     public void Pause()
     {
-        foreach (var layer in _childLayers)
+		foreach (var layer in _childLayers)
         {
             layer.Pause();
         }
