@@ -22,9 +22,9 @@ GameObject:
   - 212: {fileID: 212000013614582064}
   - 95: {fileID: 95000012794053998}
   - 50: {fileID: 50000013631678778}
-  - 61: {fileID: 61000013234537058}
   - 114: {fileID: 114000012196623080}
   - 114: {fileID: 114000011035958562}
+  - 61: {fileID: 61000012124161500}
   m_Layer: 9
   m_Name: RuneRunner
   m_TagString: Player
@@ -40,7 +40,7 @@ Transform:
   m_GameObject: {fileID: 1000013464188130}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.75, y: 0.75, z: 0.75}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
@@ -62,7 +62,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!61 &61000013234537058
+--- !u!61 &61000012124161500
 BoxCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -75,7 +75,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 2.48, y: 3.02}
 --- !u!95 &95000012794053998
 Animator:
   serializedVersion: 3
@@ -156,7 +156,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 8f8d08c7e85334a6b9263f817271091e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

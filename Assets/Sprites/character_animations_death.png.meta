@@ -1,5 +1,7 @@
 fileFormatVersion: 2
 guid: fd3aaeb34e09f405192799536ef6d5a9
+timeCreated: 1480559733
+licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: character_animations_death_0
@@ -81,339 +83,274 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 3710
-        width: 729
-        height: 386
+        y: 3588
+        width: 683
+        height: 508
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: character_animations_death_1
       rect:
         serializedVersion: 2
-        x: 729
-        y: 3710
-        width: 729
-        height: 386
+        x: 683
+        y: 3588
+        width: 683
+        height: 508
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: character_animations_death_2
       rect:
         serializedVersion: 2
-        x: 1458
-        y: 3710
-        width: 729
-        height: 386
+        x: 1366
+        y: 3588
+        width: 683
+        height: 508
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: character_animations_death_3
       rect:
         serializedVersion: 2
-        x: 2187
-        y: 3710
-        width: 729
-        height: 386
+        x: 2049
+        y: 3588
+        width: 683
+        height: 508
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: character_animations_death_4
       rect:
         serializedVersion: 2
-        x: 2916
-        y: 3710
-        width: 729
-        height: 386
+        x: 2732
+        y: 3588
+        width: 683
+        height: 508
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: character_animations_death_5
       rect:
         serializedVersion: 2
         x: 0
-        y: 3324
-        width: 729
-        height: 386
+        y: 3080
+        width: 683
+        height: 508
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: character_animations_death_6
       rect:
         serializedVersion: 2
-        x: 729
-        y: 3324
-        width: 729
-        height: 386
+        x: 683
+        y: 3080
+        width: 683
+        height: 508
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: character_animations_death_7
       rect:
         serializedVersion: 2
-        x: 1458
-        y: 3324
-        width: 729
-        height: 386
+        x: 1366
+        y: 3080
+        width: 683
+        height: 508
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: character_animations_death_8
       rect:
         serializedVersion: 2
-        x: 2187
-        y: 3324
-        width: 729
-        height: 386
+        x: 2049
+        y: 3080
+        width: 683
+        height: 508
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: character_animations_death_9
       rect:
         serializedVersion: 2
-        x: 2916
-        y: 3324
-        width: 729
-        height: 386
+        x: 2732
+        y: 3080
+        width: 683
+        height: 508
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: character_animations_death_10
       rect:
         serializedVersion: 2
         x: 0
-        y: 2938
-        width: 729
-        height: 386
+        y: 2572
+        width: 683
+        height: 508
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: character_animations_death_11
       rect:
         serializedVersion: 2
-        x: 729
-        y: 2938
-        width: 729
-        height: 386
+        x: 1366
+        y: 2572
+        width: 683
+        height: 508
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: character_animations_death_12
       rect:
         serializedVersion: 2
-        x: 1458
-        y: 2938
-        width: 729
-        height: 386
+        x: 2049
+        y: 2572
+        width: 683
+        height: 508
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: character_animations_death_13
       rect:
         serializedVersion: 2
-        x: 2187
-        y: 2938
-        width: 729
-        height: 386
+        x: 2732
+        y: 2572
+        width: 683
+        height: 508
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: character_animations_death_14
       rect:
         serializedVersion: 2
-        x: 2916
-        y: 2938
-        width: 729
-        height: 386
+        x: 0
+        y: 2064
+        width: 683
+        height: 508
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: character_animations_death_15
       rect:
         serializedVersion: 2
-        x: 0
-        y: 2552
-        width: 729
-        height: 386
+        x: 683
+        y: 2064
+        width: 683
+        height: 508
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: character_animations_death_16
       rect:
         serializedVersion: 2
-        x: 729
-        y: 2552
-        width: 729
-        height: 386
+        x: 1366
+        y: 2064
+        width: 683
+        height: 508
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: character_animations_death_17
       rect:
         serializedVersion: 2
-        x: 1458
-        y: 2552
-        width: 729
-        height: 386
+        x: 2049
+        y: 2064
+        width: 683
+        height: 508
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: character_animations_death_18
       rect:
         serializedVersion: 2
-        x: 2187
-        y: 2552
-        width: 729
-        height: 386
+        x: 2732
+        y: 2064
+        width: 683
+        height: 508
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: character_animations_death_19
       rect:
         serializedVersion: 2
-        x: 2916
-        y: 2552
-        width: 729
-        height: 386
+        x: 0
+        y: 1556
+        width: 683
+        height: 508
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: character_animations_death_20
       rect:
         serializedVersion: 2
-        x: 0
-        y: 2166
-        width: 729
-        height: 386
+        x: 683
+        y: 1556
+        width: 683
+        height: 508
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: character_animations_death_21
-      rect:
-        serializedVersion: 2
-        x: 729
-        y: 2166
-        width: 729
-        height: 386
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: character_animations_death_22
-      rect:
-        serializedVersion: 2
-        x: 1458
-        y: 2166
-        width: 729
-        height: 386
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: character_animations_death_23
-      rect:
-        serializedVersion: 2
-        x: 2187
-        y: 2166
-        width: 729
-        height: 386
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: character_animations_death_24
-      rect:
-        serializedVersion: 2
-        x: 1458
-        y: 1780
-        width: 729
-        height: 386
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: character_animations_death_25
-      rect:
-        serializedVersion: 2
-        x: 2187
-        y: 1780
-        width: 729
-        height: 386
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     outline: []
   spritePackingTag: 
   userData: 
