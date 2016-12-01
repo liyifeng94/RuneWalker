@@ -58,8 +58,6 @@ AnimationClip:
       value: {fileID: 21300036, guid: fd3aaeb34e09f405192799536ef6d5a9, type: 3}
     - time: 1.5833334
       value: {fileID: 21300038, guid: fd3aaeb34e09f405192799536ef6d5a9, type: 3}
-    - time: 1.6666666
-      value: {fileID: 21300040, guid: fd3aaeb34e09f405192799536ef6d5a9, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -98,13 +96,12 @@ AnimationClip:
     - {fileID: 21300034, guid: fd3aaeb34e09f405192799536ef6d5a9, type: 3}
     - {fileID: 21300036, guid: fd3aaeb34e09f405192799536ef6d5a9, type: 3}
     - {fileID: 21300038, guid: fd3aaeb34e09f405192799536ef6d5a9, type: 3}
-    - {fileID: 21300040, guid: fd3aaeb34e09f405192799536ef6d5a9, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 1.75
+    m_StopTime: 1.6666667
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -125,8 +122,8 @@ AnimationClip:
   m_HasMotionFloatCurves: 0
   m_GenerateMotionCurves: 0
   m_Events:
-  - time: 0
-    functionName: OnDeathEvent
+  - time: 1.5833334
+    functionName: OnDestory
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0

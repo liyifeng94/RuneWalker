@@ -1,5 +1,7 @@
 fileFormatVersion: 2
 guid: 0530513f436cc4f8bb9b025b19b275e4
+timeCreated: 1480569985
+licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: character_animations_special_0
@@ -83,11 +85,11 @@ TextureImporter:
         y: 3579
         width: 446
         height: 517
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: character_animations_special_1
       rect:
@@ -96,11 +98,11 @@ TextureImporter:
         y: 3579
         width: 446
         height: 517
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: character_animations_special_2
       rect:
@@ -109,11 +111,11 @@ TextureImporter:
         y: 3579
         width: 446
         height: 517
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: character_animations_special_3
       rect:
@@ -122,11 +124,11 @@ TextureImporter:
         y: 3579
         width: 446
         height: 517
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: character_animations_special_4
       rect:
@@ -135,11 +137,11 @@ TextureImporter:
         y: 3062
         width: 446
         height: 517
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: character_animations_special_5
       rect:
@@ -148,11 +150,11 @@ TextureImporter:
         y: 3062
         width: 446
         height: 517
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: character_animations_special_6
       rect:
@@ -161,11 +163,11 @@ TextureImporter:
         y: 3062
         width: 446
         height: 517
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: character_animations_special_7
       rect:
@@ -174,11 +176,11 @@ TextureImporter:
         y: 3062
         width: 446
         height: 517
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: character_animations_special_8
       rect:
@@ -187,11 +189,11 @@ TextureImporter:
         y: 2545
         width: 446
         height: 517
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: character_animations_special_9
       rect:
@@ -200,11 +202,11 @@ TextureImporter:
         y: 2545
         width: 446
         height: 517
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: character_animations_special_10
       rect:
@@ -213,11 +215,11 @@ TextureImporter:
         y: 2545
         width: 446
         height: 517
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: character_animations_special_11
       rect:
@@ -226,11 +228,11 @@ TextureImporter:
         y: 2545
         width: 446
         height: 517
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: character_animations_special_12
       rect:
@@ -239,11 +241,11 @@ TextureImporter:
         y: 2028
         width: 446
         height: 517
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: character_animations_special_13
       rect:
@@ -252,11 +254,11 @@ TextureImporter:
         y: 2028
         width: 446
         height: 517
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: character_animations_special_14
       rect:
@@ -265,11 +267,11 @@ TextureImporter:
         y: 2028
         width: 446
         height: 517
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: character_animations_special_15
       rect:
@@ -278,11 +280,11 @@ TextureImporter:
         y: 2028
         width: 446
         height: 517
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: character_animations_special_16
       rect:
@@ -291,11 +293,11 @@ TextureImporter:
         y: 1511
         width: 446
         height: 517
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: character_animations_special_17
       rect:
@@ -304,11 +306,11 @@ TextureImporter:
         y: 1511
         width: 446
         height: 517
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: character_animations_special_18
       rect:
@@ -317,11 +319,11 @@ TextureImporter:
         y: 1511
         width: 446
         height: 517
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: character_animations_special_19
       rect:
@@ -330,11 +332,11 @@ TextureImporter:
         y: 1511
         width: 446
         height: 517
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: character_animations_special_20
       rect:
@@ -343,11 +345,11 @@ TextureImporter:
         y: 994
         width: 446
         height: 517
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: character_animations_special_21
       rect:
@@ -356,11 +358,11 @@ TextureImporter:
         y: 994
         width: 446
         height: 517
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: character_animations_special_22
       rect:
@@ -369,11 +371,11 @@ TextureImporter:
         y: 994
         width: 446
         height: 517
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: character_animations_special_23
       rect:
@@ -382,24 +384,11 @@ TextureImporter:
         y: 994
         width: 446
         height: 517
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: character_animations_special_24
-      rect:
-        serializedVersion: 2
-        x: 1338
-        y: 477
-        width: 446
-        height: 517
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     outline: []
   spritePackingTag: 
   userData: 

@@ -15,7 +15,6 @@ public class GameManager : MonoBehaviour
 
     public int MaxScoreMultiplier = 100;
 
-    //TODO: get player from text box
     public string PlayerName;
 
     [Serializable]
@@ -169,7 +168,7 @@ public class GameManager : MonoBehaviour
     }
 
     // Increase level
-    void IncreaseLevel()
+   void IncreaseLevel()
     {
         _gameState.PlayerKillsCurrentLevel = 0;
         
@@ -179,7 +178,7 @@ public class GameManager : MonoBehaviour
     // Get the kills needed to level
     int GetLevelUpKills()
     {
-        return FibonacciSequence[_gameState.CurrentLevel] * 2;
+        return FibonacciSequence[_gameState.CurrentLevel] * 3;
     }
 
     void InitGame()
@@ -233,7 +232,7 @@ public class GameManager : MonoBehaviour
     {
         //enabled = false;
         _gameLevelManager.Gameover();
-        SceneManager.LoadScene("HighScore");
+        SceneManager.LoadScene("PlayerNameLevel");
     }
 
     void LoadHighScoreBoard()
@@ -267,6 +266,14 @@ public class GameManager : MonoBehaviour
             }
         }
     }
+
+	public void SetPlayerNameAndHighScore(String name)
+	{
+		PlayerName = name;
+		UpdateHighScoreBoard (PlayerName);
+		SaveHighScoreBoard ();
+		SceneManager.LoadScene("HighScore");
+	}
 
     void OnApplicationQuit()
     {

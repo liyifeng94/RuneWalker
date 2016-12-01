@@ -10,7 +10,7 @@ public class ParallaxMain : MonoBehaviour
 
     public void Pause()
     {
-        foreach (var layer in _childLayers)
+		foreach (var layer in _childLayers)
         {
             layer.Pause();
         }

@@ -51,8 +51,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11cad1691fde404fbedfe3cdc52d2af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GameLevelManager: {fileID: 0}
-  LevelKillCount: 
+  LevelUpMultiplier: 4
   BaseScore: 1
-  PlayerName: 
-  MaxPowerMultiplier: 2
+  MaxScoreMultiplier: 100
+  PlayerName: LevelChange
+  MaxSpecialMultiplier: 2

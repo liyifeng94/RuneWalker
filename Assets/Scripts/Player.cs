@@ -181,4 +181,9 @@ public class Player : MonoBehaviour
         GameManager.Instance.GetLevelManager().ResolveCombat(_playerAttack);
         _playerAttack = PlayerState.Idle;
     }
+
+    public void UseSpecial()
+    {
+        GameManager.Instance.GetLevelManager().PlayerUseSpecial();
+    }
 }

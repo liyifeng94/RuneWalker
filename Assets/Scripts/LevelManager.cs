@@ -24,10 +24,14 @@ public class LevelManager : MonoBehaviour
     private bool _inCombat;
     private float _lastSpawnTime;
     private Vector3 _enemyVelocity;
+    private bool _holdSpawning;
+    private bool _changingLevel;
+    private ScrollingBackground _background;
 
     void Start()
     {
         GameManager.Instance.AddLevelManager(this);
+        _background = GetComponent<ScrollingBackground>();
         LevelSetup();
         _lastSpawnTime = 0;
         UpdateEnemiesSpawnFrequency();
@@ -38,6 +42,21 @@ public class LevelManager : MonoBehaviour
         float currentTime = Time.time;
         if (currentTime - _lastSpawnTime > _spawnFrequency)
         {
+            if (_changingLevel)
+            {
+                return;
+            }
+            if (_holdSpawning)
+            {
+                if (_enemiesHolder.Count == 0)
+                {
+                    _holdSpawning = false;
+                }
+                else
+                {
+                    return;
+                }
+            }
             int enemyIndex = Random.Range(0, EnemyPrefabs.Length);
             SpawnEnemy(EnemyPrefabs[enemyIndex]);
             _lastSpawnTime = currentTime;
@@ -52,24 +71,33 @@ public class LevelManager : MonoBehaviour
 
     void LevelChange()
     {
+        _holdSpawning = true;
         //TODO: set background
-
+        _changingLevel = true;
+        _background.NextLevel(this);
         //TODO: update spawn frequency
         UpdateEnemiesSpawnFrequency();
-        
+
+    }
+
+    public void LevelBackgroundUpdated()
+    {
+        _changingLevel = false;
     }
 
     void LevelSetup()
     {
+        _holdSpawning = false;
         _inCombat = false;
+        _changingLevel = false;
         _enemyInCombat = null;
         _enemiesHolder = new LinkedList<Enemy>();
-        LevelChange();
         SpawnPlayer();
         float currentTime = Time.time;
         _lastSpawnTime = currentTime;
         _enemyVelocity = InitEnemyVelocity;
-        SpawnEnemy(EnemyPrefabs[0]);
+
+        UpdateEnemiesSpawnFrequency();
     }
 
     // Spawns a enemy at SpawnLocation
@@ -88,23 +116,22 @@ public class LevelManager : MonoBehaviour
 
     public void ResolveCombat(Player.PlayerState playerAction)
     {
+        if ((int) playerAction >= (int) (Enemy.AttackMove.NumOfMoves) || _inCombat == false || _enemyInCombat == null)
+        {
+            return;
+        }
+
+        if (_enemyInCombat == null)
+        {
+            return;
+        }
         if (playerAction == Player.PlayerState.Special)
         {
-            PlayerUseSpecial();
+            _enemyInCombat.Alive = false;
             return;
         }
 
-        if ((int) playerAction >= (int) (Enemy.AttackMove.NumOfMoves) || _inCombat == false)
-        {
-            return;
-        }
-
-        Enemy target = _enemyInCombat.GetComponent<Enemy>();
-        if (target == null)
-        {
-            return;
-        }
-        if ((int) playerAction == (int)target.CurrentAttackMove)
+        if ((int) playerAction == (int)_enemyInCombat.CurrentAttackMove)
         {
             _enemyInCombat.EndCombat(false);
             GameManager.Instance.EnemiesKilled(1);
@@ -145,7 +172,7 @@ public class LevelManager : MonoBehaviour
         ResolveCombat(playerAction);
     }
 
-    void PlayerUseSpecial()
+    public void PlayerUseSpecial()
     {
         foreach (var enemy in _enemiesHolder)
         {
