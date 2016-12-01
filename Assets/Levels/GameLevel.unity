@@ -268,30 +268,6 @@ Prefab:
       propertyPath: EnemySpawnMarker
       value: 
       objectReference: {fileID: 1215868044}
-    - target: {fileID: 114000010234198732, guid: c523423f081cb8946bcbf6d52eb5452a,
-        type: 2}
-      propertyPath: BackgroundPrefabs.Array.data[0]
-      value: 
-      objectReference: {fileID: 1000011489688306, guid: 73ac6167ae42b46548527e34277e31d0,
-        type: 2}
-    - target: {fileID: 114000010234198732, guid: c523423f081cb8946bcbf6d52eb5452a,
-        type: 2}
-      propertyPath: BackgroundPrefabs.Array.data[1]
-      value: 
-      objectReference: {fileID: 1000011825897570, guid: 1f196e59e27a9427f94bdcf98b18a029,
-        type: 2}
-    - target: {fileID: 114000010234198732, guid: c523423f081cb8946bcbf6d52eb5452a,
-        type: 2}
-      propertyPath: BackgroundPrefabs.Array.data[2]
-      value: 
-      objectReference: {fileID: 1000013310716054, guid: e3603cb3ecbf44a52a1a0007c427c68e,
-        type: 2}
-    - target: {fileID: 114000010234198732, guid: c523423f081cb8946bcbf6d52eb5452a,
-        type: 2}
-      propertyPath: BackgroundPrefabs.Array.data[3]
-      value: 
-      objectReference: {fileID: 1000011831011184, guid: 1990c564704fc4bb59e9c9b963593d4e,
-        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c523423f081cb8946bcbf6d52eb5452a, type: 2}
   m_IsPrefabParent: 0
@@ -428,25 +404,3 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d43d988598bc8bd4a9af25d050699910, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &1584184739 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1000010350581344, guid: c523423f081cb8946bcbf6d52eb5452a,
-    type: 2}
-  m_PrefabInternal: {fileID: 976697890}
---- !u!114 &1584184740
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1584184739}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 21cd500827648b24183725864f3fc1b4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  BackgroundPrefabs:
-  - {fileID: 1000011489688306, guid: 73ac6167ae42b46548527e34277e31d0, type: 2}
-  - {fileID: 1000011825897570, guid: 1f196e59e27a9427f94bdcf98b18a029, type: 2}
-  - {fileID: 1000013310716054, guid: e3603cb3ecbf44a52a1a0007c427c68e, type: 2}
-  - {fileID: 1000011831011184, guid: 1990c564704fc4bb59e9c9b963593d4e, type: 2}
-  TransistionsPrefabs: []

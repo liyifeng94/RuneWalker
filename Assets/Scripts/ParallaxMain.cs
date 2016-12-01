@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 public class ParallaxMain : MonoBehaviour
 {
-    public List<ScrollScriptSingle> _childLayers; //I SWITCHED FROM PRIVATE TO PUBLIC AND FIXED ERROR, TODO: FIGURE OUT WHY LATER
+    private List<ScrollScriptSingle> _childLayers;
 
     private Transform _transform;
 

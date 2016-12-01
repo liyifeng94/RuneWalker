@@ -73,6 +73,7 @@ public class LevelManager : MonoBehaviour
     {
         _holdSpawning = true;
         //TODO: set background
+        _changingLevel = true;
         _background.NextLevel(this);
         //TODO: update spawn frequency
         UpdateEnemiesSpawnFrequency();

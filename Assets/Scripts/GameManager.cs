@@ -179,7 +179,7 @@ public class GameManager : MonoBehaviour
     // Get the kills needed to level
     int GetLevelUpKills()
     {
-        return FibonacciSequence[_gameState.CurrentLevel] * 2;
+        return FibonacciSequence[_gameState.CurrentLevel] * 3;
     }
 
     void InitGame()
