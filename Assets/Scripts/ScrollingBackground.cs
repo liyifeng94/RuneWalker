@@ -87,7 +87,10 @@ public class ScrollingBackground : MonoBehaviour
         _currentBg = _nextBg;
         Destroy(_transition);
         _transition = null;
+        _transitionTransform = null;
         _nextBg = null;
+        _currentBgTransform = _nextBgTransform;
+        _nextBgTransform = null;
         Destroy(temp);
         _currentBg.GetComponent<ParallaxMain>().UnPause();
         _levelManager.LevelBackgroundUpdated();
