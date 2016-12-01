@@ -9,16 +9,16 @@ public class ScrollScriptSingle : MonoBehaviour
 
     private Transform _transform;
 
-    private int _running = 1;
+    private bool _running = true;
 
     public void Pause()
     {
-        _running = 0;
+        _running = false;
     }
 
     public void UnPause()
     {
-        _running = 1;
+        _running = true;
     }
 
 	// Use this for initialization
@@ -26,15 +26,17 @@ public class ScrollScriptSingle : MonoBehaviour
 	{
 	    _transform = GetComponent<Transform>();
 	    _movementFactor = 1/_transform.position.z;
-
-        
-	}
+    }
 	
 	// Update is called once per frame
 	void Update ()
     {
+        if (_running == false)
+        {
+            return;
+        }
         Renderer rend = GetComponent<Renderer>();
-        Vector2 offest = new Vector2(Time.time*_speed*_movementFactor*_running, 0f);
+        Vector2 offest = new Vector2(Time.time*_speed*_movementFactor, 0f);
         rend.material.mainTextureOffset = offest;
 	}
 }
