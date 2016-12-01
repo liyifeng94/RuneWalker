@@ -124,7 +124,7 @@ MonoBehaviour:
   Walking2Sound: {fileID: 0}
   Walking3Sound: {fileID: 0}
   Walking4Sound: {fileID: 0}
-  DeathSound: {fileID: 0}
+  DeathSound: {fileID: 8300000, guid: 38ff09c71eda7404bb814d6a6be64661, type: 3}
 --- !u!212 &212000012473175500
 SpriteRenderer:
   m_ObjectHideFlags: 1
