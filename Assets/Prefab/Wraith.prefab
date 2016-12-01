@@ -21,6 +21,10 @@ GameObject:
   - 4: {fileID: 4000012434027346}
   - 212: {fileID: 212000010347473816}
   - 95: {fileID: 95000013071820420}
+  - 114: {fileID: 114000012703834550}
+  - 114: {fileID: 114000011873713474}
+  - 50: {fileID: 50000011702093704}
+  - 61: {fileID: 61000013098675952}
   m_Layer: 0
   m_Name: Wraith
   m_TagString: Untagged
@@ -35,12 +39,43 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000010978589512}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.8772058, y: -4.779875, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
+--- !u!50 &50000011702093704
+Rigidbody2D:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010978589512}
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!61 &61000013098675952
+BoxCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010978589512}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
 --- !u!95 &95000013071820420
 Animator:
   serializedVersion: 3
@@ -58,6 +93,38 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114000011873713474
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010978589512}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8b8a287d1738ad48a542ae588d0ca0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PrepSound: {fileID: 0}
+  AttackSound: {fileID: 0}
+  Walking1Sound: {fileID: 0}
+  Walking2Sound: {fileID: 0}
+  Walking3Sound: {fileID: 0}
+  Walking4Sound: {fileID: 0}
+  DeathSound: {fileID: 0}
+--- !u!114 &114000012703834550
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010978589512}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b8e6a1ef2ba674438bc36ba28af176b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MovementVelocity: {x: 0, y: 0, z: 0}
+  Alive: 0
+  CurrentAttackMove: 0
 --- !u!212 &212000010347473816
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -85,7 +152,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
+  m_SortingLayerID: -1840381115
   m_SortingOrder: 0
   m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

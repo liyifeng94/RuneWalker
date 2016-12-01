@@ -85,7 +85,7 @@ Animator:
   m_GameObject: {fileID: 1000013464188130}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 4638f4eb51c02af4385aec5615c3811e, type: 2}
+  m_Controller: {fileID: 9100000, guid: 995180014a5344eb4b5418a225fa2c46, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -105,10 +105,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AttackSound: {fileID: 0}
-  WalkingSound: {fileID: 0}
+  DodgeSound: {fileID: 0}
+  Walking1Sound: {fileID: 0}
+  Walking2Sound: {fileID: 0}
+  Walking3Sound: {fileID: 0}
+  Walking4Sound: {fileID: 0}
   DeathSound: {fileID: 0}
   SpecialSound: {fileID: 0}
-  NewSound: {fileID: 0}
 --- !u!114 &114000012196623080
 MonoBehaviour:
   m_ObjectHideFlags: 1
