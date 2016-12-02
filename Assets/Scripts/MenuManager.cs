@@ -16,7 +16,12 @@ public class MenuManager : MonoBehaviour {
 		Application.LoadLevel ("Instructions");
 	}
 
-	public void OnBack () {
+    public void OnCredits()
+    {
+        Application.LoadLevel("Credits");
+    }
+
+    public void OnBack () {
 		Application.LoadLevel ("MainMenu");
 	}
 
