@@ -26,3 +26,5 @@ Sonia Darlison - sonia.darlison@gmail.com
 Allison Kapps - allisonka@gmail.com, akapps@uwaterloo.ca
 
 AC Atienza - aaron_1.0@hotmail.com
+
+Alvin Lee - a79lee@uwaterloo.ca
