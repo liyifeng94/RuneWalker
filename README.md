@@ -24,3 +24,5 @@ Zac Gungl - zungl92@gmail.com, zgungl@uwaterloo.ca
 Sonia Darlison - sonia.darlison@gmail.com
 
 Allison Kapps - allisonka@gmail.com
+
+AC atienza - aaron_1.0@hotmail.com
