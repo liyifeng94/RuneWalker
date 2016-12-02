@@ -39,7 +39,6 @@ public class Player : MonoBehaviour
         _playerAttack = PlayerState.Idle;
         _playerHealth = MaxHealth;
 
-        //TODO: set to true for testing
 	    _inCombat = false;
 
 	}
